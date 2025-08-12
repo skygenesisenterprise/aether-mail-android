@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">Od:</string>
+  <string name="to_prefix">Do:</string>
+  <string name="cc_prefix">Dw:</string>
+  <string name="bcc_prefix">Udw:</string>
+  <string name="subject_placeholder">Temat</string>
+  <string name="compose_message_placeholder">Napisz wiadomość</string>
+  <string name="close_composer_content_description">Zamknij edytor</string>
+  <string name="send_message_content_description">Wyślij wiadomość</string>
+  <string name="composer_expand_recipients_button">Pokaż innych odbiorców</string>
+  <string name="composer_error_invalid_email">Adres e-mail jest nieprawidłowy</string>
+  <string name="composer_error_invalid_sender">Adres nadawcy jest nieprawidłowy</string>
+  <string name="change_sender_button_content_description">Zmień nadawcę</string>
+  <string name="composer_change_sender_paid_feature">Do zmiany adresu nadawcy wymagana jest płatna subskrypcja Proton Mail</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">Nie można zmienić nadawcy, ponieważ pobranie informacji o subskrypcji użytkownika nie powiodło się. Spróbuj ponownie.</string>
+  <string name="composer_error_store_draft_sender_address">Adres nadawcy nie został zapisany</string>
+  <string name="composer_error_store_draft_body">Treść szkicu nie została zapisana</string>
+  <string name="composer_error_duplicate_recipient">Zduplikowani odbiorcy zostali usunięci</string>
+  <string name="composer_error_store_draft_subject">Temat nie został zapisany</string>
+  <string name="composer_error_store_draft_recipients">Zapisanie odbiorców szkicu nie powiodło się</string>
+  <string name="composer_error_loading_draft">Zawartość szkicu nie jest dostępna. Edycja zastąpi obecną zawartość.</string>
+  <string name="composer_add_attachments_content_description">Dodaj załączniki</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Importuj z…</string>
+  <string name="composer_error_loading_parent_message">Nie można załadować danych wiadomości</string>
+  <string name="composer_original_message_quote">Oryginalna wiadomość</string>
+  <string name="composer_sender_quote">%s, %s &lt;%s&gt; napisał(a):</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">OK</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">Limit załączników został osiągnięty</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">Maksymalny rozmiar załączników wynosi %1$s</string>
+  <string name="composer_attachment_reencryption_failed_message">Ponowne szyfrowanie załącznika nie powiodło się. Ze względów bezpieczeństwa wszystkie załączniki zostały usunięte.</string>
+  <string name="composer_attachment_not_found">Nie znaleziono załącznika.</string>
+  <string name="composer_attachment_error_draft_loading">Ładowanie oryginalnego szkicu wiadomości się nie powiodło.</string>
+  <string name="composer_attachment_error_saving_attachment">Nie udało się zapisać załącznika. Spróbuj ponownie.</string>
+  <string name="composer_warning_local_data_shown">Nie udało się załadować najnowszej wersji szkicu. Wszelkie jej zmiany spowodują nadpisanie zawartości.</string>
+  <string name="composer_button_add_password">Dodaj hasło</string>
+  <string name="composer_button_set_expiration">Ustaw czas wygaśnięcia</string>
+  <string name="composer_expiration_time_bottom_sheet_title">Wygaśniecie wiadomości</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Ustaw</string>
+  <string name="composer_bottom_bar_expiration_time_none">Brak</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 godzina</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 dzień</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 dni</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 tydzień</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Niestandardowy</string>
+  <string name="composer_error_setting_expiration_time">Ustawienie czasu wygaśnięcia nie powiodło się</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Wygaśnięcie nie jest obsługiwane</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Zalecamy ustawienie hasła dla następujących odbiorców:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">Anuluj</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Wyślij mimo to</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Wysyłanie powiadomienia</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">Wysyłanie wiadomości z adresu @pm.me jest płatną funkcją. Wiadomości zostaną wysłane z Twojego domyślnego adresu.</string>
+  <string name="composer_sender_changed_original_address_disabled">Adres nadawcy jest wyłączony. Wiadomości zostaną wysłane z Twojego domyślnego adresu.</string>
+  <string name="composer_sender_changed_original_address_generic_error">Nie udało się uzyskać oryginalnego adresu nadawcy. Wiadomość zostanie wysłana z domyślnego adresu.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">OK</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Napisz</string>
+  <string name="composer_send_without_subject_dialog_text">Wysłać wiadomość bez tematu?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Tak</string>
+  <string name="composer_send_without_subject_dialog_reject_button">Nie</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Błąd wysyłania</string>
+  <string name="message_sending_error_dialog_button_dismiss">Zamknij</string>
+  <string name="message_sending_error_dialog_text_error">Wiadomość e-mail nie może zostać wysłana na podany adres z następującego powodu:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">Brak zaufanych kluczy: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">Adres nie istnieje: %s</string>
+  <string name="set_message_password_title">Zaszyfruj wiadomość</string>
+  <string name="set_message_password_info_message">Ustaw hasło, aby zaszyfrować tę wiadomość dla użytkowników spoza Proton Mail.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">Dowiedz się więcej</a></string>
+  <string name="set_message_password_label">Hasło wiadomości</string>
+  <string name="set_message_password_label_repeat">Potwierdź hasło</string>
+  <string name="set_message_password_label_hint">Podpowiedź do hasła (opcjonalnie)</string>
+  <string name="set_message_password_supporting_text">od 4 do 21 znaków</string>
+  <string name="set_message_password_supporting_error_text">Hasło musi zawierać od 4 do 21 znaków</string>
+  <string name="set_message_password_supporting_text_repeat">Hasła muszą pasować do siebie</string>
+  <string name="set_message_password_supporting_error_text_repeat">Hasła nie pasują do siebie</string>
+  <string name="set_message_password_button_show">Pokaż hasło</string>
+  <string name="set_message_password_button_hide">Ukryj hasło</string>
+  <string name="set_message_password_button_apply">Zastosuj hasło</string>
+  <string name="set_message_password_button_save_changes">Zapisz zmiany</string>
+  <string name="set_message_password_button_remove_password">Usuń hasło</string>
+  <string name="respondInline">Odpowiedz w linii</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d członek</item>
+    <item quantity="few">%d użytkowników</item>
+    <item quantity="many">%d użytkowników</item>
+    <item quantity="other">%d użytkowników</item>
+  </plurals>
+</resources>

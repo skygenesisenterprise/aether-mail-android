@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <plurals name="attachment_count_label">
+    <item quantity="one">%d arquivo</item>
+    <item quantity="other">%d arquivos</item>
+  </plurals>
+  <string name="attachment_show_more_label">+%1$d mais</string>
+  <string name="attachment_permission_dialog_title">Permissão necessária</string>
+  <string name="attachment_permission_dialog_message">Proton Mail precisa de permissão para acessar seu armazenamento para baixar o anexo.</string>
+  <string name="attachment_permission_dialog_dismiss_button">OK</string>
+  <string name="attachment_permission_dialog_action_button">Configurações</string>
+  <string name="attachment_type_description">Categoria de arquivo: %1$s</string>
+  <!-- Attachment Types -->
+  <string name="attachment_type_archive">Arquivo</string>
+  <string name="attachment_type_image">Imagem</string>
+  <string name="attachment_type_video">Vídeo</string>
+  <string name="attachment_type_audio">Áudio</string>
+  <string name="attachment_type_unknown">Desconhecido</string>
+  <string name="attachment_type_pdf">PDF</string>
+  <string name="attachment_type_text">Texto</string>
+  <string name="attachment_type_document">Documento</string>
+  <string name="attachment_type_spreadsheet">Planilha</string>
+  <string name="attachment_type_presentation">Apresentação</string>
+  <!-- Bottom Sheet -->
+  <string name="bottom_sheet_move_to_title">Mover para...</string>
+  <string name="bottom_sheet_done_action">Concluído</string>
+  <string name="bottom_sheet_archive_action">Também arquivar?</string>
+  <string name="bottom_sheet_label_as_title">Marcar como...</string>
+  <string name="bottom_sheet_more_header_message_from">Mensagem de %s</string>
+  <!-- Message body link actions -->
+  <string name="message_link_long_click_copy">Copiar link</string>
+  <string name="message_link_long_click_copy_description">Texto copiado do Proton Mail</string>
+  <string name="message_link_long_click_share">Compartilhar link</string>
+  <string name="message_link_long_click_share_via">Compartilhar link via</string>
+  <!-- Contact Actions Bottom Sheet -->
+  <string name="contact_actions_copy_address">Copiar endereço</string>
+  <string name="contact_actions_copy_address_description">Copiar endereço do contato</string>
+  <string name="contact_actions_copy_address_performed">Endereço copiado para a área de transferência</string>
+  <string name="contact_actions_copy_name">Copiar nome</string>
+  <string name="contact_actions_copy_name_description">Copiar nome do contato</string>
+  <string name="contact_actions_copy_name_performed">Nome copiado para a área de transferência</string>
+  <string name="contact_actions_new_message">Nova mensagem</string>
+  <string name="contact_actions_new_message_description">Comece a escrever uma nova mensagem para este contato</string>
+  <string name="contact_actions_add_contact">Adicionar contato</string>
+  <string name="contact_actions_add_contact_description">Salvar destinatário como um contato</string>
+  <string name="contact_actions_view_contact_details">Ver detalhes do contato</string>
+  <string name="contact_actions_view_contact_details_description">Ver detalhes do contato</string>
+  <!-- Device Contacts permission dialog -->
+  <string name="device_contacts_permission_dialog_title">Permissão necessária</string>
+  <string name="device_contacts_permission_dialog_message">O Proton Mail precisa de permissão para ler seus contatos a fim de sugerir destinatários.</string>
+  <string name="device_contacts_permission_dialog_dismiss_button">OK</string>
+  <string name="device_contacts_permission_dialog_action_button">Solicitar permissão</string>
+  <string name="device_contacts_permission_dialog_action_button_deny">Negar</string>
+  <!-- View entire message button -->
+  <string name="button_view_entire_message">Mostrar a mensagem inteira</string>
+</resources>

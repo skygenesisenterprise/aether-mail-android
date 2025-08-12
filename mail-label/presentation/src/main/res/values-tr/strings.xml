@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="label_title_inbox">Gelen kutusu</string>
+  <string name="label_title_drafts">Taslaklar</string>
+  <string name="label_title_sent">Gönderilmiş</string>
+  <string name="label_title_starred">Yıldızlı</string>
+  <string name="label_title_archive">Arşiv</string>
+  <string name="label_title_spam">İstenmeyen</string>
+  <string name="label_title_trash">Çöp kutusu</string>
+  <string name="label_title_outbox">Giden kutusu</string>
+  <string name="label_title_all_mail">Tüm e-postalar</string>
+  <string name="label_title_all_drafts">Tüm taslaklar</string>
+  <string name="label_title_all_sent">Tüm gönderilmişler</string>
+  <string name="label_title_all_scheduled">All scheduled</string>
+  <string name="label_title_snoozed">Ertelenmişler</string>
+  <string name="label_title_folders">Klasörler</string>
+  <string name="label_title_parent_folder">Üst klasör</string>
+  <string name="label_title_labels">Etiketler</string>
+  <string name="label_title_create_folder">Klasör oluştur</string>
+  <string name="label_title_create_label">Etiket oluştur</string>
+  <string name="label_title_label_list">Etiket listesi</string>
+  <string name="label_title_folder_list">Klasör listesi</string>
+  <string name="label_list_no_labels_found">Herhangi bir etiket bulunamadı.</string>
+  <string name="label_list_create_label_placeholder_description">E-posta deneyiminizi iyileştirmek için bir etiket oluşturun.</string>
+  <string name="create_label_content_description">Etiket oluştur</string>
+  <string name="label_form_create_label">Etiket ekle</string>
+  <string name="folder_form_create_folder">Klasör ekle</string>
+  <string name="label_form_edit_label">Etiketi düzenle</string>
+  <string name="folder_form_edit_folder">Klasörü düzenle</string>
+  <string name="label_form_save">Kaydet</string>
+  <string name="label_form_delete">Etiketi sil</string>
+  <string name="folder_form_delete">Klasörü sil</string>
+  <string name="label_name_title">Ad</string>
+  <string name="add_a_label_name_hint">Etiket adını yazın</string>
+  <string name="add_a_folder_name_hint">Bir klasör adı yazın</string>
+  <plurals name="input_field_max_characters_count">
+    <item quantity="one">%1d / %2d character</item>
+    <item quantity="other">%1d / %2d characters</item>
+  </plurals>
+  <string name="color_picker_title">Renk</string>
+  <string name="save_label_error">Etiket kaydedilirken sorun çıktı. Lütfen bir süre sonra yeniden deneyin</string>
+  <string name="save_folder_error">Klasör kaydedilirken sorun çıktı. Lütfen bir süre sonra yeniden deneyin</string>
+  <string name="label_already_exists">Aynı adlı bir etiket ya da klasör zaten var</string>
+  <string name="label_limit_reached_error">Daha fazla etiket oluşturabilmek için ücretli bir Proton Mail aboneliğiniz olmalıdır</string>
+  <string name="folder_limit_reached_error">Daha fazla klasör oluşturabilmek için ücretli bir Proton Mail aboneliğiniz olmalıdır</string>
+  <string name="delete_label_error">Etiket silinirken sorun çıktı</string>
+  <string name="input_field_clear_content_description">Metni temizle</string>
+  <string name="label_list_item_content_description">Liste ögesini etiketle</string>
+  <string name="folder_list_item_content_description">Klasör listesi ögesi</string>
+  <string name="folder_list_no_folders_found">Herhangi bir klasör bulunamadı.</string>
+  <string name="folder_list_create_folder_placeholder_description">E-posta deneyiminizi iyileştirmek için bir klasör oluşturun.</string>
+  <string name="create_folder_content_description">Klasör ekle</string>
+  <string name="folder_settings_content_description">Klasör ayarları</string>
+  <string name="folder_settings_title">Ayarlar</string>
+  <string name="folder_settings_done_button">Tamam</string>
+  <string name="folder_settings_folder_colors">Klasör renkleri kullanılsın</string>
+  <string name="folder_settings_parent_color">Üst klasör rengi devralınsın</string>
+  <string name="folder_list_loading_error">Klasörler yüklenirken sorun çıktı. Lütfen bir süre sonra yeniden deneyin</string>
+  <string name="folder_loading_error">Klasör yüklenirken sorun çıktı. Lütfen bir süre sonra yeniden deneyin</string>
+  <string name="switch_on">Açık</string>
+  <string name="switch_off">Kapalı</string>
+  <string name="folder_form_parent">Üst klasör</string>
+  <string name="folder_form_no_parent">Yok</string>
+  <string name="folder_form_notifications">Bildirimler</string>
+  <string name="folder_saved">Klasör kaydedildi</string>
+  <string name="folder_deleted">Klasör silindi</string>
+  <string name="parent_folder_none">Yok</string>
+  <string name="delete_label">Etiket silinsin mi?</string>
+  <string name="delete_folder">Klasör silinsin mi?</string>
+  <string name="delete_label_message">Bu işlem geri alınamaz. Bu etiketle kaydedilmiş e-postalar silinmeyecek ve \'Tüm e-postalar\' kutusundan erişilebilecek.</string>
+  <string name="delete_folder_message">Bu işlem geri alınamaz. Bu klasöre kaydedilmiş e-postalar silinmeyecek ve \'Tüm e-postalar\' kutusundan erişilebilecek.</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="label_title_inbox">Posta in arrivo</string>
+  <string name="label_title_drafts">Bozze</string>
+  <string name="label_title_sent">Inviata</string>
+  <string name="label_title_starred">Importante</string>
+  <string name="label_title_archive">Archivio</string>
+  <string name="label_title_spam">Spam</string>
+  <string name="label_title_trash">Cestino</string>
+  <string name="label_title_outbox">Posta in uscita</string>
+  <string name="label_title_all_mail">Tutta la posta</string>
+  <string name="label_title_all_drafts">Tutte le bozze</string>
+  <string name="label_title_all_sent">Tutta la posta inviata</string>
+  <string name="label_title_all_scheduled">Tutta la posta programmata</string>
+  <string name="label_title_snoozed">Posticipata</string>
+  <string name="label_title_folders">Cartelle</string>
+  <string name="label_title_parent_folder">Cartella superiore</string>
+  <string name="label_title_labels">Etichette</string>
+  <string name="label_title_create_folder">Crea una cartella</string>
+  <string name="label_title_create_label">Crea un\'etichetta</string>
+  <string name="label_title_label_list">Lista delle etichette</string>
+  <string name="label_title_folder_list">Lista delle cartelle</string>
+  <string name="label_list_no_labels_found">Nessuna etichetta trovata</string>
+  <string name="label_list_create_label_placeholder_description">Crea un\'etichetta per migliorare la tua esperienza con le email.</string>
+  <string name="create_label_content_description">Crea un\'etichetta</string>
+  <string name="label_form_create_label">Crea un\'etichetta</string>
+  <string name="folder_form_create_folder">Crea una cartella</string>
+  <string name="label_form_edit_label">Modifica l\'etichetta</string>
+  <string name="folder_form_edit_folder">Modifica la cartella</string>
+  <string name="label_form_save">Salva</string>
+  <string name="label_form_delete">Elimina l\'etichetta</string>
+  <string name="folder_form_delete">Elimina la cartella</string>
+  <string name="label_name_title">Nome</string>
+  <string name="add_a_label_name_hint">Aggiungi un nome all\'etichetta</string>
+  <string name="add_a_folder_name_hint">Aggiungi un nome alla cartella</string>
+  <plurals name="input_field_max_characters_count">
+    <item quantity="one">%1d / %2d carattere</item>
+    <item quantity="other">%1d / %2d caratteri</item>
+  </plurals>
+  <string name="color_picker_title">Colore</string>
+  <string name="save_label_error">Salvataggio dell\'etichetta non riuscito</string>
+  <string name="save_folder_error">Salvataggio della cartella non riuscito</string>
+  <string name="label_already_exists">Esiste già un\'etichetta o una cartella con questo nome</string>
+  <string name="label_limit_reached_error">Passa a un abbonamento Proton Mail a pagamento per creare altre etichette</string>
+  <string name="folder_limit_reached_error">Passa a un abbonamento Proton Mail a pagamento per creare altre cartelle</string>
+  <string name="delete_label_error">Eliminazione dell\'etichetta non riuscita</string>
+  <string name="input_field_clear_content_description">Cancella il testo</string>
+  <string name="label_list_item_content_description">Elemento della lista di etichette</string>
+  <string name="folder_list_item_content_description">Elemento della lista di cartelle</string>
+  <string name="folder_list_no_folders_found">Nessuna cartella trovata</string>
+  <string name="folder_list_create_folder_placeholder_description">Crea una cartella per migliorare la tua esperienza con le email.</string>
+  <string name="create_folder_content_description">Crea una cartella</string>
+  <string name="folder_settings_content_description">Impostazioni della cartella</string>
+  <string name="folder_settings_title">Impostazioni</string>
+  <string name="folder_settings_done_button">Chiudi</string>
+  <string name="folder_settings_folder_colors">Visualizzazione dei colori</string>
+  <string name="folder_settings_parent_color">Semplificazione dei colori</string>
+  <string name="folder_list_loading_error">Caricamento delle cartelle non riuscito</string>
+  <string name="folder_loading_error">Caricamento della cartella non riuscito</string>
+  <string name="switch_on">Abilitato</string>
+  <string name="switch_off">Disabilitato</string>
+  <string name="folder_form_parent">Cartella superiore</string>
+  <string name="folder_form_no_parent">Nessuna</string>
+  <string name="folder_form_notifications">Notifiche</string>
+  <string name="folder_saved">Cartella salvata</string>
+  <string name="folder_deleted">Cartella eliminata</string>
+  <string name="parent_folder_none">Nessuna</string>
+  <string name="delete_label">Elimina l\'etichetta</string>
+  <string name="delete_folder">Elimina la cartella</string>
+  <string name="delete_label_message">Sei sicuro di voler eliminare definitivamente questa etichetta? I messaggi non verranno eliminati e saranno presenti nella cartella Tutta la posta.</string>
+  <string name="delete_folder_message">Sei sicuro di voler eliminare definitivamente questa cartella? I messaggi non verranno eliminati e saranno presenti nella cartella Tutta la posta.</string>
+</resources>

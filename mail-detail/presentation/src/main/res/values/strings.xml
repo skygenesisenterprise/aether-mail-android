@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+    <string name="detail_error_loading_contacts">Failed loading contacts</string>
+    <string name="detail_error_loading_conversation">Failed loading conversation</string>
+    <string name="detail_error_loading_messages">Failed loading messages</string>
+    <string name="error_mark_unread_failed">Mark unread failed. Please try again.</string>
+    <plurals name="message_count_label_text">
+        <item quantity="one">%d message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
+    <string name="quick_reply_button_content_description">Reply</string>
+    <string name="quick_reply_all_button_content_description">Reply All</string>
+    <string name="more_button_content_description">More</string>
+    <string name="subject">Subject:</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="cc">Cc:</string>
+    <string name="bcc">Bcc:</string>
+    <string name="date">Date:</string>
+    <plurals name="attachment">
+        <item quantity="one">%d Attachment</item>
+        <item quantity="other">%d Attachments</item>
+    </plurals>
+    <string name="hide_details">Hide details</string>
+    <string name="undisclosed_recipients">Undisclosed recipients</string>
+    <string name="error_mark_as_unread_failed">Mark as unread operation failed. Please retry.</string>
+    <string name="error_star_operation_failed">Add star operation failed. Please retry.</string>
+    <string name="error_unstar_operation_failed">Remove star operation failed. Please retry.</string>
+    <string name="error_move_to_trash_failed">Move to trash failed. Please retry.</string>
+    <string name="message_moved_to_trash">Message moved to Trash</string>
+    <string name="message_moved_to_archive">Message moved to Archive</string>
+    <string name="error_move_to_archive_failed">Move to archive failed. Please retry.</string>
+    <string name="message_moved_to_spam">Message moved to Spam</string>
+    <string name="error_move_to_spam_failed">Move to spam failed. Please retry.</string>
+    <string name="message_moved_to_selected_destination">Message moved to %1$s</string>
+    <string name="error_move_message_failed">Moving message failed. Please retry.</string>
+    <string name="conversation_moved_to_trash">Conversation moved to Trash</string>
+    <string name="conversation_moved_to_selected_destination">Conversation moved to %1$s</string>
+    <string name="conversation_moved_to_archive">Conversation moved to Archive</string>
+    <string name="conversation_moved_to_spam">Conversation moved to Spam</string>
+    <string name="error_move_conversation_failed">Moving conversation failed. Please retry.</string>
+    <string name="error_loading_message">Something went wrong, please try again.</string>
+    <string name="error_offline_loading_message">You are offline. An internet connection is required to display the content of this message.</string>
+    <string name="error_get_attachment_failed">Failed to get attachment.</string>
+    <string name="error_attachment_download_in_progress">Current download must complete before starting a new one.</string>
+    <string name="error_get_attachment_not_enough_memory">Failed to get attachment due to insufficient memory</string>
+    <string name="reload">Reload</string>
+    <string name="error_relabel_message_failed">Failed to relabel message. Please retry</string>
+    <string name="error_relabel_conversation_failed">Failed to relabel conversation. Please retry</string>
+    <string name="please_go_back_online_to_load_messages">You\'re offline. Please go back online to load messages</string>
+    <string name="decryption_error">Message decryption failed.</string>
+    <string name="detail_error_retrieving_message_body">Unable to retrieve message</string>
+    <string name="message_body_error_no_webview">You need to have a WebView installed to see this message\'s content.</string>
+    <!-- Banners -->
+    <string name="message_body_embedded_images_banner_text">Automatic loading of embedded images is turned off. This can be changed in the settings.</string>
+    <string name="message_body_remote_content_banner_text">Automatic loading of remote content is turned off. This can be changed in the settings.</string>
+    <string name="message_body_embedded_and_remote_content_banner_text">Automatic loading of embedded images and remote content is turned off. These can be changed in the settings.</string>
+    <string name="message_phishing_banner_text">Our system flagged this message as a phishing attempt. Please check that it is legitimate.</string>
+    <string name="message_expiration_banner_text">This message will expire in %1$s</string>
+    <!-- External link confirmation dialog -->
+    <string name="external_link_confirmation_dialog_text">You are about to leave the app and navigate to:</string>
+    <string name="external_link_confirmation_dialog_do_not_ask_again">Don\'t ask again</string>
+    <string name="external_link_confirmation_dialog_cancel_button">Cancel</string>
+    <string name="external_link_confirmation_dialog_continue_button">Continue</string>
+    <!-- Phishing link confirmation dialog -->
+    <string name="phishing_link_confirmation_dialog_title">Warning: suspected fake website</string>
+    <string name="phishing_link_confirmation_dialog_content_part_1">This link leads to a website that might be trying to steal your information, such as passwords and credit card details.</string>
+    <string name="phishing_link_confirmation_dialog_content_part_2">For your security, do not continue.</string>
+    <string name="phishing_link_confirmation_dialog_button_go_back">Go back (recommended)</string>
+    <string name="phishing_link_confirmation_dialog_button_continue">Ignore warning and continue</string>
+    <string name="message_delete_dialog_title">Delete message</string>
+    <string name="message_delete_dialog_message">Are you sure you want to permanently delete this message?</string>
+    <string name="message_deleted">Message deleted</string>
+    <string name="message_moved">Message moved</string>
+    <string name="message_moved_to">Message moved to %s</string>
+    <string name="error_delete_message_failed">Failed to delete message</string>
+    <string name="error_delete_message_failed_wrong_folder">Message is not in a location where it can be deleted</string>
+    <string name="error_delete_conversation_failed">Failed to delete conversation</string>
+    <string name="error_delete_conversation_failed_wrong_folder">Conversation is not in a location where it can be deleted</string>
+    <string name="conversation_delete_dialog_title">Delete conversation</string>
+    <string name="conversation_delete_dialog_message">Are you sure you want to permanently delete this conversation?</string>
+    <string name="conversation_deleted">Conversation deleted</string>
+    <string name="message_body_load_remote_content_button_text">Load remote content</string>
+    <string name="message_body_load_embedded_images_button_text">Load embedded images</string>
+    <string name="message_body_load_embedded_and_remote_content_button_text">Load remote and embedded content</string>
+    <string name="message_report_phishing_dialog_title_offline">Attention</string>
+    <string name="message_report_phishing_dialog_message_offline">This feature is only available online.</string>
+    <string name="message_report_phishing_dialog_confim_button_offline">OK</string>
+    <string name="message_report_phishing_dialog_title">Confirm phishing report</string>
+    <string name="message_report_phishing_dialog_message">Reporting a message as a phishing attempt will send the message to us, so we can analyze it and improve our filters. This means that we will be able to see the contents of the message in full.</string>
+    <string name="message_report_phishing_dialog_confim_button">Confirm</string>
+    <string name="message_report_phishing_dialog_cancel_button">Cancel</string>
+    <string name="open_on_protoncalendar_banner_title">Open in Proton Calendar</string>
+    <string name="open_on_protoncalendar_banner_description">Secure encrypted calendar</string>
+    <string name="error_print_failed">Failed to print message</string>
+    <string name="trashed_messages_banner">This conversation contains trashed messages.</string>
+    <string name="non_trashed_messages_banner">This conversation contains non-trashed messages.</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="tooltip_customize_toolbar_title">Customize toolbar</string>
+    <string name="tooltip_customize_toolbar_message">You can now choose and rearrange the actions in this toolbar.</string>
+    <string name="tooltip_customize_toolbar_cta">Customize</string>
+
+</resources>

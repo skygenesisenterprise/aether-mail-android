@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="retry">Obnovit</string>
+  <string name="toolbar_back_content_description">Zpět na předchozí obrazovku</string>
+  <string name="x_error_not_logged_in">Nejste přihlášeni</string>
+  <string name="action_reply">Odpovědět</string>
+  <string name="action_reply_all">Odpovědět všem</string>
+  <string name="action_forward">Přeposlat</string>
+  <string name="action_reply_description">Odpovědět</string>
+  <string name="action_reply_all_description">Odpovědět všem</string>
+  <string name="action_forward_description">Přeposlat</string>
+  <string name="action_mark_read_description">Označit jako přečtené</string>
+  <string name="action_mark_unread_description">Označit jako nepřečtené</string>
+  <string name="action_star_description">Označit hvězdičkou</string>
+  <string name="action_unstar_description">Odebrat hvězdičku</string>
+  <string name="action_label_description">Označit jako…</string>
+  <string name="action_move_description">Přesunout do…</string>
+  <string name="action_trash_description">Přesunout do koše</string>
+  <string name="action_delete_description">Smazat</string>
+  <string name="action_archive_description">Archivovat</string>
+  <string name="action_spam_description">Přesunout do spamu</string>
+  <string name="action_view_in_light_mode_description">Zobrazit zprávu ve světlém režimu</string>
+  <string name="action_view_in_dark_mode_description">Zobrazit zprávu v tmavém režimu</string>
+  <string name="action_print_description">Tisk</string>
+  <string name="action_view_headers_description">Zobrazit hlavičku</string>
+  <string name="action_view_html_description">Zobrazit HTML</string>
+  <string name="action_report_phishing_description">Nahlásit phishing</string>
+  <string name="action_remind_description">Připomenout</string>
+  <string name="action_save_pdf_description">Uložit jako PDF</string>
+  <string name="action_sender_emails_description">Nastavit akci pro budoucí e-maily od tohoto odesílatele</string>
+  <string name="action_save_attachments_description">Uložit přílohy</string>
+  <string name="action_more_description">Další</string>
+  <string name="action_reply_content_description">Odpovědět</string>
+  <string name="action_reply_all_content_description">Odpovědět všem</string>
+  <string name="action_forward_content_description">Přeposlat</string>
+  <string name="action_mark_read_content_description">Označit jako přečtené</string>
+  <string name="action_mark_unread_content_description">Označit jako nepřečtené</string>
+  <string name="action_star_content_description">Označit hvězdičkou</string>
+  <string name="action_unstar_content_description">Odebrat hvězdičku</string>
+  <string name="action_label_content_description">Označit jako…</string>
+  <string name="action_move_content_description">Přesunout do…</string>
+  <string name="action_trash_content_description">Koš</string>
+  <string name="action_delete_content_description">Odstranit</string>
+  <string name="action_archive_content_description">Archivovat</string>
+  <string name="action_spam_content_description">Spam</string>
+  <string name="action_view_in_light_mode_content_description">Zobrazit zprávu ve světlém režimu</string>
+  <string name="action_view_in_dark_mode_content_description">Zobrazit zprávu v tmavém režimu</string>
+  <string name="action_print_content_description">Tisk</string>
+  <string name="action_view_headers_content_description">Zobrazit záhlaví</string>
+  <string name="action_view_html_content_description">Zobrazit HTML</string>
+  <string name="action_report_phishing_content_description">Nahlásit phishing</string>
+  <string name="action_remind_content_description">Připomenout</string>
+  <string name="action_save_pdf_content_description">Uložit jako PDF</string>
+  <string name="action_sender_emails_content_description">Nastavit akci pro budoucí e-maily od tohoto odesílatele</string>
+  <string name="action_save_attachments_content_description">Uložit přílohy</string>
+  <string name="action_more_content_description">Více</string>
+  <string name="common_error_loading_actions">Načtení akcí selhalo</string>
+  <string name="yesterday">Včera</string>
+  <string name="action_open_customize_toolbar">Přizpůsobit panel nástrojů</string>
+  <string name="action_open_customize_toolbar_description">Přizpůsobit panel nástrojů</string>
+  <string name="auto_delete_banner_text_activate_trash">Automaticky smazat zprávy, které jsou v koši déle než 30 dní.</string>
+  <string name="auto_delete_banner_text_activate_spam">Automaticky smazat zprávy, které jsou ve spamu déle než 30 dní.</string>
+  <string name="auto_delete_banner_text_upgrade">Navyšte svůj tarif pro automatické mazání zpráv, které jsou v koši nebo spamu déle než 30 dní.</string>
+  <string name="auto_delete_banner_text_enabled_info">Zprávy, které byly v koši a spamu déle než 30 dní, budou automaticky smazány.</string>
+  <string name="auto_delete_banner_button_activate_confirm">Povolit</string>
+  <string name="auto_delete_banner_button_activate_dismiss">Ne, děkuji</string>
+  <string name="auto_delete_banner_action_upgrade_learn_more">Zjistit více</string>
+  <!-- message expiration -->
+  <string name="expiration_expired">Expirovala</string>
+  <string name="expiration_days_arg">%dd</string>
+  <string name="expiration_hours_arg">%dh</string>
+  <string name="expiration_minutes_arg">%dm</string>
+  <string name="expiration_auto_delete_hour">Tato zpráva bude automaticky smazána za méně než hodinu</string>
+  <string name="expiration_auto_delete_day">Tato zpráva bude automaticky smazána za méně než den</string>
+  <string name="expiration_auto_delete_days" description="example: This message will be automatically deleted in 5 days">Tato zpráva bude automaticky smazána za %s</string>
+  <plurals name="expiration_minutes_full_word">
+    <item quantity="one">%d minuta</item>
+    <item quantity="few">%d minuty</item>
+    <item quantity="many">%d minut</item>
+    <item quantity="other">%d minut</item>
+  </plurals>
+  <plurals name="expiration_hours_full_word">
+    <item quantity="one">%d hodina</item>
+    <item quantity="few">%d hodiny</item>
+    <item quantity="many">%d hodin</item>
+    <item quantity="other">%d hodin</item>
+  </plurals>
+  <plurals name="expiration_days_full_word">
+    <item quantity="one">%d den</item>
+    <item quantity="few">%d dny</item>
+    <item quantity="many">%d dnů</item>
+    <item quantity="other">%d dnů</item>
+  </plurals>
+  <!-- notification channels -->
+  <string name="attachment_download_notification_channel_name">Přílohy</string>
+  <string name="attachment_download_notification_channel_description">Upozornění na stahování příloh</string>
+  <string name="email_notification_channel_name">E-maily</string>
+  <string name="login_notification_channel_name">Upozornění na přihlášení</string>
+  <string name="email_notification_channel_description">Oznámení příchozích e-mailů</string>
+  <string name="login_notification_channel_description">Upozornění na nová přihlášení</string>
+  <string name="auth_badge_official">Oficiální</string>
+  <string name="intent_failure_no_app_found_to_handle_this_action">Pro zpracování této akce nebyla nalezena žádná aplikace</string>
+  <string name="action_copied_to_clipboard">Zkopírováno do schránky</string>
+  <string name="mailbox_action_delete_dialog_button_cancel">Zrušit</string>
+  <string name="mailbox_action_delete_dialog_button_delete">Smazat</string>
+  <string name="picker_dialog_cancel">Zrušit</string>
+  <string name="color_purple">Purpurová</string>
+  <string name="color_enzian">Hořec</string>
+  <string name="color_pink">Růžová</string>
+  <string name="color_plum">Švestka</string>
+  <string name="color_strawberry">Jahoda</string>
+  <string name="color_cerise">Třešeň</string>
+  <string name="color_carrot">Mrkev</string>
+  <string name="color_copper">Měď</string>
+  <string name="color_sahara">Sahara</string>
+  <string name="color_soil">Půda</string>
+  <string name="color_slate_blue">Modrá břidlice</string>
+  <string name="color_cobalt">Kobalt</string>
+  <string name="color_pacific">Pacifik</string>
+  <string name="color_ocean">Oceán</string>
+  <string name="color_reef">Útes</string>
+  <string name="color_pine">Borovice</string>
+  <string name="color_fern">Kapradí</string>
+  <string name="color_forest">Les</string>
+  <string name="color_olive">Oliva</string>
+  <string name="color_pickle">Okurka</string>
+  <string name="undo_button_label">Zpět</string>
+  <string name="undo_success_message">Akce vrácena</string>
+  <string name="undo_failure_message">Vrácení selhalo</string>
+</resources>

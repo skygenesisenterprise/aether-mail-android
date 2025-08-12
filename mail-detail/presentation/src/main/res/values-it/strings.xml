@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="detail_error_loading_contacts">Caricamento dei contatti non riuscito</string>
+  <string name="detail_error_loading_conversation">Caricamento della conversazione non riuscito</string>
+  <string name="detail_error_loading_messages">Caricamento dei messaggi non riuscito</string>
+  <string name="error_mark_unread_failed">Contrassegnazione come non letto non riuscita</string>
+  <plurals name="message_count_label_text">
+    <item quantity="one">%d messaggio</item>
+    <item quantity="other">%d messaggi</item>
+  </plurals>
+  <string name="quick_reply_button_content_description">Rispondi</string>
+  <string name="quick_reply_all_button_content_description">Rispondi a tutti</string>
+  <string name="more_button_content_description">Altro</string>
+  <string name="subject">Oggetto:</string>
+  <string name="from">Da:</string>
+  <string name="to">A:</string>
+  <string name="cc">Cc:</string>
+  <string name="bcc">Ccn:</string>
+  <string name="date">Data:</string>
+  <plurals name="attachment">
+    <item quantity="one">%d file allegato</item>
+    <item quantity="other">%d file allegati</item>
+  </plurals>
+  <string name="hide_details">Nascondi i dettagli</string>
+  <string name="undisclosed_recipients">Destinatari nascosti</string>
+  <string name="error_mark_as_unread_failed">Contrassegnazione come non letto non riuscita</string>
+  <string name="error_star_operation_failed">Contrassegnazione come importante non riuscita</string>
+  <string name="error_unstar_operation_failed">Contrassegnazione come non importante non riuscita</string>
+  <string name="error_move_to_trash_failed">Spostamento nel cestino non riuscito</string>
+  <string name="message_moved_to_trash">Messaggio spostato nel cestino</string>
+  <string name="message_moved_to_archive">Messaggio spostato nell\'archivio</string>
+  <string name="error_move_to_archive_failed">Spostamento nell\'archivio non riuscito</string>
+  <string name="message_moved_to_spam">Messaggio spostato in spam</string>
+  <string name="error_move_to_spam_failed">Spostamento nella cartella spam non riuscito</string>
+  <string name="message_moved_to_selected_destination">Messaggio spostato in %1$s</string>
+  <string name="error_move_message_failed">Spostamento del messaggio non riuscito</string>
+  <string name="conversation_moved_to_trash">Conversazione spostata nel cestino</string>
+  <string name="conversation_moved_to_selected_destination">Conversazione spostata in %1$s</string>
+  <string name="conversation_moved_to_archive">Conversazione spostata nell\'archivio</string>
+  <string name="conversation_moved_to_spam">Conversazione spostata in spam</string>
+  <string name="error_move_conversation_failed">Spostamento della conversazione non riuscito</string>
+  <string name="error_loading_message">Si è verificato un errore. Riprova.</string>
+  <string name="error_offline_loading_message">Nessuna connessione a Internet. Caricamento dei contenuti del messaggio non riuscito.</string>
+  <string name="error_get_attachment_failed">Caricamento dell\'allegato non riuscito</string>
+  <string name="error_attachment_download_in_progress">Attendi il completamento dello scaricamento attuale prima di avviarne uno nuovo.</string>
+  <string name="error_get_attachment_not_enough_memory">Memoria non sufficiente. Caricamento dell\'allegato non riuscito.</string>
+  <string name="reload">Ricarica</string>
+  <string name="error_relabel_message_failed">Nuova etichettatura del messaggio non riuscita</string>
+  <string name="error_relabel_conversation_failed">Nuova etichettatura della conversazione non riuscita</string>
+  <string name="please_go_back_online_to_load_messages">Sei offline. Torna online per caricare i messaggi.</string>
+  <string name="decryption_error">Decrittografia del messaggio non riuscita</string>
+  <string name="detail_error_retrieving_message_body">Caricamento del messaggio non riuscito</string>
+  <string name="message_body_error_no_webview">Installa una WebView per visualizzare il contenuto del messaggio</string>
+  <!-- Banners -->
+  <string name="message_body_embedded_images_banner_text">Il caricamento automatico delle immagini incorporate è disabilitato nelle impostazioni.</string>
+  <string name="message_body_remote_content_banner_text">Il caricamento automatico dei contenuti remoti è disabilitato nelle impostazioni.</string>
+  <string name="message_body_embedded_and_remote_content_banner_text">Il caricamento automatico delle immagini incorporate e dei contenuti remoti è disabilitato nelle impostazioni.</string>
+  <string name="message_phishing_banner_text">Messaggio identificato come tentativo di phishing. Verifica che sia legittimo.</string>
+  <string name="message_expiration_banner_text">Questo messaggio scadrà tra %1$s</string>
+  <!-- External link confirmation dialog -->
+  <string name="external_link_confirmation_dialog_text">Sei sicuro di voler uscire dall\'app e continuare nel seguente sito?</string>
+  <string name="external_link_confirmation_dialog_do_not_ask_again">Non chiederlo di nuovo</string>
+  <string name="external_link_confirmation_dialog_cancel_button">Annulla</string>
+  <string name="external_link_confirmation_dialog_continue_button">Continua</string>
+  <!-- Phishing link confirmation dialog -->
+  <string name="phishing_link_confirmation_dialog_title">Sito web sospetto</string>
+  <string name="phishing_link_confirmation_dialog_content_part_1">Questo link conduce a un sito web che potrebbe tentare di rubare le tue informazioni, come password e dettagli della carta di credito.</string>
+  <string name="phishing_link_confirmation_dialog_content_part_2">Sei sicuro di voler proseguire?</string>
+  <string name="phishing_link_confirmation_dialog_button_go_back">Torna indietro (consigliato)</string>
+  <string name="phishing_link_confirmation_dialog_button_continue">Ignora l\'avviso e prosegui</string>
+  <string name="message_delete_dialog_title">Elimina il messaggio</string>
+  <string name="message_delete_dialog_message">Sei sicuro di voler eliminare definitivamente questo messaggio?</string>
+  <string name="message_deleted">Messaggio eliminato</string>
+  <string name="message_moved">Messaggio spostato</string>
+  <string name="message_moved_to">Messaggio spostato in %s</string>
+  <string name="error_delete_message_failed">Eliminazione del messaggio non riuscita</string>
+  <string name="error_delete_message_failed_wrong_folder">Posizione non valida. Eliminazione del messaggio non riuscita.</string>
+  <string name="error_delete_conversation_failed">Eliminazione della conversazione non riuscita</string>
+  <string name="error_delete_conversation_failed_wrong_folder">Posizione non valida. Eliminazione della conversazione non riuscita.</string>
+  <string name="conversation_delete_dialog_title">Elimina la conversazione</string>
+  <string name="conversation_delete_dialog_message">Sei sicuro di voler eliminare definitivamente questa conversazione?</string>
+  <string name="conversation_deleted">Conversazione eliminata</string>
+  <string name="message_body_load_remote_content_button_text">Carica i contenuti remoti</string>
+  <string name="message_body_load_embedded_images_button_text">Carica le immagini incorporate</string>
+  <string name="message_body_load_embedded_and_remote_content_button_text">Carica i contenuti remoti e incorporati</string>
+  <string name="message_report_phishing_dialog_title_offline">Avviso</string>
+  <string name="message_report_phishing_dialog_message_offline">Nessuna connessione a Internet. Segnalazione non riuscita.</string>
+  <string name="message_report_phishing_dialog_confim_button_offline">OK</string>
+  <string name="message_report_phishing_dialog_title">Segnala come phishing</string>
+  <string name="message_report_phishing_dialog_message">Sei sicuro voler segnalare questo messaggio come tentativo di phishing? Il contenuto del messaggio verrà visionato integralmente e analizzato per migliorare i filtri.</string>
+  <string name="message_report_phishing_dialog_confim_button">Segnala</string>
+  <string name="message_report_phishing_dialog_cancel_button">Annulla</string>
+  <string name="open_on_protoncalendar_banner_title">Apri in Proton Calendar</string>
+  <string name="open_on_protoncalendar_banner_description">Calendario crittografato sicuro</string>
+  <string name="error_print_failed">Stampa del messaggio non riuscita</string>
+  <string name="trashed_messages_banner">Conversazione contenente messaggi spostati nel cestino</string>
+  <string name="non_trashed_messages_banner">Conversazione contenente messaggi non spostati nel cestino</string>
+  <string name="show">Mostra</string>
+  <string name="hide">Nascondi</string>
+  <string name="tooltip_customize_toolbar_title">Personalizza la barra degli strumenti</string>
+  <string name="tooltip_customize_toolbar_message">Puoi scegliere e ordinare le azioni in questa barra degli strumenti.</string>
+  <string name="tooltip_customize_toolbar_cta">Personalizza</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="detail_error_loading_contacts">No s\'han pogut carregar els contactes</string>
+  <string name="detail_error_loading_conversation">No s\'ha pogut carregar la conversa</string>
+  <string name="detail_error_loading_messages">No s\'han pogut carregar els missatges</string>
+  <string name="error_mark_unread_failed">No s\'ha pogut marcar com a no llegit. Proveu-ho de nou.</string>
+  <plurals name="message_count_label_text">
+    <item quantity="one">%d missatge</item>
+    <item quantity="other">%d missatges</item>
+  </plurals>
+  <string name="quick_reply_button_content_description">Respon</string>
+  <string name="quick_reply_all_button_content_description">Respon a tothom</string>
+  <string name="more_button_content_description">Més</string>
+  <string name="subject">Assumpte:</string>
+  <string name="from">De:</string>
+  <string name="to">Per a:</string>
+  <string name="cc">CC:</string>
+  <string name="bcc">Cco:</string>
+  <string name="date">Data:</string>
+  <plurals name="attachment">
+    <item quantity="one">%d adjunt</item>
+    <item quantity="other">%d adjunts</item>
+  </plurals>
+  <string name="hide_details">Amaga els detalls</string>
+  <string name="undisclosed_recipients">Destinataris ocults</string>
+  <string name="error_mark_as_unread_failed">No s\'ha pogut marcar com a no llegit. Proveu-ho de nou.</string>
+  <string name="error_star_operation_failed">No s\'ha pogut destacar. Torneu-ho a provar.</string>
+  <string name="error_unstar_operation_failed">No s\'ha pogut esborrar dels destacats. Torneu-ho a provar.</string>
+  <string name="error_move_to_trash_failed">No s\'ha pogut moure el missatge a la paperera. Proveu de nou.</string>
+  <string name="message_moved_to_trash">El missatge s\'ha mogut a la paperera.</string>
+  <string name="message_moved_to_archive">El missatge s\'ha mogut a l\'arxiu.</string>
+  <string name="error_move_to_archive_failed">No s\'ha pogut moure a l\'arxiu. Proveu de nou.</string>
+  <string name="message_moved_to_spam">S\'ha mogut el missatge al correu brossa.</string>
+  <string name="error_move_to_spam_failed">No s\'ha pogut moure a correu brossa. Torneu-ho a provar.</string>
+  <string name="message_moved_to_selected_destination">S\'ha mogut el missatge a %1$s.</string>
+  <string name="error_move_message_failed">No s\'ha pogut moure el missatge. Proveu de nou.</string>
+  <string name="conversation_moved_to_trash">La conversa s\'ha mogut a la paperera.</string>
+  <string name="conversation_moved_to_selected_destination">S\'ha mogut la conversa a %1$s.</string>
+  <string name="conversation_moved_to_archive">La conversa s\'ha mogut a l\'arxiu.</string>
+  <string name="conversation_moved_to_spam">S\'ha mogut la conversa al correu brossa.</string>
+  <string name="error_move_conversation_failed">No s\'ha pogut moure la conversa. Proveu de nou.</string>
+  <string name="error_loading_message">Alguna cosa ha anat malament. Torneu a provar-ho.</string>
+  <string name="error_offline_loading_message">No esteu connectat. Cal una connexió a internet per a mostrar el contingut d\'aquest missatge.</string>
+  <string name="error_get_attachment_failed">No s\'ha pogut obtenir l\'adjunt.</string>
+  <string name="error_attachment_download_in_progress">S\'ha de completar la descàrrega actual abans de començar-ne una de nova.</string>
+  <string name="error_get_attachment_not_enough_memory">No s\'ha pogut obtenir l\'adjunt a causa de memòria insuficient</string>
+  <string name="reload">Recarrega</string>
+  <string name="error_relabel_message_failed">No s\'ha pogut tornar a etiquetar el missatge. Torneu-ho a provar</string>
+  <string name="error_relabel_conversation_failed">No s\'ha pogut tornar a etiquetar la conversa. Torneu-ho a provar</string>
+  <string name="please_go_back_online_to_load_messages">Esteu fora de línia. Torneu a connectar-vos per carregar els missatges</string>
+  <string name="decryption_error">No s\'ha pogut desxifrar el missatge.</string>
+  <string name="detail_error_retrieving_message_body">No s\'ha pogut recuperar el missatge</string>
+  <string name="message_body_error_no_webview">Cal que tingueu WebView instal·lat per a veure el contingut d\'aquest missatge.</string>
+  <!-- Banners -->
+  <string name="message_body_embedded_images_banner_text">La càrrega automàtica d\'imatges incrustades està desactivada. Això es pot canviar a les preferències.</string>
+  <string name="message_body_remote_content_banner_text">La càrrega automàtica de contingut remot està desactivada. Això es pot canviar a les preferències.</string>
+  <string name="message_body_embedded_and_remote_content_banner_text">La càrrega automàtica d\'imatges incrustades i contingut remot està desactivada. Això es pot canviar a les preferències.</string>
+  <string name="message_phishing_banner_text">El nostre sistema ha marcat aquest missatge com a intent de suplantació d\'identitat. Comproveu que sigui legítim.</string>
+  <string name="message_expiration_banner_text">Aquest missatge expirarà en %1$s</string>
+  <!-- External link confirmation dialog -->
+  <string name="external_link_confirmation_dialog_text">Esteu a punt de deixar l\'aplicació i navegar a:</string>
+  <string name="external_link_confirmation_dialog_do_not_ask_again">No tornis a preguntar</string>
+  <string name="external_link_confirmation_dialog_cancel_button">Cancel·la</string>
+  <string name="external_link_confirmation_dialog_continue_button">Continua</string>
+  <!-- Phishing link confirmation dialog -->
+  <string name="phishing_link_confirmation_dialog_title">Advertència: lloc web sospitós de ser fals</string>
+  <string name="phishing_link_confirmation_dialog_content_part_1">Aquest enllaç porta a un lloc web que us podria estar intentant robar la informació, com ara contrasenyes i detalls de targetes de crèdit.</string>
+  <string name="phishing_link_confirmation_dialog_content_part_2">Per la vostra seguretat, no continueu.</string>
+  <string name="phishing_link_confirmation_dialog_button_go_back">Torna (recomanat)</string>
+  <string name="phishing_link_confirmation_dialog_button_continue">Ignora l\'advertència i continua</string>
+  <string name="message_delete_dialog_title">Elimina el missatge</string>
+  <string name="message_delete_dialog_message">Segur que voleu eliminar aquest missatge permanentment?</string>
+  <string name="message_deleted">S\'ha esborrat el missatge.</string>
+  <string name="message_moved">S’ha mogut el missatge.</string>
+  <string name="message_moved_to">S\'ha mogut el missatge a %s.</string>
+  <string name="error_delete_message_failed">No s\'ha pogut eliminar el missatge.</string>
+  <string name="error_delete_message_failed_wrong_folder">El missatge no es troba en una ubicació on es pugui eliminar</string>
+  <string name="error_delete_conversation_failed">No s\'ha pogut eliminar la conversa</string>
+  <string name="error_delete_conversation_failed_wrong_folder">La conversa no es troba en una ubicació on es pugui eliminar</string>
+  <string name="conversation_delete_dialog_title">Elimina la conversa</string>
+  <string name="conversation_delete_dialog_message">Segur que voleu eliminar permanentment aquesta conversa?</string>
+  <string name="conversation_deleted">S\'ha eliminat la conversa.</string>
+  <string name="message_body_load_remote_content_button_text">Carrega el contingut remot</string>
+  <string name="message_body_load_embedded_images_button_text">Carrega les imatges incrustades</string>
+  <string name="message_body_load_embedded_and_remote_content_button_text">Carrega contingut remot i incorporat</string>
+  <string name="message_report_phishing_dialog_title_offline">Atenció</string>
+  <string name="message_report_phishing_dialog_message_offline">Aquesta característica només està disponible en línia.</string>
+  <string name="message_report_phishing_dialog_confim_button_offline">D\'acord</string>
+  <string name="message_report_phishing_dialog_title">Confirma l\'informe de phising</string>
+  <string name="message_report_phishing_dialog_message">Informar d\'un missatge com a intent de pesca ens l\'enviarà a nosaltres per a poder analitzar-lo i millorar els nostres filtres. Això significa que podrem veure el contingut complet del missatge.</string>
+  <string name="message_report_phishing_dialog_confim_button">Confirma</string>
+  <string name="message_report_phishing_dialog_cancel_button">Cancel·la</string>
+  <string name="open_on_protoncalendar_banner_title">Obre a Proton Calendar</string>
+  <string name="open_on_protoncalendar_banner_description">Calendari segur xifrat</string>
+  <string name="error_print_failed">No s\'ha pogut imprimir el missatge.</string>
+  <string name="trashed_messages_banner">Aquesta conversa conté missatges esborrats.</string>
+  <string name="non_trashed_messages_banner">Aquesta conversa conté missatges que no es troben a la paperera.</string>
+  <string name="show">Mostra</string>
+  <string name="hide">Amaga</string>
+  <string name="tooltip_customize_toolbar_title">Personalitza la barra d\'eines</string>
+  <string name="tooltip_customize_toolbar_message">Ara podeu triar i organitzar les accions d\'aquesta barra d\'eines.</string>
+  <string name="tooltip_customize_toolbar_cta">Personalitza</string>
+</resources>

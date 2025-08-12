@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">寄件者：</string>
+  <string name="to_prefix">收件者：</string>
+  <string name="cc_prefix">副本：</string>
+  <string name="bcc_prefix">密件副本：</string>
+  <string name="subject_placeholder">主旨</string>
+  <string name="compose_message_placeholder">撰寫電子郵件</string>
+  <string name="close_composer_content_description">關閉撰寫工具</string>
+  <string name="send_message_content_description">傳送郵件訊息</string>
+  <string name="composer_expand_recipients_button">顯示其他收件者</string>
+  <string name="composer_error_invalid_email">電子郵件位址無效</string>
+  <string name="composer_error_invalid_sender">寄件者電子郵件位址無效</string>
+  <string name="change_sender_button_content_description">變更寄件人</string>
+  <string name="composer_change_sender_paid_feature">您需有付費版的 Proton Mail 訂購授權才可更改寄件人地址</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">因無法取得訂購授權資料無法變更寄件者。請再試一次。</string>
+  <string name="composer_error_store_draft_sender_address">未儲存寄件者地址</string>
+  <string name="composer_error_store_draft_body">未儲存草稿電子郵件正文</string>
+  <string name="composer_error_duplicate_recipient">已移除重複的收件人</string>
+  <string name="composer_error_store_draft_subject">未儲存主旨行</string>
+  <string name="composer_error_store_draft_recipients">無法儲存此草稿的收件者</string>
+  <string name="composer_error_loading_draft">目前無法擷取該草稿的內容。編輯將覆寫任何預先存在的內容。</string>
+  <string name="composer_add_attachments_content_description">新增附件</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">匯入自……</string>
+  <string name="composer_error_loading_parent_message">無法載入訊息資訊</string>
+  <string name="composer_original_message_quote">原始訊息</string>
+  <string name="composer_sender_quote">在 %s，%s &lt;%s&gt; 寫道：</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">確定</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">已達附件上限</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">附件大小上限為 %1$s</string>
+  <string name="composer_attachment_reencryption_failed_message">附件重新加密失敗。基於安全考量，所有附件已被移除。</string>
+  <string name="composer_attachment_not_found">找不到附件</string>
+  <string name="composer_attachment_error_draft_loading">無法載入原始草稿訊息。</string>
+  <string name="composer_attachment_error_saving_attachment">無法儲存附件。請再試一次。</string>
+  <string name="composer_warning_local_data_shown">此草稿的最新版本無法載入。任何變更將覆蓋其內容。</string>
+  <string name="composer_button_add_password">新增密碼</string>
+  <string name="composer_button_set_expiration">設定到期時間</string>
+  <string name="composer_expiration_time_bottom_sheet_title">郵件期限</string>
+  <string name="composer_expiration_time_bottom_sheet_done">設定</string>
+  <string name="composer_bottom_bar_expiration_time_none">無</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 小時</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 天</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 天</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 週</string>
+  <string name="composer_bottom_bar_expiration_time_custom">自訂</string>
+  <string name="composer_error_setting_expiration_time">設定到期日失敗</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">不支援到期日</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">我們建議為以下收件人設定密碼：</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">取消</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">仍要傳送</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">傳送通知</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">以 @pm.me 傳送郵件乃付費功能。您的郵件將以您預設的電子郵件地址傳送。</string>
+  <string name="composer_sender_changed_original_address_disabled">選取的寄件者電子郵件地址已停用。您的郵件將以您預設的電子郵件地址傳送。</string>
+  <string name="composer_sender_changed_original_address_generic_error">無法取得原始寄件者地址。您的訊息將以您預設的電子郵件地址傳送。</string>
+  <string name="composer_sender_changed_dialog_confirm_button">好</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">撰寫郵件</string>
+  <string name="composer_send_without_subject_dialog_text">確定要傳送沒有主旨的郵件嗎？</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">是</string>
+  <string name="composer_send_without_subject_dialog_reject_button">否</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">傳送錯誤</string>
+  <string name="message_sending_error_dialog_button_dismiss">關閉</string>
+  <string name="message_sending_error_dialog_text_error">基於以下原因，您的電子郵件無法傳送至已輸入的電子郵件：</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">無信任金鑰 : %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">地址不存在 : %s</string>
+  <string name="set_message_password_title">加密郵件</string>
+  <string name="set_message_password_info_message">替沒有 Protonv Mail 使用者設定一組密碼以進行加密郵件.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">瞭解更多</a></string>
+  <string name="set_message_password_label">郵件密碼</string>
+  <string name="set_message_password_label_repeat">重複輸入密碼</string>
+  <string name="set_message_password_label_hint">密碼提示 (選用)</string>
+  <string name="set_message_password_supporting_text">長度為 4 至 21 個字元</string>
+  <string name="set_message_password_supporting_error_text">密碼長度必須介乎 4 至 21 個字元</string>
+  <string name="set_message_password_supporting_text_repeat">密碼必須相符</string>
+  <string name="set_message_password_supporting_error_text_repeat">密碼不一致</string>
+  <string name="set_message_password_button_show">顯示密碼</string>
+  <string name="set_message_password_button_hide">隱藏密碼</string>
+  <string name="set_message_password_button_apply">套用密碼</string>
+  <string name="set_message_password_button_save_changes">儲存變更</string>
+  <string name="set_message_password_button_remove_password">移除密碼</string>
+  <string name="respondInline">在內文回覆</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="other">%d 位成員</item>
+  </plurals>
+</resources>

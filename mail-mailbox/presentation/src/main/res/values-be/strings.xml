@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="mailbox_toolbar_compose_button_content_description">Напісаць новае паведамленне</string>
+  <string name="mailbox_toolbar_exit_selection_mode_button_content_description">Выйсці з меню выбару</string>
+  <string name="mailbox_toolbar_menu_button_content_description">Меню</string>
+  <string name="mailbox_toolbar_search_button_content_description">Пошук</string>
+  <string name="mailbox_toolbar_exit_search_mode_content_description">Выхад з рэжыму пошуку</string>
+  <string name="mailbox_toolbar_searchview_clear_search_query_content_description">Ачысціць пошукавы запыт</string>
+  <string name="mailbox_toolbar_searchview_query_text_field_content_description">Увесці пошукавы запыт</string>
+  <plurals name="mailbox_toolbar_selected_count">
+    <item quantity="one">Выбраны: %d</item>
+    <item quantity="few">Выбрана: %d</item>
+    <item quantity="many">Выбрана: %d</item>
+    <item quantity="other">Выбрана: %d</item>
+  </plurals>
+  <plurals name="filter_unread_button_text">
+    <item quantity="one">%s непрачытанае</item>
+    <item quantity="few">%s непрачытаныя</item>
+    <item quantity="many">%s непрачытаных</item>
+    <item quantity="other">%s непрачытаных</item>
+  </plurals>
+  <string name="mailbox_default_recipient">(Без атрымальніка)</string>
+  <string name="mailbox_default_sender">(Без адпраўніка)</string>
+  <string name="mailbox_error_message_offline">Немагчыма атрымаць элементы, бо вы па-за сеткай</string>
+  <string name="mailbox_error_message_generic">Збой загрузкі паштовай скрыні</string>
+  <string name="mailbox_error_search_input_invalid">Уключыце ў пошукавы запыт толькі алфавітна-лічбавыя сімвалы.</string>
+  <string name="mailbox_error_message_unexpected">Нешта пайшло не так</string>
+  <string name="mailbox_is_empty_title">Няма паведамленняў</string>
+  <string name="mailbox_is_empty_description">Новыя пакуль адсутнічаюць</string>
+  <string name="mailbox_is_empty_no_unread_messages_title">Няма непрачытаных паведамленняў</string>
+  <string name="mailbox_is_empty_folder_description">Гэта папка пустая</string>
+  <string name="mailbox_is_empty_spam_description">Ваша папка са спамам пустая</string>
+  <string name="mailbox_is_empty_trash_description">Сметніца пустая</string>
+  <plurals name="mailbox_action_trash_conversation">
+    <item quantity="one">Размова перамешчана ў Сметніцу</item>
+    <item quantity="few">%d размовы перамешчаны ў Сметніцу</item>
+    <item quantity="many">%d размоў перамешчаны ў Сметніцу</item>
+    <item quantity="other">%d размоў перамешчаны ў Сметніцу</item>
+  </plurals>
+  <plurals name="mailbox_action_trash_message">
+    <item quantity="one">Паведамленне перамешчана ў Сметніцу</item>
+    <item quantity="few">%d паведамленні перамешчаны ў Сметніцу</item>
+    <item quantity="many">%d паведамленняў перамешчаны ў Сметніцу</item>
+    <item quantity="other">%d паведамленняў перамешчаны ў Сметніцу</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation_dialog_title">
+    <item quantity="one">Выдаліць размову</item>
+    <item quantity="few">Выдаліць %d размовы</item>
+    <item quantity="many">Выдаліць %d размоў</item>
+    <item quantity="other">Выдаліць %d размоў</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message_dialog_title">
+    <item quantity="one">Выдаліць паведамленне</item>
+    <item quantity="few">Выдаліць %d паведамленні</item>
+    <item quantity="many">Выдаліць %d паведамленняў</item>
+    <item quantity="other">Выдаліць %d паведамленняў</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation_dialog_message">
+    <item quantity="one">Вы сапраўды хочаце незваротна выдаліць гэту размову?</item>
+    <item quantity="few">Вы сапраўды хочаце незваротна выдаліць гэтыя размовы?</item>
+    <item quantity="many">Вы сапраўды хочаце незваротна выдаліць гэтыя размовы?</item>
+    <item quantity="other">Вы сапраўды хочаце незваротна выдаліць гэтыя размовы?</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message_dialog_message">
+    <item quantity="one">Вы сапраўды хочаце незваротна выдаліць гэта паведамленне?</item>
+    <item quantity="few">Вы сапраўды хочаце незваротна выдаліць гэтыя паведамленні?</item>
+    <item quantity="many">Вы сапраўды хочаце незваротна выдаліць гэтыя паведамленні?</item>
+    <item quantity="other">Вы сапраўды хочаце незваротна выдаліць гэтыя паведамленні?</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message">
+    <item quantity="one">Паведамленне незваротна выдалена</item>
+    <item quantity="few">%d паведамленні незваротна выдалены</item>
+    <item quantity="many">%d паведамленняў незваротна выдалены</item>
+    <item quantity="other">%d паведамленняў незваротна выдалены</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation">
+    <item quantity="one">Размова незваротна выдалена</item>
+    <item quantity="few">%d размовы незваротна выдалены</item>
+    <item quantity="many">%d размоў незваротна выдалены</item>
+    <item quantity="other">%d размоў незваротна выдалены</item>
+  </plurals>
+  <string name="mailbox_include_all_desc">Не знайшлі тое, што шукалі?</string>
+  <string name="mailbox_include_all_button">Уключыць Спам/Сметніцу</string>
+  <string name="mailbox_action_label_messages_failed">Збой аперацыі з меткай</string>
+  <string name="mailbox_action_label_messages_failed_retrieving_labels">Не ўдалося атрымаць меткі</string>
+  <string name="mailbox_action_failed_retrieving_colors">Не ўдалося атрымаць налады колеру</string>
+  <string name="mailbox_action_move_messages_failed">Збой аперацыі пераносу</string>
+  <string name="mailbox_action_move_messages_failed_retrieving_folders">Не ўдалося атрымаць папкі</string>
+  <string name="mailbox_action_move_conversation">Размова перамешчана ў %s</string>
+  <string name="mailbox_action_move_message">Паведамленне перамешчана ў %s</string>
+  <string name="mailbox_search_placeholder_text">Пошук паведамленняў</string>
+  <string name="mailbox_search_no_results_title">Вынікі не знойдзены</string>
+  <string name="mailbox_search_no_results_explanation">Пошук па даце, імені, адрасе электроннай пошце або радку тэмы</string>
+  <string name="mailbox_action_button_clear_trash">Ачысціць сметніцу</string>
+  <string name="mailbox_action_button_clear_spam">Ачысціць спам</string>
+  <string name="mailbox_action_clear_trash_dialog_title">Ачысціць папку Сметніцы</string>
+  <string name="mailbox_action_clear_spam_dialog_title">Ачысціць папку Спам</string>
+  <string name="mailbox_action_clear_trash_dialog_body_message">Вы сапраўды хочаце незваротна выдаліць усе паведамленні з папкі Сметніца?</string>
+  <string name="mailbox_action_clear_spam_dialog_body_message">Вы сапраўды хочаце незваротна выдаліць усе паведамленні з папкі Спам?</string>
+  <string name="mailbox_action_clear_spam_dialog_body_conversation">Вы сапраўды хочаце незваротна выдаліць усе размовы з папкі Спам?</string>
+  <string name="mailbox_action_clear_operation_scheduled">"Запланавана аперацыя па ачыстцы"</string>
+  <!--    Storage Limit Warning-->
+  <string name="storage_limit_warning_dialog_title">Папярэджанне</string>
+  <string name="storage_first_limit_exceeded_warning_dialog_text">Сховішча вашага ўліковага запісу Proton запоўнена больш чым на 80%. Вызваліце прастору або перайдзіце на тарыфны план больш высокага ўзроўню, каб атрымаць больш сховішча.</string>
+  <string name="storage_second_limit_exceeded_warning_dialog_text">Сховішча вашага ўліковага запісу Proton запоўнена больш чым на 90%. Вызваліце прастору або перайдзіце на тарыфны план больш высокага ўзроўню, каб атрымаць больш сховішча.</string>
+  <string name="storage_limit_warning_dialog_do_not_remind_button">Больш не нагадваць</string>
+  <string name="storage_limit_warning_dialog_confirm_button">OK</string>
+  <!--    Storage Quota Over Warning-->
+  <string name="storage_quota_over_dialog_title">Папярэджанне</string>
+  <string name="storage_quota_over_dialog_text">Сховішча вашага ўліковага запісу Proton запоўнена на 100%. Цяпер вы не можаце адпраўляць і атрымліваць электронныя лісты, пакуль некаторыя з іх не будуць незваротна выдалены. У вас таксама ёсць магчымасць перайсці на тарыфны план больш высокага ўзроўню, каб атрымаць больш сховішча.</string>
+  <string name="storage_quota_over_dialog_confirm_button">OK</string>
+</resources>

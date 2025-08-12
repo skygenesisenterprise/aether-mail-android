@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="dialog_sign_out_account_title">Αποσύνδεση</string>
+  <string name="dialog_sign_out_account_description">Είστε βέβαιοι ότι θέλετε να αποσυνδεθείτε;</string>
+  <string name="dialog_sign_out_account_confirm">Ναι</string>
+  <string name="dialog_sign_out_account_cancel">Όχι</string>
+  <string name="dialog_remove_account_title">Αφαίρεση Λογαριασμού</string>
+  <string name="dialog_remove_account_description">Πρόκειται να αποσυνδεθείτε και να αφαιρέσετε όλες τις πληροφορίες που σχετίζονται με αυτόν τον λογαριασμό.</string>
+  <string name="dialog_remove_account_confirm">Αφαίρεση</string>
+  <string name="dialog_remove_account_cancel">Ακύρωση</string>
+  <string name="user_select_other_account_content_description">Επιλογή άλλου λογαριασμού</string>
+  <string name="you_are_offline">Βρίσκεστε εκτός σύνδεσης</string>
+  <string name="feature_coming_soon">Η δυνατότητα θα είναι διαθέσιμη σύντομα…</string>
+  <string name="mailbox_draft_saved">Το πρόχειρο αποθηκεύτηκε</string>
+  <string name="mailbox_draft_discard">Απόρριψη</string>
+  <string name="mailbox_message_sending">Γίνεται αποστολή μηνύματος…</string>
+  <string name="mailbox_message_sending_offline">Εκτός σύνδεσης, το μήνυμα τέθηκε σε αναμονή για αποστολή</string>
+  <string name="mailbox_message_sending_success">Το μήνυμα στάλθηκε</string>
+  <string name="mailbox_message_sending_error">Σφάλμα κατά την αποστολή του μηνύματος</string>
+  <string name="mailbox_message_sending_error_address_disabled">Αυτή η διεύθυνση είναι απενεργοποιημένη, η αποστολή απέτυχε.</string>
+  <string name="mailbox_message_sending_error_action">Μετάβαση στα Πρόχειρα</string>
+  <string name="mailbox_attachment_uploading_error">Σφάλμα κατά τη μεταφόρτωση συνημμένου</string>
+  <string name="notification_switched_account">Έγινε αλλαγή σε λογαριασμό %s</string>
+  <string name="label_saved">Η ετικέτα αποθηκεύτηκε</string>
+  <string name="label_deleted">Η ετικέτα διαγράφηκε</string>
+  <string name="label_list_loading_error">Σφάλμα φόρτωσης ετικέτας, παρακαλούμε δοκιμάστε ξανά αργότερα</string>
+  <string name="app_locked">Η εφαρμογή είναι κλειδωμένη</string>
+  <string name="use_pin_instead">Εναλλακτικά, χρησιμοποιήστε PIN</string>
+</resources>

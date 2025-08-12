@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="dialog_sign_out_account_title">Выйти</string>
+  <string name="dialog_sign_out_account_description">Вы уверены, что хотите выйти?</string>
+  <string name="dialog_sign_out_account_confirm">Да</string>
+  <string name="dialog_sign_out_account_cancel">Нет</string>
+  <string name="dialog_remove_account_title">Удалить аккаунт</string>
+  <string name="dialog_remove_account_description">Вы выйдете и удалите всю информацию, связанную с этим аккаунтом.</string>
+  <string name="dialog_remove_account_confirm">Удалить</string>
+  <string name="dialog_remove_account_cancel">Отменить</string>
+  <string name="user_select_other_account_content_description">Выбрать другой аккаунт</string>
+  <string name="you_are_offline">Вы офлайн</string>
+  <string name="feature_coming_soon">Функция скоро появится…</string>
+  <string name="mailbox_draft_saved">Черновик сохранён</string>
+  <string name="mailbox_draft_discard">Не сохранять</string>
+  <string name="mailbox_message_sending">Отправка сообщения…</string>
+  <string name="mailbox_message_sending_offline">Офлайн, сообщение добавлено в очередь на отправку</string>
+  <string name="mailbox_message_sending_success">Сообщение отправлено</string>
+  <string name="mailbox_message_sending_error">Ошибка при отправке сообщения</string>
+  <string name="mailbox_message_sending_error_address_disabled">Этот адрес отключён, отправка не выполнена</string>
+  <string name="mailbox_message_sending_error_action">Перейти в Черновики</string>
+  <string name="mailbox_attachment_uploading_error">Ошибка загрузки вложения</string>
+  <string name="notification_switched_account">Вы переключились на аккаунт %s</string>
+  <string name="label_saved">Ярлык сохранён</string>
+  <string name="label_deleted">Ярлык удалён</string>
+  <string name="label_list_loading_error">Ошибка загрузки ярлыка, повторите попытку позже</string>
+  <string name="app_locked">Приложение заблокировано</string>
+  <string name="use_pin_instead">Использовать PIN-код вместо этого</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">Kimden:</string>
+  <string name="to_prefix">Kime:</string>
+  <string name="cc_prefix">Kopya:</string>
+  <string name="bcc_prefix">Gizli kopya:</string>
+  <string name="subject_placeholder">Konu</string>
+  <string name="compose_message_placeholder">E-posta oluştur</string>
+  <string name="close_composer_content_description">Oluşturucuyu kapat</string>
+  <string name="send_message_content_description">İleti gönder</string>
+  <string name="composer_expand_recipients_button">Diğer alıcıları görüntüle</string>
+  <string name="composer_error_invalid_email">E-posta adresi geçersiz</string>
+  <string name="composer_error_invalid_sender">Gönderici adresi geçersiz</string>
+  <string name="change_sender_button_content_description">Göndericiyi değiştir</string>
+  <string name="composer_change_sender_paid_feature">Gönderici adresini değiştirebilmek için ücretli bir Proton Mail aboneliğiniz olmalıdır</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">Kuıllanıcının abonelik bilgileri alınamadığından gönderici değiştirilemedi. Yeniden deneyin.</string>
+  <string name="composer_error_store_draft_sender_address">Gönderici adresi kaydedilemedi</string>
+  <string name="composer_error_store_draft_body">Taslak e-postanın içeriği kaydedilemedi</string>
+  <string name="composer_error_duplicate_recipient">Çift alıcılar kaldırıldı</string>
+  <string name="composer_error_store_draft_subject">Konu satırı kaydedilemedi</string>
+  <string name="composer_error_store_draft_recipients">Bu taslağın alıcıları kaydedilemedi</string>
+  <string name="composer_error_loading_draft">Bu taslağın içeriği şu anda kullanılamıyor. Düzenleme daha önce var olan içerikleri değiştirecek.</string>
+  <string name="composer_add_attachments_content_description">Dosyalar ekle</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Şuradan içe aktar…</string>
+  <string name="composer_error_loading_parent_message">İleti bilgileri yüklenemedi</string>
+  <string name="composer_original_message_quote">Özgün ileti</string>
+  <string name="composer_sender_quote">%s zamanında, %s &lt;%s&gt; şunu yazdı:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">Tamam</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">Ek dosya boyutu sınırına ulaşıldı</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">Ek dosyaların boyutu %1$s ile sınırlıdır</string>
+  <string name="composer_attachment_reencryption_failed_message">Ek dosya yeniden şifrelenemedi. Güvenlik nedeniyle tüm ek dosyalar kaldırıldı.</string>
+  <string name="composer_attachment_not_found">Ek dosya bulunamadı.</string>
+  <string name="composer_attachment_error_draft_loading">Özgün taslak ileti yüklenemedi.</string>
+  <string name="composer_attachment_error_saving_attachment">Ek dosya kaydedilemedi. Lütfen yeniden deneyin.</string>
+  <string name="composer_warning_local_data_shown">Taslağın son sürümü yüklenemedi. Yapılmış değişiklikler geçersiz olacak.</string>
+  <string name="composer_button_add_password">Parola ekle</string>
+  <string name="composer_button_set_expiration">Geçerlilik süresi ayarla</string>
+  <string name="composer_expiration_time_bottom_sheet_title">İleti geçerlilik süresi</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Ayarla</string>
+  <string name="composer_bottom_bar_expiration_time_none">Yok</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 saat</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 gün</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 gün</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 hafta</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Özel</string>
+  <string name="composer_error_setting_expiration_time">Geçerlilik süresi ayarlanamadı</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Geçerlilik süresi desteklenmiyor</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Bunun yerine, şu alıcılar için bir parola ayarlanmasını öneriyoruz:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">İptal</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Yine de gönder</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Bildirim gönderimi</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">\@pm.me adresinden ileti göndermek ücretli bir özelliktir. İletiniz varsayılan adresinizden gönderilecek</string>
+  <string name="composer_sender_changed_original_address_disabled">Seçilmiş gönderici adresi kullanımdan kaldırılmış. İletiniz varsayılan adresinizden gönderilecek.</string>
+  <string name="composer_sender_changed_original_address_generic_error">Özgün gönderici adresi alınamadı. İletiniz varsayılan adresinizden gönderilecek.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">Tamam</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Oluştur</string>
+  <string name="composer_send_without_subject_dialog_text">İleti, konu olmadan gönderilsin mi?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Evet</string>
+  <string name="composer_send_without_subject_dialog_reject_button">Hayır</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Gönderme sorunu</string>
+  <string name="message_sending_error_dialog_button_dismiss">Kapat</string>
+  <string name="message_sending_error_dialog_text_error">E-postanız şu nedenle yazılan adrese gönderilemedi:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">Herhangi bir güvenilen anahtar yok: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">Adres bulunamadı: %s</string>
+  <string name="set_message_password_title">İletiyi şifrele</string>
+  <string name="set_message_password_info_message">Proton Mail kullanmayan kişiler için bu iletiyi şifreleyecek bir parola ayarlayın.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">Ayrıntılı bilgi alın</a></string>
+  <string name="set_message_password_label">İleti parolası</string>
+  <string name="set_message_password_label_repeat">Parola onayı</string>
+  <string name="set_message_password_label_hint">Parola ipucu (isteğe bağlı)</string>
+  <string name="set_message_password_supporting_text">4 ile 21 karakter uzunluğunda</string>
+  <string name="set_message_password_supporting_error_text">Parola uzunluğu 4 ile 21 karakter arasında olmalıdır</string>
+  <string name="set_message_password_supporting_text_repeat">Parola ile onayı aynı değil</string>
+  <string name="set_message_password_supporting_error_text_repeat">Parola ile onayı aynı değil</string>
+  <string name="set_message_password_button_show">Parolayı görüntüle</string>
+  <string name="set_message_password_button_hide">Parolayı gizle</string>
+  <string name="set_message_password_button_apply">Parolayı uygula</string>
+  <string name="set_message_password_button_save_changes">Değişiklikleri kaydet</string>
+  <string name="set_message_password_button_remove_password">Parolayı kaldır</string>
+  <string name="respondInline">Satır arasında yanıtla</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d üye</item>
+    <item quantity="other">%d üye</item>
+  </plurals>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">보낸사람:</string>
+  <string name="to_prefix">받는 사람:</string>
+  <string name="cc_prefix">참조:</string>
+  <string name="bcc_prefix">숨은참조:</string>
+  <string name="subject_placeholder">제목</string>
+  <string name="compose_message_placeholder">이메일 작성</string>
+  <string name="close_composer_content_description">작성기 닫기</string>
+  <string name="send_message_content_description">메시지 보내기</string>
+  <string name="composer_expand_recipients_button">다른 수신인 보기</string>
+  <string name="composer_error_invalid_email">올바르지 않은 이메일 주소입니다</string>
+  <string name="composer_error_invalid_sender">보낸 이의 주소가 잘못되었습니다</string>
+  <string name="change_sender_button_content_description">보낸 사람 변경</string>
+  <string name="composer_change_sender_paid_feature">이 전송자의 주소를 변경하려면 유료 Proton Mail 구독이 필요합니다.</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">사용자의 구독을 실패했기 때문에 발신자를 변경할 수 없습니다. 다시 시도하십시오.</string>
+  <string name="composer_error_store_draft_sender_address">이 초안의 발신자 주소를 저장하는 데 실패했습니다.</string>
+  <string name="composer_error_store_draft_body">이 초안의 본문을 저장하는 것을 실패했습니다.</string>
+  <string name="composer_error_duplicate_recipient">중복된 참가자 삭제됨</string>
+  <string name="composer_error_store_draft_subject">이 초안의 제목을 저장하는 것을 실패했습니다.</string>
+  <string name="composer_error_store_draft_recipients">이 초안의 수신자를 저장하는 것을 실패했습니다.</string>
+  <string name="composer_error_loading_draft">이 초안의 내용은 현재 사용할 수 없습니다. 기존 내용의 편집을 사용할 수 없습니댜.</string>
+  <string name="composer_add_attachments_content_description">첨부 파일 추가</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">다음에서 가져오기…</string>
+  <string name="composer_error_loading_parent_message">메시지 정보를 불러올 수 없습니다.</string>
+  <string name="composer_original_message_quote">원본 메시지</string>
+  <string name="composer_sender_quote">%s에 %s &lt; %s&gt; 님이 작성함:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">확인</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">첨부파일 한도 도달</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">첨부 파일의 최대 크기는 %1$s 입니다</string>
+  <string name="composer_attachment_reencryption_failed_message">첨부 파일에 대한 복호화 실패. 보안 상의 이유로 전체 첨부 파일이 삭제되었습니다.</string>
+  <string name="composer_attachment_not_found">첨부 파일을 찾을 수 없음.</string>
+  <string name="composer_attachment_error_draft_loading">원본 임시 저장 메시지를 불러올 수 없음.</string>
+  <string name="composer_attachment_error_saving_attachment">첨부 파일을 저장하지 못했습니다. 다시 시도하세요.</string>
+  <string name="composer_warning_local_data_shown">이 원고의 가장 최근 버전을 불러오는 데 실패했습니다. 어떤 변경점이 있더라도 그것을 덮어쓰게 됩니다.</string>
+  <string name="composer_button_add_password">비밀번호 추가</string>
+  <string name="composer_button_set_expiration">만료 시간 설정</string>
+  <string name="composer_expiration_time_bottom_sheet_title">메시지 유효기간</string>
+  <string name="composer_expiration_time_bottom_sheet_done">설정하기</string>
+  <string name="composer_bottom_bar_expiration_time_none">없음</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1시간</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1일</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3일</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1주</string>
+  <string name="composer_bottom_bar_expiration_time_custom">커스텀</string>
+  <string name="composer_error_setting_expiration_time">만료 시간 설정 실패</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">유효기간을 지원하지 않습니다</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">다음 수신자를 위해 대신 비밀번호를 설정하는 것이 좋습니다:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">취소</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">이대로 보내기</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">전송 알림</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">\@pm.me 주소에서 메시지를 보내는 것은 유료 기능입니다. 사용자의 메시지는 기본주소에서 발송됩니다</string>
+  <string name="composer_sender_changed_original_address_disabled">선택한 발신자 주소가 비활성화되었습니다. 사용자의 메시지는 설정된 기본 주소에서 전송됩니다.</string>
+  <string name="composer_sender_changed_original_address_generic_error">원래 보낸 사람의 주소를 가져올 수 없습니다. 메시지가 사용자의 기본 주소에서 전송됩니다.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">확인</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">작성</string>
+  <string name="composer_send_without_subject_dialog_text">제목없이 메시지를 보낼까요?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">예</string>
+  <string name="composer_send_without_subject_dialog_reject_button">아니오</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">발송 실패</string>
+  <string name="message_sending_error_dialog_button_dismiss">닫기</string>
+  <string name="message_sending_error_dialog_text_error">다음 이유로 인해 입력한 주소로 이메일이 전송되지 못했습니다:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">신뢰 키가 없습니다: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">주소가 존재하지 않습니다: %s</string>
+  <string name="set_message_password_title">메시지 암호화</string>
+  <string name="set_message_password_info_message">Proton Mail을 사용하지 않는 사용자를 위해 이 메시지를 암호화하기 위한 비밀번호를 설정하십시오.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">더 알아보기</a></string>
+  <string name="set_message_password_label">메시지 비밀번호</string>
+  <string name="set_message_password_label_repeat">비밀번호 확인</string>
+  <string name="set_message_password_label_hint">비밀번호 힌트 (선택 사항)</string>
+  <string name="set_message_password_supporting_text">4~21자로 작성해주세요</string>
+  <string name="set_message_password_supporting_error_text">비밀번호는 4자에서 21자 사이여야 합니다.</string>
+  <string name="set_message_password_supporting_text_repeat">비밀번호가 일치해야 합니다</string>
+  <string name="set_message_password_supporting_error_text_repeat">비밀번호가 일치하지 않습니다</string>
+  <string name="set_message_password_button_show">비밀번호 표시</string>
+  <string name="set_message_password_button_hide">비밀번호 숨김</string>
+  <string name="set_message_password_button_apply">비밀번호 적용</string>
+  <string name="set_message_password_button_save_changes">변경 사항 저장</string>
+  <string name="set_message_password_button_remove_password">비밀번호 제거</string>
+  <string name="respondInline">본문 포함 회신</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="other">%d명 회원</item>
+  </plurals>
+</resources>

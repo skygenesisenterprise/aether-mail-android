@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="detail_error_loading_contacts">Načítanie kontaktov zlyhalo</string>
+  <string name="detail_error_loading_conversation">Načítanie konverzácie zlyhalo</string>
+  <string name="detail_error_loading_messages">Načítanie správ zlyhalo</string>
+  <string name="error_mark_unread_failed">Označiť za neprečítané zlyhalo. Prosím skúste znova.</string>
+  <plurals name="message_count_label_text">
+    <item quantity="one">%d správa</item>
+    <item quantity="few">%d správy</item>
+    <item quantity="many">%d správ</item>
+    <item quantity="other">%d správ</item>
+  </plurals>
+  <string name="quick_reply_button_content_description">Odpovedať</string>
+  <string name="quick_reply_all_button_content_description">Odpovedať všetkým</string>
+  <string name="more_button_content_description">Viac</string>
+  <string name="subject">Predmet:</string>
+  <string name="from">Od:</string>
+  <string name="to">Komu:</string>
+  <string name="cc">Kópia:</string>
+  <string name="bcc">Skrytá kópia:</string>
+  <string name="date">Dátum:</string>
+  <plurals name="attachment">
+    <item quantity="one">%d príloha</item>
+    <item quantity="few">%d prílohy</item>
+    <item quantity="many">%d príloh</item>
+    <item quantity="other">%d príloh</item>
+  </plurals>
+  <string name="hide_details">Skryť detaily</string>
+  <string name="undisclosed_recipients">Skrytí príjemcovia</string>
+  <string name="error_mark_as_unread_failed">Operácia označenia ako neprečítaná zlyhala. Skúste to znova.</string>
+  <string name="error_star_operation_failed">Pridanie hviezdičky zlyhalo. Skúste to znova, prosím.</string>
+  <string name="error_unstar_operation_failed">Odobratie hviezdičky zlyhalo. Skúste to znova, prosím.</string>
+  <string name="error_move_to_trash_failed">Presun do koša zlyhal. Skúste to znova.</string>
+  <string name="message_moved_to_trash">Správa bola presunutá do koša</string>
+  <string name="message_moved_to_archive">Správa bola presunutá do archívu</string>
+  <string name="error_move_to_archive_failed">Presun do archívu zlyhal. Skúste to znova, prosím.</string>
+  <string name="message_moved_to_spam">Správa presunutá do spamu</string>
+  <string name="error_move_to_spam_failed">Presun do spamu zlyhal. Skúste to znova, prosím.</string>
+  <string name="message_moved_to_selected_destination">Správa presunutá do %1$s</string>
+  <string name="error_move_message_failed">Presun správy zlyhal. Skúste to znova.</string>
+  <string name="conversation_moved_to_trash">Konverzácia bola presunutá do koša</string>
+  <string name="conversation_moved_to_selected_destination">Konverzácia presunutá do %1$s</string>
+  <string name="conversation_moved_to_archive">Konverzácia bola presunutá do archívu</string>
+  <string name="conversation_moved_to_spam">Konverzácia bola presunutá do spamu</string>
+  <string name="error_move_conversation_failed">Presun správy zlyhal. Skúste to znova.</string>
+  <string name="error_loading_message">Niečo sa pokazilo, skúste to znova.</string>
+  <string name="error_offline_loading_message">Ste offline. Na zobrazenie obsahu tejto správy je potrebné internetové pripojenie.</string>
+  <string name="error_get_attachment_failed">Nepodarilo sa získať prílohu.</string>
+  <string name="error_attachment_download_in_progress">Prebiehajúce sťahovanie musí byť dokončené pred začatím nového.</string>
+  <string name="error_get_attachment_not_enough_memory">Prílohu sa nepodarilo získať pre nedostatok pamäte</string>
+  <string name="reload">Obnoviť</string>
+  <string name="error_relabel_message_failed">Nepodarilo sa zmeniť označenie správy. Skúste znovu, prosím</string>
+  <string name="error_relabel_conversation_failed">Nepodarilo sa zmeniť označenie konverzácie. Skúste znovu, prosím</string>
+  <string name="please_go_back_online_to_load_messages">Nie ste pripojení. Na načítanie správ sa znovu pripojte, prosím</string>
+  <string name="decryption_error">Dešifrovanie správy zlyhalo.</string>
+  <string name="detail_error_retrieving_message_body">Nepodarilo sa načítať správy</string>
+  <string name="message_body_error_no_webview">Pre zobrazenie obsahu tejto správy musíte mať nainštalovaný WebView.</string>
+  <!-- Banners -->
+  <string name="message_body_embedded_images_banner_text">Automatické načítanie vložených obrázkov je vypnuté. Toto je možné zmeniť v nastaveniach.</string>
+  <string name="message_body_remote_content_banner_text">Automatické načítanie vzdialeného obsahu je vypnuté. Toto je možné zmeniť v nastaveniach.</string>
+  <string name="message_body_embedded_and_remote_content_banner_text">Automatické načítanie vložených obrázkov a vzdialeného obsahu je vypnuté. Tie je možné zmeniť v nastaveniach.</string>
+  <string name="message_phishing_banner_text">Náš systém označil túto správu ako pokus o phishing. Potvrďte prosím, že ide o legitímnu správu.</string>
+  <string name="message_expiration_banner_text">Táto správa vyprší za %1$s</string>
+  <!-- External link confirmation dialog -->
+  <string name="external_link_confirmation_dialog_text">Chystáte sa opustiť aplikáciu a prejsť na:</string>
+  <string name="external_link_confirmation_dialog_do_not_ask_again">Viac sa nepýtať</string>
+  <string name="external_link_confirmation_dialog_cancel_button">Zrušiť</string>
+  <string name="external_link_confirmation_dialog_continue_button">Pokračovať</string>
+  <!-- Phishing link confirmation dialog -->
+  <string name="phishing_link_confirmation_dialog_title">Varovanie: podozrenie na falošnú webovú stránku</string>
+  <string name="phishing_link_confirmation_dialog_content_part_1">Tento odkaz vedie na webovú stránku, ktorá sa môže pokúsiť ukradnúť vaše informácie, ako sú heslá a údaje z platobnej karty.</string>
+  <string name="phishing_link_confirmation_dialog_content_part_2">V záujme vašej bezpečnosti nepokračujte.</string>
+  <string name="phishing_link_confirmation_dialog_button_go_back">Naspäť (odporúčané)</string>
+  <string name="phishing_link_confirmation_dialog_button_continue">Ignorovať varovanie a pokračovať</string>
+  <string name="message_delete_dialog_title">Odstrániť správu</string>
+  <string name="message_delete_dialog_message">Naozaj chcete natrvalo vymazať túto správu?</string>
+  <string name="message_deleted">Správa bola odstránená</string>
+  <string name="message_moved">Správa presunutá</string>
+  <string name="message_moved_to">Správa presunutá do %s</string>
+  <string name="error_delete_message_failed">Nepodarilo sa odstrániť správu</string>
+  <string name="error_delete_message_failed_wrong_folder">Správa sa nenachádza na mieste, kde ju možno vymazať</string>
+  <string name="error_delete_conversation_failed">Nepodarilo sa odstrániť konverzáciu</string>
+  <string name="error_delete_conversation_failed_wrong_folder">Konverzácia sa nenachádza na mieste, kde ju možno vymazať</string>
+  <string name="conversation_delete_dialog_title">Vymazať konverzáciu</string>
+  <string name="conversation_delete_dialog_message">Naozaj chcete natrvalo vymazať túto konverzáciu?</string>
+  <string name="conversation_deleted">Konverzácia bola zmazaná</string>
+  <string name="message_body_load_remote_content_button_text">Načítať vzdialený obsah</string>
+  <string name="message_body_load_embedded_images_button_text">Načítať vložené obrázky</string>
+  <string name="message_body_load_embedded_and_remote_content_button_text">Načítať vzdialený obsah a vložené obrázky</string>
+  <string name="message_report_phishing_dialog_title_offline">Upozornenie</string>
+  <string name="message_report_phishing_dialog_message_offline">Tieto funkcie sú dostupné iba online.</string>
+  <string name="message_report_phishing_dialog_confim_button_offline">OK</string>
+  <string name="message_report_phishing_dialog_title">Potvrdiť nahlásenie phishingu</string>
+  <string name="message_report_phishing_dialog_message">Nahlásenie tejto správy ako pokusu o phishing odošle túto správu Nám, aby sme ju mohli analyzovať a zlepšiť tým Naše filtre. To znamená, že uvidíme kompletne celý obsah tejto správy.</string>
+  <string name="message_report_phishing_dialog_confim_button">Potvrdiť</string>
+  <string name="message_report_phishing_dialog_cancel_button">Zrušiť</string>
+  <string name="open_on_protoncalendar_banner_title">Otvoriť v Proton kalendári</string>
+  <string name="open_on_protoncalendar_banner_description">Zabezpečený šifrovaný kalendár</string>
+  <string name="error_print_failed">Nepodarilo sa vytlačiť správu</string>
+  <string name="trashed_messages_banner">Táto konverzácia obsahuje vymazané správy.</string>
+  <string name="non_trashed_messages_banner">Táto konverzácia obsahuje nevymazané správy.</string>
+  <string name="show">Zobraziť</string>
+  <string name="hide">Skryť</string>
+  <string name="tooltip_customize_toolbar_title">Prispôsobiť panel nástrojov</string>
+  <string name="tooltip_customize_toolbar_message">Teraz môžete vybrať a zmeniť usporiadanie akcií na tomto paneli nástrojov.</string>
+  <string name="tooltip_customize_toolbar_cta">Prispôsobiť</string>
+</resources>

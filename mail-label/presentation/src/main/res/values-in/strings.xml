@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="label_title_inbox">Kotak masuk</string>
+  <string name="label_title_drafts">Draf</string>
+  <string name="label_title_sent">Terkirim</string>
+  <string name="label_title_starred">Dibintangi</string>
+  <string name="label_title_archive">Arsip</string>
+  <string name="label_title_spam">Spam</string>
+  <string name="label_title_trash">Sampah</string>
+  <string name="label_title_outbox">Kotak keluar</string>
+  <string name="label_title_all_mail">Semua surat</string>
+  <string name="label_title_all_drafts">Semua draf</string>
+  <string name="label_title_all_sent">Semua surat terkirim</string>
+  <string name="label_title_all_scheduled">Terjadwal</string>
+  <string name="label_title_snoozed">Ditunda</string>
+  <string name="label_title_folders">Folder</string>
+  <string name="label_title_parent_folder">Folder induk</string>
+  <string name="label_title_labels">Label</string>
+  <string name="label_title_create_folder">Buat folder</string>
+  <string name="label_title_create_label">Buat label</string>
+  <string name="label_title_label_list">Daftar label</string>
+  <string name="label_title_folder_list">Daftar folder</string>
+  <string name="label_list_no_labels_found">Tidak ada label yang ditemukan.</string>
+  <string name="label_list_create_label_placeholder_description">Buat label untuk memperkaya pengalaman email Anda.</string>
+  <string name="create_label_content_description">Buat label</string>
+  <string name="label_form_create_label">Buat label</string>
+  <string name="folder_form_create_folder">Buat folder</string>
+  <string name="label_form_edit_label">Sunting label</string>
+  <string name="folder_form_edit_folder">Sunting folder</string>
+  <string name="label_form_save">Simpan</string>
+  <string name="label_form_delete">Hapus label</string>
+  <string name="folder_form_delete">Hapus folder</string>
+  <string name="label_name_title">Nama</string>
+  <string name="add_a_label_name_hint">Tambah nama label</string>
+  <string name="add_a_folder_name_hint">Tambah nama folder</string>
+  <plurals name="input_field_max_characters_count">
+    <item quantity="other">%1d / %2d karakter</item>
+  </plurals>
+  <string name="color_picker_title">Warna</string>
+  <string name="save_label_error">Terjadi kesalahan menyimpan label, silakan coba lagi nanti</string>
+  <string name="save_folder_error">Terdapat kesalahan dalam menyimpan folder. Silakan coba lagi nanti</string>
+  <string name="label_already_exists">Label atau folder dengan nama ini sudah ada</string>
+  <string name="label_limit_reached_error">Anda memerlukan langganan Proton Mail berbayar untuk membuat lebih banyak label</string>
+  <string name="folder_limit_reached_error">Anda memerlukan langganan Proton Mail berbayar untuk membuat lebih banyak folder</string>
+  <string name="delete_label_error">Terdapar kesalahan dalam menghapus label</string>
+  <string name="input_field_clear_content_description">Hapus teks</string>
+  <string name="label_list_item_content_description">Item daftar label</string>
+  <string name="folder_list_item_content_description">Item daftar folder</string>
+  <string name="folder_list_no_folders_found">Tidak ada folder yang ditemukan.</string>
+  <string name="folder_list_create_folder_placeholder_description">Buat folder untuk memperkaya pengalaman email Anda.</string>
+  <string name="create_folder_content_description">Tambah folder</string>
+  <string name="folder_settings_content_description">Pengaturan folder</string>
+  <string name="folder_settings_title">Pengaturan</string>
+  <string name="folder_settings_done_button">Selesai</string>
+  <string name="folder_settings_folder_colors">Gunakan warna folder</string>
+  <string name="folder_settings_parent_color">Ikuti warna folder induk</string>
+  <string name="folder_list_loading_error">Terdapat kesalahan dalam memuat folder. Silakan coba lagi nanti</string>
+  <string name="folder_loading_error">Terdapat kesalahan dalam memuat folder. Silakan coba lagi nanti</string>
+  <string name="switch_on">Aktif</string>
+  <string name="switch_off">Nonaktif</string>
+  <string name="folder_form_parent">Folder induk</string>
+  <string name="folder_form_no_parent">Tidak ada</string>
+  <string name="folder_form_notifications">Notifikasi</string>
+  <string name="folder_saved">Folder disimpan</string>
+  <string name="folder_deleted">Folder dihapus</string>
+  <string name="parent_folder_none">Tidak ada</string>
+  <string name="delete_label">Hapus label?</string>
+  <string name="delete_folder">Hapus folder?</string>
+  <string name="delete_label_message">Tindakan ini tidak dapat diurungkan. Seluruh email yang memiliki label ini tidak akan dihapus dan dapat ditemukan pada folder \'Semua Surat\'.</string>
+  <string name="delete_folder_message">Tindakan ini tidak dapat diurungkan. Seluruh email yang tersimpan pada folder ini tidak akan dihapus dan dapat ditemukan pada folder \'Semua Surat\'.</string>
+</resources>

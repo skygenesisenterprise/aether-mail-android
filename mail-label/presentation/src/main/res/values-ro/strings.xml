@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="label_title_inbox">Primite</string>
+  <string name="label_title_drafts">Ciorne</string>
+  <string name="label_title_sent">Trimise</string>
+  <string name="label_title_starred">Cu stea</string>
+  <string name="label_title_archive">Arhivă</string>
+  <string name="label_title_spam">Nedorite</string>
+  <string name="label_title_trash">Gunoi</string>
+  <string name="label_title_outbox">De trimis</string>
+  <string name="label_title_all_mail">Toate mesajele</string>
+  <string name="label_title_all_drafts">Toate ciornele</string>
+  <string name="label_title_all_sent">Toate trimise</string>
+  <string name="label_title_all_scheduled">Toate programările</string>
+  <string name="label_title_snoozed">Amânat</string>
+  <string name="label_title_folders">Foldere</string>
+  <string name="label_title_parent_folder">Folder părinte</string>
+  <string name="label_title_labels">Etichete</string>
+  <string name="label_title_create_folder">Creare folder</string>
+  <string name="label_title_create_label">Creare etichetă</string>
+  <string name="label_title_label_list">Listă etichete</string>
+  <string name="label_title_folder_list">Lista foldere</string>
+  <string name="label_list_no_labels_found">Nu există etichete.</string>
+  <string name="label_list_create_label_placeholder_description">Creați o etichetă pentru a vă îmbunătăți lucrul cu mesajele.</string>
+  <string name="create_label_content_description">Creare etichetă</string>
+  <string name="label_form_create_label">Creare etichetă</string>
+  <string name="folder_form_create_folder">Creare folder</string>
+  <string name="label_form_edit_label">Editare etichetă</string>
+  <string name="folder_form_edit_folder">Editare folder</string>
+  <string name="label_form_save">Salvare</string>
+  <string name="label_form_delete">Ștergere etichetă</string>
+  <string name="folder_form_delete">Ștergere folder</string>
+  <string name="label_name_title">Nume</string>
+  <string name="add_a_label_name_hint">Adăugați un nume etichetei.</string>
+  <string name="add_a_folder_name_hint">Adăugați un nume folderului.</string>
+  <plurals name="input_field_max_characters_count">
+    <item quantity="one">%1d/%2d caracter</item>
+    <item quantity="few">%1d/%2d caractere</item>
+    <item quantity="other">%1d/%2d de caractere</item>
+  </plurals>
+  <string name="color_picker_title">Culoare</string>
+  <string name="save_label_error">Eroare la salvarea etichetei. Reîncercați mai târziu.</string>
+  <string name="save_folder_error">Eroare la salvarea folderului. Reîncercați mai târziu.</string>
+  <string name="label_already_exists">O etichetă sau folder cu acest nume există deja.</string>
+  <string name="label_limit_reached_error">Pentru a crea mai multe etichete aveți nevoie de un abonament Proton Mail cu plată.</string>
+  <string name="folder_limit_reached_error">Pentru a crea mai multe foldere aveți nevoie de un abonament Proton Mail cu plată.</string>
+  <string name="delete_label_error">Eroare ștergere etichetă.</string>
+  <string name="input_field_clear_content_description">Eliminare text</string>
+  <string name="label_list_item_content_description">Etichetă listă articole</string>
+  <string name="folder_list_item_content_description">Folder listă articole</string>
+  <string name="folder_list_no_folders_found">Nu s-au găsit foldere.</string>
+  <string name="folder_list_create_folder_placeholder_description">Creați un folder pentru a vă îmbunătăți lucrul cu mesajele.</string>
+  <string name="create_folder_content_description">Adăugare folder</string>
+  <string name="folder_settings_content_description">Setări foldere</string>
+  <string name="folder_settings_title">Setări</string>
+  <string name="folder_settings_done_button">Gata</string>
+  <string name="folder_settings_folder_colors">Folosire foldere colorate</string>
+  <string name="folder_settings_parent_color">Moștenire culoare folder părinte</string>
+  <string name="folder_list_loading_error">Eroare la încărcarea folderelor. Reîncercați mai târziu.</string>
+  <string name="folder_loading_error">Eroare la încărcarea folderului. Reîncercați mai târziu.</string>
+  <string name="switch_on">Activat</string>
+  <string name="switch_off">Dezactivat</string>
+  <string name="folder_form_parent">Folder părinte</string>
+  <string name="folder_form_no_parent">Fără</string>
+  <string name="folder_form_notifications">Notificări</string>
+  <string name="folder_saved">Folderul a fost salvat.</string>
+  <string name="folder_deleted">Folder șters</string>
+  <string name="parent_folder_none">Fără</string>
+  <string name="delete_label">Ștergeți eticheta?</string>
+  <string name="delete_folder">Ștergeți folderul?</string>
+  <string name="delete_label_message">Această acțiune nu poate fi anulată. Mesajele marcate cu această etichetă nu vor fi șterse și pot fi găsite în folderul «Toate mesajele».</string>
+  <string name="delete_folder_message">Această acțiune nu poate fi anulată. Mesajele stocate în acest folder nu vor fi șterse și pot fi găsite în folderul «Toate mesajele».</string>
+</resources>

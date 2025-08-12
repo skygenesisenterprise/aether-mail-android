@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="detail_error_loading_contacts">Kişiler yüklenemedi</string>
+  <string name="detail_error_loading_conversation">Yazışma yüklenemedi</string>
+  <string name="detail_error_loading_messages">İletiler yüklenemedi</string>
+  <string name="error_mark_unread_failed">Okunmamış olarak işaretlenemedi. Lütfen yeniden deneyin.</string>
+  <plurals name="message_count_label_text">
+    <item quantity="one">%d ileti</item>
+    <item quantity="other">%d ileti</item>
+  </plurals>
+  <string name="quick_reply_button_content_description">Yanıtla</string>
+  <string name="quick_reply_all_button_content_description">Tümünü yanıtla</string>
+  <string name="more_button_content_description">Diğer</string>
+  <string name="subject">Konu:</string>
+  <string name="from">Kimden:</string>
+  <string name="to">Kime:</string>
+  <string name="cc">Kopya:</string>
+  <string name="bcc">Gizli kopya:</string>
+  <string name="date">Tarih:</string>
+  <plurals name="attachment">
+    <item quantity="one">%d ek dosya</item>
+    <item quantity="other">%d ek dosya</item>
+  </plurals>
+  <string name="hide_details">Bilgileri gizle</string>
+  <string name="undisclosed_recipients">Gizli alıcılar</string>
+  <string name="error_mark_as_unread_failed">Okunmamış olarak işaretlenemedi. Lütfen yeniden deneyin.</string>
+  <string name="error_star_operation_failed">Yıldız eklenemedi. Lütfen yeniden deneyin.</string>
+  <string name="error_unstar_operation_failed">Yıldız kaldırılamadı. Lütfen yeniden deneyin.</string>
+  <string name="error_move_to_trash_failed">Çöpe atılamadı. Lütfen yeniden deneyin.</string>
+  <string name="message_moved_to_trash">İleti çöpe atıldı</string>
+  <string name="message_moved_to_archive">İleti arşivlendi</string>
+  <string name="error_move_to_archive_failed">Arşive taşınamadı. Lütfen yeniden deneyin.</string>
+  <string name="message_moved_to_spam">İleti İstenmeyen kutusuna taşındı</string>
+  <string name="error_move_to_spam_failed">İstenmeyen ileti kutusuna taşınamadı. Lütfen yeniden deneyin.</string>
+  <string name="message_moved_to_selected_destination">İleti %1$s klasörüne taşındı</string>
+  <string name="error_move_message_failed">İleti taşınamadı. Lütfen yeniden deneyin.</string>
+  <string name="conversation_moved_to_trash">Yazışma çöpe atıldı</string>
+  <string name="conversation_moved_to_selected_destination">Yazışma %1$s klasörüne taşındı</string>
+  <string name="conversation_moved_to_archive">Yazışma arşivlendi</string>
+  <string name="conversation_moved_to_spam">Yazışma İstenmeyen kutusuna taşındı</string>
+  <string name="error_move_conversation_failed">Yazışma taşınamadı. Lütfen yeniden deneyin.</string>
+  <string name="error_loading_message">Bir sorun çıktı. Lütfen yeniden deneyin.</string>
+  <string name="error_offline_loading_message">Çevrim dışısınız. Bu iletinin içeriğini görüntüleyebilmek için internet bağlantınız olmalı.</string>
+  <string name="error_get_attachment_failed">Ek dosya alınamadı.</string>
+  <string name="error_attachment_download_in_progress">Yeni bir indirme başlatılmadan önce süren indirme tamamlanmalıdır.</string>
+  <string name="error_get_attachment_not_enough_memory">Ek dosya yetersiz bellek nedeniyle alınamadı</string>
+  <string name="reload">Yeniden yükle</string>
+  <string name="error_relabel_message_failed">İleti yeniden etiketlenemedi. Lütfen yeniden deneyin</string>
+  <string name="error_relabel_conversation_failed">Yazışma yeniden etiketlenemedi. Lütfen yeniden deneyin</string>
+  <string name="please_go_back_online_to_load_messages">Çevrim dışısınız. İletilerin yüklenmesi için lütfen çevrim içi olun</string>
+  <string name="decryption_error">İletinin kodu çözülemedi.</string>
+  <string name="detail_error_retrieving_message_body">İletiler alınamadı</string>
+  <string name="message_body_error_no_webview">Bu iletinin içeriğini görebilmek için WebView kurulu olmalıdır.</string>
+  <!-- Banners -->
+  <string name="message_body_embedded_images_banner_text">Eklenmiş görselleri otomatik olarak yükleme seçeneği kapalı. Bu seçeneği ayarlardan değiştirebilirsiniz.</string>
+  <string name="message_body_remote_content_banner_text">Uzak görselleri otomatik olarak yükleme seçeneği kapalı. Bu seçeneği ayarlardan değiştirebilirsiniz.</string>
+  <string name="message_body_embedded_and_remote_content_banner_text">Eklenmiş ve uzak görselleri otomatik olarak yükleme seçeneği kapalı. Bu seçenekleri ayarlardan değiştirebilirsiniz.</string>
+  <string name="message_phishing_banner_text">Sistemimiz bu iletiyi bir kimlik avı girişimi olarak işaretledi. Lütfen sorunsuz olup olmadığını denetleyin.</string>
+  <string name="message_expiration_banner_text">Bu ileti %1$s içinde silinecek</string>
+  <!-- External link confirmation dialog -->
+  <string name="external_link_confirmation_dialog_text">Uygulamadan ayrılarak şuraya gitmek üzeresiniz:</string>
+  <string name="external_link_confirmation_dialog_do_not_ask_again">Bir daha sorma</string>
+  <string name="external_link_confirmation_dialog_cancel_button">İptal</string>
+  <string name="external_link_confirmation_dialog_continue_button">İlerle</string>
+  <!-- Phishing link confirmation dialog -->
+  <string name="phishing_link_confirmation_dialog_title">Uyarı: Kimlik avı girişimi şüphesi bulunan site</string>
+  <string name="phishing_link_confirmation_dialog_content_part_1">Bu bağlantı, parola ve kredi kartı gibi bilgilerinizi çalmayı deneyen bir siteye gidiyor olabilir.</string>
+  <string name="phishing_link_confirmation_dialog_content_part_2">Güvenliğiniz için daha ileri gitmeyin.</string>
+  <string name="phishing_link_confirmation_dialog_button_go_back">Geri dön (önerilir)</string>
+  <string name="phishing_link_confirmation_dialog_button_continue">Uyarıyı yok sayıp ilerle</string>
+  <string name="message_delete_dialog_title">İletiyi sil</string>
+  <string name="message_delete_dialog_message">Bu iletiyi kalıcı olarak silmek istediğinize emin misiniz?</string>
+  <string name="message_deleted">İleti silindi</string>
+  <string name="message_moved">İleti taşındı</string>
+  <string name="message_moved_to">İleti %s klasörüne taşındı</string>
+  <string name="error_delete_message_failed">İleti silinemedi</string>
+  <string name="error_delete_message_failed_wrong_folder">İleti silinebilecek bir konumda değil</string>
+  <string name="error_delete_conversation_failed">Yazışma silinemedi</string>
+  <string name="error_delete_conversation_failed_wrong_folder">Yazışma silinebilecek bir konumda değil</string>
+  <string name="conversation_delete_dialog_title">Yazışmayı sil</string>
+  <string name="conversation_delete_dialog_message">Bu yazışmayı silmek istediğinize emin misiniz?</string>
+  <string name="conversation_deleted">Yazışma silindi</string>
+  <string name="message_body_load_remote_content_button_text">Uzak içeriği yükle</string>
+  <string name="message_body_load_embedded_images_button_text">Gömülü görselleri yükle</string>
+  <string name="message_body_load_embedded_and_remote_content_button_text">Gömülü uzak içeriği yükle</string>
+  <string name="message_report_phishing_dialog_title_offline">Dikkat</string>
+  <string name="message_report_phishing_dialog_message_offline">Bu özellik yalnızca çevrim içi kullanılabilir.</string>
+  <string name="message_report_phishing_dialog_confim_button_offline">Tamam</string>
+  <string name="message_report_phishing_dialog_title">Kimlik avı girişimi bildirimini onayla</string>
+  <string name="message_report_phishing_dialog_message">Bir iletiyi kimlik avı girişimi olarak bildirdiğinizde, ileti bize gönderilir. Böylece onu inceleyebilir ve süzgeçlerimizi geliştirebiliriz. Bu durum iletinin tüm içeriğini görebileceğimiz anlamına gelir.</string>
+  <string name="message_report_phishing_dialog_confim_button">Onayla</string>
+  <string name="message_report_phishing_dialog_cancel_button">İptal</string>
+  <string name="open_on_protoncalendar_banner_title">Proton Calendar ile aç</string>
+  <string name="open_on_protoncalendar_banner_description">Güvenli şifrelenmiş takvim</string>
+  <string name="error_print_failed">İleti yazdırılamadı</string>
+  <string name="trashed_messages_banner">Bu yazışmada, çöpe atılmış iletiler var.</string>
+  <string name="non_trashed_messages_banner">Bu yazışmada çöpe atılmamış iletiler var.</string>
+  <string name="show">Görüntüle</string>
+  <string name="hide">Gizle</string>
+  <string name="tooltip_customize_toolbar_title">Araç çubuğunu özelleştir</string>
+  <string name="tooltip_customize_toolbar_message">Şimdi bu araç çubuğundaki işlemleri seçebilir ve yeniden düzenleyebilirsiniz.</string>
+  <string name="tooltip_customize_toolbar_cta">Özelleştir</string>
+</resources>

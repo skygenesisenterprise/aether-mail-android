@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Upselling -->
+  <string name="upselling_button_item_content_description">სატარიფო გეგმის განახლების ღილაკი</string>
+  <string name="upselling_close_button_content_description">დახურვის ღილაკი</string>
+  <!-- Upselling: Mailbox -->
+  <string name="upselling_mailbox_plus_description_override">მეტი საცავი და ფასიანი თვისებების მისაღებად</string>
+  <string name="upselling_mailbox_plus_title">აწევა Mail Plus-მდე</string>
+  <!-- Upselling: Mailbox Promo -->
+  <string name="upselling_mailbox_plus_promo_description_override">Limited-time offer, cancel anytime.</string>
+  <string name="upselling_mailbox_plus_promo_title">Try Mail Plus for %s</string>
+  <!-- Upselling: Contact Groups -->
+  <string name="upselling_contact_groups_plus_description_override">ადვილად გაუგზავნეთ ელფოსტა ჯგუფებს და ისიანოვნეთ სხვა ფასიანი ფუნქციებით Mail Plus-სთან ერთად.</string>
+  <string name="upselling_contact_groups_plus_title">დააჯგუფეთ თქვენი კონტაქტები</string>
+  <!-- Upselling: Labels -->
+  <string name="upselling_labels_plus_description_override">მიიღეთ ისინი და სხვა ფასიანი ფუნქციები, როცა სატარიფო გეგმას Mail Plus-მდე ასწევთ.</string>
+  <string name="upselling_labels_plus_title">გჭირდებათ მეტი ჭდე ან საქაღალდე?</string>
+  <!-- Upselling: Folders -->
+  <string name="upselling_folders_plus_description_override">მიიღეთ ისინი და სხვა ფასიანი ფუნქციები, როცა სატარიფო გეგმას Mail Plus-მდე ასწევთ.</string>
+  <string name="upselling_folders_plus_title">გჭირდებათ მეტი ჭდე ან საქაღალდე?</string>
+  <!-- Upselling: Mobile Signature -->
+  <string name="upselling_mobile_signature_plus_description_override">გამოიყენეთ თქვენი მობილური ხელმოწერა და ისიამოვნეთ სხვა ფასიანი ფუნქციებით Mail Plus-სთან ერთად.</string>
+  <string name="upselling_mobile_signature_plus_title">მოირგეთ თქვენი ხელმოწერა</string>
+  <!-- Upselling: Mobile Signature -->
+  <string name="upselling_auto_delete_plus_description_override">ისიამოვნეთ დალაგებული საფოსტო ყუთით და სხვა ფასიანი ფუნქციებით Mail Plus-თან ერთად.</string>
+  <string name="upselling_auto_delete_plus_title">გაასუფთავეთ ძველი ნაგავი და სპამი</string>
+  <!-- Drive Spotlight-->
+  <string name="drive_spotlight_title">New! Albums in Proton</string>
+  <string name="drive_spotlight_description">Organize photos in albums and securely share them with friends and family. Included free with your plan.</string>
+  <string name="drive_spotlight_description_with_gb">Organize photos in albums and securely share them with friends and family. You still have %d GB of secure cloud storage available.</string>
+  <string name="drive_spotlight_cta">Open Albums in Proton Drive</string>
+  <!-- Mail Plus -->
+  <string name="upselling_plus_feature_storage">15 გბ საცავი</string>
+  <string name="upselling_plus_feature_storage_plus_mails">15 GB storage, 10 email addresses</string>
+  <string name="upselling_plus_feature_email_addresses">10 ელფოსტის მისამართი</string>
+  <string name="upselling_plus_feature_custom_domain">თქვენი ელფოსტის დომენების მხარდაჭერა</string>
+  <string name="upselling_plus_feature_desktop_app">ახალი Proton Mal-ის კომპიუტერის აპი</string>
+  <string name="upselling_plus_feature_calendar">Premium calendar features</string>
+  <string name="upselling_plus_feature_folders_labels">ულიმიტო საქაღალდეები, ჭდეები და ფილტრები</string>
+  <string name="upselling_plus_feature_plus_7_features">+7 ფასიანი ფუნქცია</string>
+  <!-- Unlimited -->
+  <string name="upselling_unlimited_description_override">თქვენი უნივერსალური გამოწერა</string>
+  <string name="upselling_unlimited_feature_storage">500 გბ საცავი სურათების მარქაფით</string>
+  <string name="upselling_unlimited_feature_mail_calendar">ყველა ფასიანი Mail-ის და Calendar-ის ფუნქცია</string>
+  <string name="upselling_unlimited_feature_vpn">VPN (90+ ქვეყანა)</string>
+  <string name="upselling_unlimited_feature_drive">დაცული ღრუბლოვანი საცავი</string>
+  <string name="upselling_unlimited_feature_pass">დაშიფრული პაროლების მმართველი</string>
+  <!-- Onboarding Upselling -->
+  <string name="upselling_onboarding_premium_value_included">ფასიანი ფუნქციების ჩათვლით</string>
+  <string name="upselling_onboarding_feature_e2e">გამჭოლი დაშიფვრა</string>
+  <string name="upselling_onboarding_feature_folders_labels">შეუზღუდავი საქაღალდეები და ჭდეები</string>
+  <string name="upselling_onboarding_free_feature_storage">1 გბ საცავი და 1 ელფოსტის მისამართი</string>
+  <string name="upselling_onboarding_plus_feature_storage">15 გბ საცავი</string>
+  <string name="upselling_onboarding_plus_feature_email_addresses">10 დამატებითი ელფოსტის მისამართი თქვენთვის</string>
+  <string name="upselling_onboarding_plus_feature_email_domains">1 მომხმარებლის დომენის მხარდაჭერა</string>
+  <string name="upselling_onboarding_plus_feature_aliases">10 hide-my-email-ის მეტსახელი</string>
+  <string name="upselling_onboarding_plus_feature_customer_support">მომხმარებლის პრიორიტეტული მხარდაჭერა</string>
+  <string name="upselling_onboarding_unlimited_feature_storage">500 გბ საცავი</string>
+  <string name="upselling_onboarding_unlimited_feature_email_addresses">15 დამატებითი ელფოსტის მისამართი თქვენთვის</string>
+  <string name="upselling_onboarding_unlimited_feature_email_domains">3 მომხმარებლის დომენის მხარდაჭერა</string>
+  <string name="upselling_onboarding_unlimited_feature_aliases">შეუზღუდავი hide-my-email-ის მეტსახელები</string>
+  <string name="upselling_onboarding_unlimited_feature_customer_support">უღრმესი მომხმარებლის მხარდაჭერა</string>
+  <string name="upselling_onboarding_unlimited_feature_vpn">სუპერ სწრაფი და პირადი VPN</string>
+  <string name="upselling_onboarding_unlimited_feature_pass">დაშიფრული პაროლების მმართველი</string>
+  <string name="upselling_onboarding_unlimited_feature_drive">დაშიფრული ღრუბლოვანი საცავი ფოტოებისა და დოკუმენტებისთვის</string>
+  <string name="upselling_onboarding_unlimited_feature_sentinel">დამატებითი ანგარიშის დაცვის პროგრამა</string>
+  <!-- NPS feedback-->
+  <string name="nps_feedback_title">Feedback</string>
+  <string name="nps_feedback_headline">How likely are you to recommend Proton Mail to a friend or colleague?</string>
+  <string name="nps_cta">Share anonymously</string>
+  <string name="nps_label_left">0 is very unlikely</string>
+  <string name="nps_label_right">10 is very likely</string>
+  <string name="nps_optional">Optional</string>
+  <string name="nps_why_description">Please let us know why you gave that rating</string>
+  <string name="nps_success">Thanks for your feedback! It helps us make Proton Mail even better ❤️</string>
+  <!-- Comparison Table -->
+  <string name="upselling_comparison_table_storage">საცავი</string>
+  <string name="upselling_comparison_table_email_addresses">ელფოსტის მისამართები</string>
+  <string name="upselling_comparison_table_custom_email_domain">თქვენი ელფოსტის დომენი</string>
+  <string name="upselling_comparison_table_desktop_app">წვდომა კომპიუტერის აპთან</string>
+  <string name="upselling_comparison_table_unlimited_folders_labels">შეუზღუდავი საქაღალდეები და ჭდეები</string>
+  <string name="upselling_comparison_table_priority_support">მომხმარებლის პრიორიტეტული მხარდაჭერა</string>
+  <!-- Rectangular plan buttons -->
+  <string name="upselling_select_plan">აირჩიეთ ტარიფი</string>
+  <string name="upselling_select_plan_year">1 წელი</string>
+  <string name="upselling_select_plan_month">1 თვე</string>
+  <!-- Other UI Items -->
+  <string name="upselling_auto_renew_text">ავტომატურად განახლდება იგივე ფასით და პირობებით, თუ არ გააუქმებთ.</string>
+  <string name="upselling_auto_renew_text_promo">რეგისტრაციის საჩუქარი. ავტოგანახლების თარიღია %s %s%s, თუ არ გააუქმებთ.</string>
+  <string name="upselling_auto_renew_text_promo_short">Welcome offer. Auto-renews at %s %s%s.</string>
+  <string name="upselling_auto_renew_text_standard">ავტოგანახლების თარირია %s %s%s, თუ არ გააუქმებთ</string>
+  <string name="upselling_social_proof_reviews">3,500+ REVIEWS</string>
+  <string name="upselling_description_social_proof">Loved by over <b>1+ million paid subscribers.</b></string>
+  <string name="upselling_description_social_proof_second">Upgrade your productivity today.</string>
+  <string name="upselling_discount_tag">დაზოგეთ %s%%</string>
+  <string name="upselling_month">/თვე</string>
+  <string name="upselling_year">/წელიწადში</string>
+  <string name="upselling_get_button">%s-ის მიღება</string>
+  <string name="upselling_get_button_promotional">Get 1 month for %s %s</string>
+  <plurals name="upselling_month">
+    <item quantity="one">%d თვე</item>
+    <item quantity="other">%d თვე</item>
+  </plurals>
+  <!-- Errors -->
+  <string name="upselling_unable_retrieve_options">გაუმჯობესების პარამეტრების მიღება შეუძლებელია</string>
+  <string name="upselling_snackbar_error_no_user_id">ნაპოვნია შეცდომა.</string>
+  <string name="upselling_snackbar_error_no_subscriptions">გამოწერების გამოთხოვნა შეუძლებელია</string>
+  <!-- Snackbar texts -->
+  <string name="upselling_snackbar_upgrade_in_progress">მიმდინარეობს სატარიფო გეგმის აწევა…</string>
+  <string name="upselling_snackbar_upgrade_error_generic">შეცდომა თქვენი გამოწერის განახლებისას.</string>
+  <string name="upselling_snackbar_upgrade_error_recoverable">მოხდა შეცდომა. სცადეთ კიდევ ერთხელ.</string>
+  <!-- Upselling: Onboarding -->
+  <string name="upselling_onboarding_title">აირჩიეთ სატარიფო გეგმა</string>
+  <string name="upselling_onboarding_switcher_monthly">თვეში ერთხელ</string>
+  <string name="upselling_onboarding_switcher_annual">წელიწადში ერთხელ</string>
+  <string name="upselling_onboarding_best_value">საუკეთესო მნიშვნელობა</string>
+  <string name="upselling_onboarding_month">/თვეში</string>
+  <string name="upselling_onboarding_year">/წელიწადში</string>
+  <plurals name="upselling_onboarding_more_features">
+    <item quantity="one">%d მეტი ფუნქცია</item>
+    <item quantity="other">%d მეტი ფუნქცია</item>
+  </plurals>
+  <string name="upselling_onboarding_get_plan">მიიღეთ %s</string>
+  <string name="upselling_onboarding_continue_with_proton_free">გაგრძელება Proton Free-ით</string>
+  <string name="upselling_onboarding_save_label">დაზოგეთ %s%%</string>
+  <!-- Post subscription -->
+  <string name="post_subscription_close_button_content_description">დახურვა</string>
+  <string name="post_subscription_continue_button">გაგრძელება</string>
+  <string name="post_subscription_got_it_button">გავიგე</string>
+  <string name="post_subscription_welcome_page_title">მოგესალმებათ Mail Plus</string>
+  <string name="post_subscription_welcome_page_message">მადლობა მხარდაჭერისთვის, რომ გვეხმარებით, ინტერნეტი ყველასთვის უსაფრთხო და კონფიდენციალური იყოს.</string>
+  <string name="post_subscription_welcome_page_unlocked">თქვენ განბლოკეთ</string>
+  <string name="post_subscription_plus_feature_storage">15 გბ საცავი</string>
+  <string name="post_subscription_plus_feature_email_addresses">10 დამატებითი ელფოსტის მისამართი</string>
+  <string name="post_subscription_plus_feature_email_domains">1 ხელით მითითებული დომენის მხარდაჭერა</string>
+  <string name="post_subscription_plus_feature_folders_labels">შეუზღუდავი საქაღალდეები და ჭდეები</string>
+  <string name="post_subscription_plus_feature_aliases">10 hide-my-email-ის ფსევდონიმი</string>
+  <string name="post_subscription_plus_feature_desktop_app">ახალი Proton Mal-ის კომპიუტერის აპი</string>
+  <string name="post_subscription_plus_feature_customer_support">მომხმარებლის პრიორიტეტული მხარდაჭერა</string>
+  <string name="post_subscription_discover_apps_page_title">აღმოაჩინეთ აპები</string>
+  <string name="post_subscription_proton_calendar">Proton Calendar</string>
+  <string name="post_subscription_proton_calendar_message">თქვენ განბლოკეთ კალენდრის გაზიარება და 8x-ჯერ მეტი კალენდარი.</string>
+  <string name="post_subscription_proton_drive">Proton Drive</string>
+  <string name="post_subscription_proton_drive_message">თქვენმა ახალმა გამოწერამ თქვენი აცავი 15 გბ-მდე ასწია.</string>
+  <string name="post_subscription_proton_vpn">Proton VPN</string>
+  <string name="post_subscription_proton_vpn_message">საკეთესო VPN სიჩქარისა და უსაფრთხოებისთვის.</string>
+  <string name="post_subscription_proton_pass">Proton Pass</string>
+  <string name="post_subscription_proton_pass_message">უსაფრთხო პაროლების საცავი და იოლად შესვლა თქვენს ანგარიშებში.</string>
+  <string name="post_subscription_button_installed">დაყენებულია</string>
+  <string name="post_subscription_button_get_the_app">გადმოიწერეთ აპი</string>
+</resources>

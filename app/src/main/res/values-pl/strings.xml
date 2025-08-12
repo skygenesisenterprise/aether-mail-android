@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="dialog_sign_out_account_title">Wyloguj</string>
+  <string name="dialog_sign_out_account_description">Czy na pewno chcesz się wylogować?</string>
+  <string name="dialog_sign_out_account_confirm">Tak</string>
+  <string name="dialog_sign_out_account_cancel">Nie</string>
+  <string name="dialog_remove_account_title">Usuń konto</string>
+  <string name="dialog_remove_account_description">Zostaniesz wylogowany i wszystkie dane powiązane z tym kontem zostaną usunięte.</string>
+  <string name="dialog_remove_account_confirm">Usuń</string>
+  <string name="dialog_remove_account_cancel">Anuluj</string>
+  <string name="user_select_other_account_content_description">Wybierz inne konto</string>
+  <string name="you_are_offline">Jesteś w trybie offline</string>
+  <string name="feature_coming_soon">Funkcja dostępna wkrótce…</string>
+  <string name="mailbox_draft_saved">Szkic został zapisany</string>
+  <string name="mailbox_draft_discard">Odrzuć</string>
+  <string name="mailbox_message_sending">Wysyłanie wiadomości…</string>
+  <string name="mailbox_message_sending_offline">Brak połączenia z siecią. Wiadomość została dodana do kolejki wysyłania</string>
+  <string name="mailbox_message_sending_success">Wiadomość została wysłana</string>
+  <string name="mailbox_message_sending_error">Wystąpił błąd podczas wysyłania wiadomości</string>
+  <string name="mailbox_message_sending_error_address_disabled">Adres jest wyłączony. Wysyłanie nie powiodło się</string>
+  <string name="mailbox_message_sending_error_action">Przejdź do Szkiców</string>
+  <string name="mailbox_attachment_uploading_error">Wystąpił błąd podczas przesyłania załącznika</string>
+  <string name="notification_switched_account">Przełączono na konto %s</string>
+  <string name="label_saved">Etykieta została zapisana</string>
+  <string name="label_deleted">Etykieta została usunięta</string>
+  <string name="label_list_loading_error">Wystąpił błąd podczas ładowania etykiety. Spróbuj ponownie później</string>
+  <string name="app_locked">Aplikacja jest zablokowana</string>
+  <string name="use_pin_instead">Użyj kodu PIN</string>
+</resources>

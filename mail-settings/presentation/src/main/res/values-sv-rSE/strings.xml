@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="mail_settings_settings">Inställningar</string>
+  <string name="mail_settings_toolbar_button_content_description">Tillbaka</string>
+  <!-- Settings items -->
+  <string name="mail_settings_account_settings">Kontoinställningar</string>
+  <string name="mail_settings_app_settings">Appinställningar</string>
+  <string name="mail_settings_theme">Tema</string>
+  <string name="mail_settings_push_notifications">Notifikationer</string>
+  <string name="mail_settings_auto_lock">Autolås</string>
+  <string name="mail_settings_alternative_routing">Alternativ routing</string>
+  <string name="mail_settings_app_language">Appspråk</string>
+  <string name="mail_settings_combined_contacts">Kombinerade kontakter</string>
+  <string name="mail_settings_local_cache">Lokal cache</string>
+  <string name="mail_settings_local_cache_clear_button">Rensa data</string>
+  <string name="mail_settings_swipe_actions">Svepåtgärder</string>
+  <string name="mail_settings_combined_contacts_hint">Aktivera denna funktion för att automatiskt slutföra e-postadresser med hjälp av kontakter från alla dina inloggade konton.</string>
+  <string name="mail_settings_alternative_routing_hint">Om Proton-webbplatser blockeras tillåter denna inställning att appen försöker med alternativ nätverksdirigering för att nå Proton, vilket kan vara användbart för att kringgå brandväggar eller nätverksproblem. Vi rekommenderar att du behåller denna inställning aktiverad för större tillförlitlighet.</string>
+  <!-- Theme settings -->
+  <string name="mail_settings_system_default">Systemstandard</string>
+  <string name="mail_settings_theme_light">Ljus</string>
+  <string name="mail_settings_theme_dark">Mörk</string>
+  <!-- Settings item states -->
+  <string name="mail_settings_no_information_available">Ingen information tillgänglig</string>
+  <string name="mail_settings_enabled">Aktiverat</string>
+  <string name="mail_settings_disabled">Inaktiverat</string>
+  <string name="mail_settings_allowed">Tillåtet</string>
+  <string name="mail_settings_denied">Nekad</string>
+  <string name="mail_settings_auto_detect">Automatisk upptäckt</string>
+  <string name="mail_settings_customize_toolbar">Anpassa verktygsfält</string>
+  <string name="mail_settings_app_information">Appinformation</string>
+  <string name="mail_settings_app_version">Appversion</string>
+  <string name="mail_settings_app_logs">Applikationsloggar</string>
+  <string name="mail_settings_account">Konto</string>
+  <!-- Account Settings items -->
+  <string name="mail_settings_subscription">Prenumeration</string>
+  <string name="mail_settings_password_management">Ändra lösenord</string>
+  <string name="mail_settings_recovery_email">E-post för återställning</string>
+  <string name="mail_settings_mailbox_size">Brevlådestorlek</string>
+  <string name="mail_settings_addresses">Adresser</string>
+  <string name="mail_settings_default_email_address">Standard e-postadress</string>
+  <string name="mail_settings_display_name_and_signature">Visningsnamn och signatur</string>
+  <string name="mail_settings_mailbox">Brevlåda</string>
+  <string name="mail_settings_privacy">Integritet</string>
+  <string name="mail_settings_labels">Etiketter</string>
+  <string name="mail_settings_folders">Mappar</string>
+  <string name="mail_settings_conversation_mode">Konversationsläge</string>
+  <string name="mail_settings_auto_delete">Ta bort automatiskt</string>
+  <string name="mail_settings_auto_delete_full_text">Ta bort oönskade meddelanden automatiskt</string>
+  <string name="mail_settings_auto_delete_hint">Meddelanden som varit i papperskorgen eller skräpposten i mer än 30 dagar kommer att tas bort automatiskt.</string>
+  <string name="mail_settings_auto_delete_subscription_needed">Du behöver en betald Proton Mail-prenumeration för att använda denna funktion</string>
+  <string name="mail_settings_auto_delete_dialog_button_cancel">Avbryt</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_title">Ta bort meddelanden?</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_text">Detta kommer ta bort alla meddelanden som varit i papperskorgen eller skräpposten i mer än 30 dagar, inklusive meddelanden som för närvarande finns i dessa mappar.</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_button_confirm">Aktivera</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_title">Vill du inaktivera automatisk borttagning?</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_text">E-postmeddelanden som schemalagts för borttagning kommer finnas kvar i papperskorgs- och skräppostmapparna.</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_button_confirm">Inaktivera</string>
+  <string name="mail_settings_not_set">Inte inställd</string>
+  <string name="mail_settings_conversation_mode_hint">Gruppera e-postmeddelanden i samma konversation tillsammans i din inkorg eller visa dem separat</string>
+  <!-- Default email address settings -->
+  <string name="mail_settings_default_email_address_title">Standard e-postadress</string>
+  <string name="mail_settings_default_email_address_inactive_addresses">Inaktiva adresser</string>
+  <string name="mail_settings_default_email_address_no_inactive_addresses">Inga inaktiva adresser</string>
+  <string name="mail_settings_default_email_address_error_loading">Fel vid laddning av inställningar</string>
+  <string name="mail_settings_default_email_address_error_update">Fel vid uppdatering av inställningar</string>
+  <string name="mail_settings_default_email_address_error_update_subscription">Du behöver en betald Proton Mail-prenumeration för att ställa in denna adress som standard</string>
+  <!-- Display name, signature, mobile footer -->
+  <string name="mail_settings_identity_title">Visningsnamn &amp; signatur</string>
+  <string name="mail_settings_identity_save_button">Spara</string>
+  <string name="mail_settings_identity_display_name">Visningsnamn</string>
+  <string name="mail_settings_identity_display_name_hint">Visningsnamn</string>
+  <string name="mail_settings_identity_signature">Signatur</string>
+  <string name="mail_settings_identity_signature_hint">Signatur</string>
+  <string name="mail_settings_identity_mobile_footer">Mobilsignatur</string>
+  <string name="mail_settings_identity_mobile_footer_subtext">Detta läggs till efter din signatur.</string>
+  <string name="mail_settings_identity_mobile_footer_hint">Mobilsignatur</string>
+  <string name="mail_settings_identity_mobile_footer_default_free">Skickat från Proton Mail Android</string>
+  <string name="mail_settings_identity_error_updating">Fel vid uppdatering av inställningar</string>
+  <string name="mail_settings_identity_error_loading">Fel vid laddning av inställningar</string>
+  <!-- Privacy settings -->
+  <string name="mail_settings_privacy_auto_show_remote_content">Visa fjärrinnehåll automatiskt</string>
+  <string name="mail_settings_privacy_auto_show_embedded_images">Visa inbäddade bilder automatiskt</string>
+  <string name="mail_settings_privacy_prevent_taking_screenshots">Förhindra tagning av skärmdumpar</string>
+  <string name="mail_settings_privacy_request_link_confirmation">Begär länkbekräftelse</string>
+  <string name="mail_settings_privacy_background_sync">Bakgrundssynkronisering</string>
+  <string name="mail_settings_privacy_background_sync_description">Om det här alternativet är aktiverat synkroniseras appen med servern i bakgrunden. Om du inaktiverar den här funktionen inaktiveras även notifikationer.</string>
+  <string name="mail_settings_privacy_error_updating">Fel vid uppdatering av inställningar</string>
+  <string name="mail_settings_privacy_error_loading">Fel vid laddning av inställningar</string>
+  <!-- Swipe Actions -->
+  <string name="mail_settings_swipe_actions_title">Svepåtgärder</string>
+  <string name="mail_settings_swipe_actions_subtitle">Ställ in svepgester för att komma åt de mest använda åtgärderna.</string>
+  <string name="mail_settings_swipe_right_name">Vänster till höger</string>
+  <string name="mail_settings_swipe_left_name">Höger till vänster</string>
+  <string name="mail_settings_swipe_action_none_title">Inte inställt</string>
+  <string name="mail_settings_swipe_action_archive_title">Arkiv</string>
+  <string name="mail_settings_swipe_action_read_title">Oläst</string>
+  <string name="mail_settings_swipe_action_spam_title">Skräppost</string>
+  <string name="mail_settings_swipe_action_star_title">Stjärnmärk</string>
+  <string name="mail_settings_swipe_action_trash_title">Papperskorg</string>
+  <string name="mail_settings_swipe_action_label_as_title">Märk som…</string>
+  <string name="mail_settings_swipe_action_move_to_title">Flytta till…</string>
+  <string name="mail_settings_swipe_action_none_description">Ingen</string>
+  <string name="mail_settings_swipe_action_archive_description">Flytta till arkiv</string>
+  <string name="mail_settings_swipe_action_read_description">Markera som oläst/läst</string>
+  <string name="mail_settings_swipe_action_spam_description">Flytta till skräppost</string>
+  <string name="mail_settings_swipe_action_star_description">Stjärnmärk/ta bort stjärnmärking</string>
+  <string name="mail_settings_swipe_action_trash_description">Flytta till papperskorgen</string>
+  <string name="mail_settings_swipe_action_label_as_description">Märk som…</string>
+  <string name="mail_settings_swipe_action_move_to_description">Flytta till…</string>
+  <!-- Notification settings -->
+  <string name="mail_settings_notifications_title">Notifikationer</string>
+  <string name="mail_settings_notifications_extended_notifications_title">Utökade aviseringar</string>
+  <string name="mail_settings_notifications_extended_notifications_summary">Aktivera funktionen för att se e-postens avsändare i notifikationerna.</string>
+  <string name="mail_settings_notifications_notifications_settings">Aviseringsinställningar</string>
+  <string name="mail_settings_notifications_notifications_settings_hint">Navigera till systemets aviseringsinställningar</string>
+  <string name="mail_settings_notifications_update_error">Fel vid uppdatering av inställningar</string>
+  <string name="mail_settings_notifications_loading_error">Fel vid laddning av inställningar</string>
+  <!-- Auto lock -->
+  <string name="mail_settings_auto_lock_title">Autolås</string>
+  <string name="mail_settings_auto_lock_item_title">Autolås app</string>
+  <string name="mail_settings_auto_lock_item_description">Slå på denna funktion för att automatiskt låsa din app och använd en PIN-kod för att låsa upp den.</string>
+  <string name="mail_settings_auto_lock_change_pin_description">Ändra PIN-kod</string>
+  <string name="mail_settings_auto_lock_item_timer_title">Autolåstimer</string>
+  <string name="mail_settings_auto_lock_immediately">Omedelbart</string>
+  <string name="mail_settings_auto_lock_item_timer_description_five_minutes">5 minuters inaktivitet</string>
+  <string name="mail_settings_auto_lock_item_timer_description_fifteen_minutes">15 minuters inaktivitet</string>
+  <string name="mail_settings_auto_lock_item_timer_description_one_hour">1 timmes inaktivitet</string>
+  <string name="mail_settings_auto_lock_item_timer_description_one_day">1 dags inaktivitet</string>
+  <string name="mail_settings_auto_lock_update_error">Fel vid uppdatering av inställningar</string>
+  <string name="mail_settings_pin_insertion_input_title">Infoga PIN-kod</string>
+  <string name="mail_settings_pin_insertion_set_title">Välj PIN-kod</string>
+  <string name="mail_settings_pin_insertion_confirm_title">Bekräfta PIN-kod</string>
+  <string name="mail_settings_pin_insertion_lock_icon_description">Låsikon</string>
+  <string name="mail_settings_pin_insertion_pin_dot_description">Fästpunkt</string>
+  <string name="mail_settings_pin_insertion_backspace_description">Backsteg</string>
+  <string name="mail_settings_pin_insertion_biometric_description">Biometrisk autentisering</string>
+  <string name="mail_settings_pin_insertion_button_create">Skapa</string>
+  <string name="mail_settings_pin_insertion_button_confirm">Bekräfta</string>
+  <string name="mail_settings_pin_insertion_error_no_match">PIN-koder matchar inte.</string>
+  <plurals name="mail_settings_pin_insertion_error_wrong_code">
+    <item quantity="one">%s återstående försök.</item>
+    <item quantity="other">%s återstående försök.</item>
+  </plurals>
+  <plurals name="mail_settings_pin_insertion_error_wrong_code_ultimatum">
+    <item quantity="one">%s försök kvar innan data raderas av säkerhetsskäl</item>
+    <item quantity="other">%s försök kvar innan data raderas av säkerhetsskäl</item>
+  </plurals>
+  <string name="mail_settings_pin_insertion_error_unknown">Ett fel uppstod vid verifieringen av din PIN-kod.</string>
+  <string name="mail_settings_pin_insertion_signout_text">Logga ut</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_title">Logga ut</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_description">Är du säker på att du vill logga ut?</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_confirm">Ja</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_cancel">Nej</string>
+  <string name="mail_settings_pin_insertion_created_success">PIN-kod skapad.</string>
+  <string name="mail_settings_pin_insertion_changed_success">PIN-kod ändrad.</string>
+  <!-- Local storage -->
+  <string name="mail_settings_clearing_cached_data">Rensar lokal cachad data…</string>
+  <!-- Error messages -->
+  <string name="mail_settings_generic_error_message">Ett fel uppstod. Försök igen.</string>
+  <!-- strings used for biometric enrollment -->
+  <string name="no_biometric_data_enrolled">Inga biometriska data registrerade</string>
+  <string name="log_in_using_biometric_credential">Lås upp med dina biometriska uppgifter</string>
+  <string name="unlock_using_biometrics">Lås upp med biometri</string>
+  <string name="biometric_error_hw_not_available">Biometrisk hårdvara inte tillgänglig.</string>
+  <!-- customize toolbar-->
+  <string name="customize_toolbar_disclaimer_message">Detta verktygsfält är synligt när du läser ett meddelande.</string>
+  <string name="customize_toolbar_disclaimer_conversation">Detta verktygsfält är synligt när du läser en konversation.</string>
+  <string name="customize_toolbar_disclaimer_inbox">Detta verktygsfält visas när du väljer flera meddelanden i din brevlåda.</string>
+  <string name="customize_toolbar_disclaimer_mailbox">Detta verktygsfält visas när du väljer flera meddelanden i din brevlåda.</string>
+  <string name="customize_toolbar_disclaimer_mailbox_conversations">Detta verktygsfält visas när du väljer flera konversationer i din brevlåda.</string>
+  <string name="customize_toolbar_message">Meddelande</string>
+  <string name="customize_toolbar_conversation">Konversation</string>
+  <string name="customize_toolbar_inbox">Inkorg</string>
+  <string name="customize_toolbar_mailbox">Brevlåda</string>
+  <string name="customize_toolbar_done_action">Klar</string>
+  <string name="customize_toolbar_reset_to_default">Återställ till standard</string>
+  <string name="customize_toolbar_reset_to_default_btn">Återställ till standard</string>
+  <string name="customize_toolbar_actions_section">Verktygsfältsåtgärder (välj upp till 5)</string>
+  <string name="customize_toolbar_available_actions_section">Tillgängliga åtgärder</string>
+  <string name="customize_toolbar_reset_default_confirmation_title">Återställ till standard?</string>
+  <string name="customize_toolbar_reset_default_confirmation_desc">Åtgärderna i verktygsfältet kommer att återställas till standard.</string>
+  <string name="customize_toolbar_reset_default_confirm">Bekräfta</string>
+</resources>

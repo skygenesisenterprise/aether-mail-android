@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="dialog_sign_out_account_title">로그아웃</string>
+  <string name="dialog_sign_out_account_description">정말로 로그아웃하시겠습니까?</string>
+  <string name="dialog_sign_out_account_confirm">예</string>
+  <string name="dialog_sign_out_account_cancel">아니오</string>
+  <string name="dialog_remove_account_title">계정 삭제</string>
+  <string name="dialog_remove_account_description">계정에서 로그아웃되며 계정과 관련된 모든 데이터가 삭제됩니다.</string>
+  <string name="dialog_remove_account_confirm">제거</string>
+  <string name="dialog_remove_account_cancel">취소</string>
+  <string name="user_select_other_account_content_description">다른 계정 선택</string>
+  <string name="you_are_offline">연결되지 않음</string>
+  <string name="feature_coming_soon">곧 출시될 기능입니다…</string>
+  <string name="mailbox_draft_saved">임시 저장됨</string>
+  <string name="mailbox_draft_discard">저장 안 함</string>
+  <string name="mailbox_message_sending">메시지를 보내는중…</string>
+  <string name="mailbox_message_sending_offline">오프라인, 메시지 전송 대기중</string>
+  <string name="mailbox_message_sending_success">메시지 보냄</string>
+  <string name="mailbox_message_sending_error">메시지 전송 오류</string>
+  <string name="mailbox_message_sending_error_address_disabled">비활성화 주소이므로 전송에 실패했습니다</string>
+  <string name="mailbox_message_sending_error_action">임시 보관함으로 이동하기</string>
+  <string name="mailbox_attachment_uploading_error">첨부 파일 업로드 중 오류</string>
+  <string name="notification_switched_account">\'%s\' 계정으로 전환됨</string>
+  <string name="label_saved">라벨을 저장했습니다.</string>
+  <string name="label_deleted">라벨을 삭제했습니다.</string>
+  <string name="label_list_loading_error">라벨 로드 중 오류 발생, 다시 시도하십시오.</string>
+  <string name="app_locked">앱 잠김</string>
+  <string name="use_pin_instead">대신 PIN 사용하기</string>
+</resources>

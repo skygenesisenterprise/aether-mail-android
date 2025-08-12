@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <plurals name="attachment_count_label">
+    <item quantity="one">%d файл</item>
+    <item quantity="few">%d файлы</item>
+    <item quantity="many">%d файлаў</item>
+    <item quantity="other">%d файлаў</item>
+  </plurals>
+  <string name="attachment_show_more_label">+яшчэ %1$d</string>
+  <string name="attachment_permission_dialog_title">Патрабуецца дазвол</string>
+  <string name="attachment_permission_dialog_message">Proton Mail неабходны дазвол доступу да вашага сховішча, каб спампаваць далучэнне.</string>
+  <string name="attachment_permission_dialog_dismiss_button">OK</string>
+  <string name="attachment_permission_dialog_action_button">Налады</string>
+  <string name="attachment_type_description">Тып файла: %1$s</string>
+  <!-- Attachment Types -->
+  <string name="attachment_type_archive">з архівам</string>
+  <string name="attachment_type_image">Відарыс</string>
+  <string name="attachment_type_video">з відэа</string>
+  <string name="attachment_type_audio">з аўдыя</string>
+  <string name="attachment_type_unknown">Невядома</string>
+  <string name="attachment_type_pdf">PDF</string>
+  <string name="attachment_type_text">з тэкстам</string>
+  <string name="attachment_type_document">з дакументам</string>
+  <string name="attachment_type_spreadsheet">з электроннай табліцай</string>
+  <string name="attachment_type_presentation">з прэзентацыяй</string>
+  <!-- Bottom Sheet -->
+  <string name="bottom_sheet_move_to_title">Перамясціць у...</string>
+  <string name="bottom_sheet_done_action">Гатова</string>
+  <string name="bottom_sheet_archive_action">Таксама архіваваць?</string>
+  <string name="bottom_sheet_label_as_title">Пазначыць як...</string>
+  <string name="bottom_sheet_more_header_message_from">Паведамленне ад %s</string>
+  <!-- Message body link actions -->
+  <string name="message_link_long_click_copy">Скапіяваць спасылку</string>
+  <string name="message_link_long_click_copy_description">Тэкст скапіяваны з Proton Mail</string>
+  <string name="message_link_long_click_share">Абагуліць спасылку</string>
+  <string name="message_link_long_click_share_via">Абагуліць спасылку праз</string>
+  <!-- Contact Actions Bottom Sheet -->
+  <string name="contact_actions_copy_address">Скапіяваць адрас</string>
+  <string name="contact_actions_copy_address_description">Скапіяваць адрас кантакту</string>
+  <string name="contact_actions_copy_address_performed">Адрас скапіяваны ў буфер абмену</string>
+  <string name="contact_actions_copy_name">Скапіяваць імя</string>
+  <string name="contact_actions_copy_name_description">Скапіяваць імя кантакту</string>
+  <string name="contact_actions_copy_name_performed">Імя скапіявана ў буфер абмену</string>
+  <string name="contact_actions_new_message">Новае паведамленне</string>
+  <string name="contact_actions_new_message_description">Пачаць напісанне новага паведамлення для гэтага кантакту</string>
+  <string name="contact_actions_add_contact">Дадаць кантакт</string>
+  <string name="contact_actions_add_contact_description">Захаваць гэтага атрымальніка як кантакт</string>
+  <string name="contact_actions_view_contact_details">Паглядзець кантактныя звесткі</string>
+  <string name="contact_actions_view_contact_details_description">Паглядзець падрабязнасці кантакту</string>
+  <!-- Device Contacts permission dialog -->
+  <string name="device_contacts_permission_dialog_title">Патрабуецца дазвол</string>
+  <string name="device_contacts_permission_dialog_message">Proton Mail неабходны дазвол на чытанне вашых кантактаў, каб прапаноўваць атрымальнікаў.</string>
+  <string name="device_contacts_permission_dialog_dismiss_button">OK</string>
+  <string name="device_contacts_permission_dialog_action_button">Запытаць дазвол</string>
+  <string name="device_contacts_permission_dialog_action_button_deny">Забараніць</string>
+  <!-- View entire message button -->
+  <string name="button_view_entire_message">Паглядзець паведамленне поўнасцю</string>
+</resources>

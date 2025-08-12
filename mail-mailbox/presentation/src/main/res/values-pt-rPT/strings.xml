@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="mailbox_toolbar_compose_button_content_description">Compor nova mensagem</string>
+  <string name="mailbox_toolbar_exit_selection_mode_button_content_description">Sair do modo de seleção</string>
+  <string name="mailbox_toolbar_menu_button_content_description">Menu</string>
+  <string name="mailbox_toolbar_search_button_content_description">Pesquisar</string>
+  <string name="mailbox_toolbar_exit_search_mode_content_description">Sair do modo de pesquisa</string>
+  <string name="mailbox_toolbar_searchview_clear_search_query_content_description">Limpar pesquisa</string>
+  <string name="mailbox_toolbar_searchview_query_text_field_content_description">Inserir termo a pesquisar</string>
+  <plurals name="mailbox_toolbar_selected_count">
+    <item quantity="one">%d selecionado</item>
+    <item quantity="other">%d selecionado</item>
+  </plurals>
+  <plurals name="filter_unread_button_text">
+    <item quantity="one">%s não lido</item>
+    <item quantity="other">%s não lido</item>
+  </plurals>
+  <string name="mailbox_default_recipient">(Sem destinatário)</string>
+  <string name="mailbox_default_sender">(Sem remetente)</string>
+  <string name="mailbox_error_message_offline">Está offline. Não é possível recuperar itens.</string>
+  <string name="mailbox_error_message_generic">Erro ao carregar a caixa de correio</string>
+  <string name="mailbox_error_search_input_invalid">Inclua apenas caracteres alfanuméricos no termo da pesquisa.</string>
+  <string name="mailbox_error_message_unexpected">Ocorreu um erro inesperado.</string>
+  <string name="mailbox_is_empty_title">Nenhuma mensagem</string>
+  <string name="mailbox_is_empty_description">Tem tudo atualizado</string>
+  <string name="mailbox_is_empty_no_unread_messages_title">Nenhuma mensagem por ler</string>
+  <string name="mailbox_is_empty_folder_description">Esta pasta está vazia.</string>
+  <string name="mailbox_is_empty_spam_description">A sua pasta de spam está vazia</string>
+  <string name="mailbox_is_empty_trash_description">O Lixo está vazio</string>
+  <plurals name="mailbox_action_trash_conversation">
+    <item quantity="one">A conversa foi movida para o lixo.</item>
+    <item quantity="other">%d conversas foram movidas para o lixo</item>
+  </plurals>
+  <plurals name="mailbox_action_trash_message">
+    <item quantity="one">A mensagem foi movida para o lixo.</item>
+    <item quantity="other">%d mensagens foram movidas para o lixo</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation_dialog_title">
+    <item quantity="one">Eliminar conversa</item>
+    <item quantity="other">Eliminar %d conversas</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message_dialog_title">
+    <item quantity="one">Eliminar mensagem</item>
+    <item quantity="other">Eliminar %d mensagens</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation_dialog_message">
+    <item quantity="one">Tem a certeza de que pretende eliminar permanentemente esta conversa?</item>
+    <item quantity="other">Tem a certeza de que pretende eliminar permanentemente estas conversas?</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message_dialog_message">
+    <item quantity="one">Tem a certeza de que pretende eliminar permanentemente esta mensagem?</item>
+    <item quantity="other">Tem a certeza de que pretende eliminar permanentemente estas mensagens?</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message">
+    <item quantity="one">Mensagem eliminada permanentemente</item>
+    <item quantity="other">%d mensagens eliminadas permanentemente</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation">
+    <item quantity="one">Conversa eliminada permanentemente</item>
+    <item quantity="other">%d conversas eliminadas permanentemente</item>
+  </plurals>
+  <string name="mailbox_include_all_desc">Não encontra o que procura?</string>
+  <string name="mailbox_include_all_button">Incluir as pastas Spam/Lixo</string>
+  <string name="mailbox_action_label_messages_failed">Erro na operação da etiqueta</string>
+  <string name="mailbox_action_label_messages_failed_retrieving_labels">Erro ao obter etiquetas</string>
+  <string name="mailbox_action_failed_retrieving_colors">Erro ao obter definições de cor</string>
+  <string name="mailbox_action_move_messages_failed">Erro na operação de mover</string>
+  <string name="mailbox_action_move_messages_failed_retrieving_folders">Erro ao obter pastas</string>
+  <string name="mailbox_action_move_conversation">A conversa foi movida para %s.</string>
+  <string name="mailbox_action_move_message">A mensagem foi movida para %s</string>
+  <string name="mailbox_search_placeholder_text">Pesquisar mensagens</string>
+  <string name="mailbox_search_no_results_title">Não foram encontrados resultados.</string>
+  <string name="mailbox_search_no_results_explanation">Data de pesquisa, nome, endereço de e-mail ou linha de assunto</string>
+  <string name="mailbox_action_button_clear_trash">Esvaziar Lixo</string>
+  <string name="mailbox_action_button_clear_spam">Esvaziar Spam</string>
+  <string name="mailbox_action_clear_trash_dialog_title">Esvaziar a pasta de Lixo</string>
+  <string name="mailbox_action_clear_spam_dialog_title">Esvaziar a pasta Spam</string>
+  <string name="mailbox_action_clear_trash_dialog_body_message">Tem a certeza de que pretende eliminar permanentemente todas as mensagens da pasta do Lixo?</string>
+  <string name="mailbox_action_clear_spam_dialog_body_message">Tem a certeza de que pretende eliminar permanentemente todas as mensagens da pasta Spam?</string>
+  <string name="mailbox_action_clear_spam_dialog_body_conversation">Tem a certeza de que pretende eliminar permanentemente todas as conversas da sua pasta de Spam?</string>
+  <string name="mailbox_action_clear_operation_scheduled">"A operação de limpeza está agendada"</string>
+  <!--    Storage Limit Warning-->
+  <string name="storage_limit_warning_dialog_title">Aviso</string>
+  <string name="storage_first_limit_exceeded_warning_dialog_text">O armazenamento da sua conta Proton está mais de 80% cheio. Liberte espaço ou atualize para obter mais armazenamento.</string>
+  <string name="storage_second_limit_exceeded_warning_dialog_text">O armazenamento da sua conta Proton está mais de 90% cheio. Liberte espaço ou atualize para obter mais armazenamento.</string>
+  <string name="storage_limit_warning_dialog_do_not_remind_button">Não lembrar novamente</string>
+  <string name="storage_limit_warning_dialog_confirm_button">Aceitar</string>
+  <!--    Storage Quota Over Warning-->
+  <string name="storage_quota_over_dialog_title">Aviso</string>
+  <string name="storage_quota_over_dialog_text">O armazenamento da sua conta Proton está 100% cheio. Não será possível enviar ou receber e-mails, a não ser que elimine permanentemente alguns e-mails ou atualize para obter mais armazenamento.</string>
+  <string name="storage_quota_over_dialog_confirm_button">Aceitar</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="retry">Tentar novamente</string>
+  <string name="toolbar_back_content_description">Voltar ao ecrã anterior</string>
+  <string name="x_error_not_logged_in">Sem sessão iniciada</string>
+  <string name="action_reply">Responder</string>
+  <string name="action_reply_all">Responder a todos</string>
+  <string name="action_forward">Reencaminhar</string>
+  <string name="action_reply_description">Responder</string>
+  <string name="action_reply_all_description">Responder a todos</string>
+  <string name="action_forward_description">Reencaminhar</string>
+  <string name="action_mark_read_description">Marcar como lida</string>
+  <string name="action_mark_unread_description">Marcar como não lida</string>
+  <string name="action_star_description">Estrela</string>
+  <string name="action_unstar_description">Remover estrela</string>
+  <string name="action_label_description">Etiquetar como…</string>
+  <string name="action_move_description">Mover para…</string>
+  <string name="action_trash_description">Mover para o lixo</string>
+  <string name="action_delete_description">Eliminar</string>
+  <string name="action_archive_description">Arquivar</string>
+  <string name="action_spam_description">Mover para o spam</string>
+  <string name="action_view_in_light_mode_description">Ver mensagem no modo claro</string>
+  <string name="action_view_in_dark_mode_description">Ver mensagem no modo escuro</string>
+  <string name="action_print_description">Imprimir</string>
+  <string name="action_view_headers_description">Ver cabeçalhos</string>
+  <string name="action_view_html_description">Ver HTML</string>
+  <string name="action_report_phishing_description">Reportar phishing</string>
+  <string name="action_remind_description">Lembre-me</string>
+  <string name="action_save_pdf_description">Guardar como PDF</string>
+  <string name="action_sender_emails_description">Definir a ação para os futuros e-mails deste remetente</string>
+  <string name="action_save_attachments_description">Guardar anexos</string>
+  <string name="action_more_description">Mais</string>
+  <string name="action_reply_content_description">Responder</string>
+  <string name="action_reply_all_content_description">Responder a todos</string>
+  <string name="action_forward_content_description">Encaminhar</string>
+  <string name="action_mark_read_content_description">Marcar como lida</string>
+  <string name="action_mark_unread_content_description">Marcar como não lida</string>
+  <string name="action_star_content_description">Estrela</string>
+  <string name="action_unstar_content_description">Remover a estrela</string>
+  <string name="action_label_content_description">Etiquetar como…</string>
+  <string name="action_move_content_description">Mover para…</string>
+  <string name="action_trash_content_description">Lixo</string>
+  <string name="action_delete_content_description">Eliminar</string>
+  <string name="action_archive_content_description">Arquivo</string>
+  <string name="action_spam_content_description">Spam</string>
+  <string name="action_view_in_light_mode_content_description">Ver a mensagem no modo claro</string>
+  <string name="action_view_in_dark_mode_content_description">Ver a mensagem no modo escuro</string>
+  <string name="action_print_content_description">Imprimir</string>
+  <string name="action_view_headers_content_description">Ver os cabeçalhos</string>
+  <string name="action_view_html_content_description">Ver o código HTML</string>
+  <string name="action_report_phishing_content_description">Reportar como phishing</string>
+  <string name="action_remind_content_description">Lembre-me</string>
+  <string name="action_save_pdf_content_description">Guardar como PDF</string>
+  <string name="action_sender_emails_content_description">Definir a acção para os futuros e-mails deste remetente</string>
+  <string name="action_save_attachments_content_description">Guardar os anexos</string>
+  <string name="action_more_content_description">Mais</string>
+  <string name="common_error_loading_actions">Erro ao carregar as acções</string>
+  <string name="yesterday">Ontem</string>
+  <string name="action_open_customize_toolbar">Personalizar a barra de ferramentas</string>
+  <string name="action_open_customize_toolbar_description">Personalizar a barra de ferramentas</string>
+  <string name="auto_delete_banner_text_activate_trash">Apagar automaticamente mensagens que estejam no lixo há mais de 30 dias.</string>
+  <string name="auto_delete_banner_text_activate_spam">Apagar automaticamente mensagens que estejam no spam há mais de 30 dias.</string>
+  <string name="auto_delete_banner_text_upgrade">Atualize para poder apagar automaticamente as mensagens que estão no lixo há mais de 30 dias.</string>
+  <string name="auto_delete_banner_text_enabled_info">As mensagens que estiverem no lixo e no spam há mais de 30 dias serão automaticamente eliminadas.</string>
+  <string name="auto_delete_banner_button_activate_confirm">Ativar</string>
+  <string name="auto_delete_banner_button_activate_dismiss">Não, obrigado</string>
+  <string name="auto_delete_banner_action_upgrade_learn_more">Saiba mais</string>
+  <!-- message expiration -->
+  <string name="expiration_expired">Expirado</string>
+  <string name="expiration_days_arg">%d d</string>
+  <string name="expiration_hours_arg">%d h</string>
+  <string name="expiration_minutes_arg">%d m</string>
+  <string name="expiration_auto_delete_hour">Esta mensagem será apagada automaticamente em menos de uma hora.</string>
+  <string name="expiration_auto_delete_day">Esta mensagem será apagada automaticamente em ${ shortDateMessage }</string>
+  <string name="expiration_auto_delete_days" description="example: This message will be automatically deleted in 5 days">Esta mensagem será apagada automaticamente em %s.</string>
+  <plurals name="expiration_minutes_full_word">
+    <item quantity="one">%d minuto</item>
+    <item quantity="other">%d minutos</item>
+  </plurals>
+  <plurals name="expiration_hours_full_word">
+    <item quantity="one">%d hora</item>
+    <item quantity="other">%d horas</item>
+  </plurals>
+  <plurals name="expiration_days_full_word">
+    <item quantity="one">%d dia</item>
+    <item quantity="other">%d dias</item>
+  </plurals>
+  <!-- notification channels -->
+  <string name="attachment_download_notification_channel_name">Anexos</string>
+  <string name="attachment_download_notification_channel_description">Notificações para as transferências de anexos</string>
+  <string name="email_notification_channel_name">E-mails</string>
+  <string name="login_notification_channel_name">Alertas de login</string>
+  <string name="email_notification_channel_description">Notificações de e-mail recebido</string>
+  <string name="login_notification_channel_description">Novas notificações de início de sessão</string>
+  <string name="auth_badge_official">Oficial</string>
+  <string name="intent_failure_no_app_found_to_handle_this_action">Nenhuma aplicação encontrada para gerir a operação</string>
+  <string name="action_copied_to_clipboard">Copiado para a área de transferência</string>
+  <string name="mailbox_action_delete_dialog_button_cancel">Cancelar</string>
+  <string name="mailbox_action_delete_dialog_button_delete">Eliminar</string>
+  <string name="picker_dialog_cancel">Cancelar</string>
+  <string name="color_purple">Púrpura</string>
+  <string name="color_enzian">Enzian</string>
+  <string name="color_pink">Cor-de-Rosa</string>
+  <string name="color_plum">Ameixa</string>
+  <string name="color_strawberry">Morango</string>
+  <string name="color_cerise">Cereja</string>
+  <string name="color_carrot">Cenoura</string>
+  <string name="color_copper">Cobre</string>
+  <string name="color_sahara">Saara</string>
+  <string name="color_soil">Solo</string>
+  <string name="color_slate_blue">Azul-ardósia</string>
+  <string name="color_cobalt">Cobalto</string>
+  <string name="color_pacific">Pacífico</string>
+  <string name="color_ocean">Oceano</string>
+  <string name="color_reef">Recife</string>
+  <string name="color_pine">Pinho</string>
+  <string name="color_fern">Samambaia</string>
+  <string name="color_forest">Floresta</string>
+  <string name="color_olive">Azeitona</string>
+  <string name="color_pickle">Pickle</string>
+  <string name="undo_button_label">Anular</string>
+  <string name="undo_success_message">Ação revertida</string>
+  <string name="undo_failure_message">Reversão da ação falhou</string>
+</resources>

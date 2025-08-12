@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">差出人：</string>
+  <string name="to_prefix">宛先：</string>
+  <string name="cc_prefix">Cc：</string>
+  <string name="bcc_prefix">Bcc:</string>
+  <string name="subject_placeholder">件名</string>
+  <string name="compose_message_placeholder">メールの作成</string>
+  <string name="close_composer_content_description">閉じる</string>
+  <string name="send_message_content_description">メッセージを送信</string>
+  <string name="composer_expand_recipients_button">他の受信者を表示する</string>
+  <string name="composer_error_invalid_email">メールアドレスが無効です</string>
+  <string name="composer_error_invalid_sender">送信者アドレスが無効</string>
+  <string name="change_sender_button_content_description">送信者を変更</string>
+  <string name="composer_change_sender_paid_feature">送信アドレスを変更するにはProton Mailサブスクリプションの契約が必要です</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">ユーザーのサブスクリプションの取得に失敗したため、送信者を変更できませんでした。もう一度お試しください。</string>
+  <string name="composer_error_store_draft_sender_address">下書きの送信元アドレスの保存に失敗しました</string>
+  <string name="composer_error_store_draft_body">下書き本文の保存に失敗しました</string>
+  <string name="composer_error_duplicate_recipient">重複した受取人(たち)が削除されました</string>
+  <string name="composer_error_store_draft_subject">件名の保存に失敗しました</string>
+  <string name="composer_error_store_draft_recipients">下書きの宛先の保存に失敗しました</string>
+  <string name="composer_error_loading_draft">この下書きの内容は現時点では利用できません。編集すると既存の内容が上書きされます。</string>
+  <string name="composer_add_attachments_content_description">添付ファイルの追加</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">インポート...</string>
+  <string name="composer_error_loading_parent_message">メッセージの情報を読み込めませんでした</string>
+  <string name="composer_original_message_quote">元のメッセージ</string>
+  <string name="composer_sender_quote">%s、%s &lt;%s&gt; 書きました：</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">OK</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">添付ファイルの制限に達しました。</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">添付ファイルのサイズ制限は%1$sです。</string>
+  <string name="composer_attachment_reencryption_failed_message">添付ファイルの再暗号化に失敗しました。セキュリティ上の理由により、すべての添付ファイルは削除されました。</string>
+  <string name="composer_attachment_not_found">添付ファイルが見つかりません。</string>
+  <string name="composer_attachment_error_draft_loading">元の下書きメッセージを読み込めませんでした。</string>
+  <string name="composer_attachment_error_saving_attachment">添付ファイルを保存できませんでした。もう一度お試しください。</string>
+  <string name="composer_warning_local_data_shown">この下書きの最新バージョンの読み込みに失敗しました。変更するとコンテンツが上書きされます。</string>
+  <string name="composer_button_add_password">パスワードを追加</string>
+  <string name="composer_button_set_expiration">有効期限を設定</string>
+  <string name="composer_expiration_time_bottom_sheet_title">メッセージの有効期限</string>
+  <string name="composer_expiration_time_bottom_sheet_done">設定する</string>
+  <string name="composer_bottom_bar_expiration_time_none">なし</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 時間</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 日</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 日</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 週間</string>
+  <string name="composer_bottom_bar_expiration_time_custom">カスタム</string>
+  <string name="composer_error_setting_expiration_time">有効期限の設定に失敗しました</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">有効期限はサポートされていません</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">以下の宛先へパスワードを設定して送信することをおすすめします:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">キャンセル</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">このまま送信</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">通知の送信</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">\@pm.me からのメッセージ送信は有料の機能です。あなたのメッセージはデフォルトのアドレスから送信されます。</string>
+  <string name="composer_sender_changed_original_address_disabled">選択された差出人のアドレスは無効です。あなたのメッセージはデフォルのアドレスから送信されます。</string>
+  <string name="composer_sender_changed_original_address_generic_error">元の送信者アドレスを取得できませんでした。あなたのメッセージはデフォルトのアドレスから送信されます。</string>
+  <string name="composer_sender_changed_dialog_confirm_button">OK</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">新規作成</string>
+  <string name="composer_send_without_subject_dialog_text">件名なしでメッセージを送信しますか?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">はい</string>
+  <string name="composer_send_without_subject_dialog_reject_button">いいえ</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">送信エラー</string>
+  <string name="message_sending_error_dialog_button_dismiss">閉じる</string>
+  <string name="message_sending_error_dialog_text_error">次の理由により入力されたメールアドレスにメールを送信することができません:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">信頼済みのキーがありません:%s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">メールアドレスが存在しません:%s</string>
+  <string name="set_message_password_title">メッセージを暗号化</string>
+  <string name="set_message_password_info_message">Proton Mail以外のユーザー宛にこのメッセージを暗号化するためのパスワードを設定します。</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">より詳しく</a></string>
+  <string name="set_message_password_label">メッセージのパスワード</string>
+  <string name="set_message_password_label_repeat">パスワードを再度入力</string>
+  <string name="set_message_password_label_hint">パスワードのヒント(任意)</string>
+  <string name="set_message_password_supporting_text">4〜21 文字</string>
+  <string name="set_message_password_supporting_error_text">パスワードは4文字以上21文字以下で入力してください</string>
+  <string name="set_message_password_supporting_text_repeat">パスワードが一致する必要があります</string>
+  <string name="set_message_password_supporting_error_text_repeat">パスワードが一致しません</string>
+  <string name="set_message_password_button_show">パスワードを表示</string>
+  <string name="set_message_password_button_hide">パスワードを非表示</string>
+  <string name="set_message_password_button_apply">パスワードを適用</string>
+  <string name="set_message_password_button_save_changes">変更を保存</string>
+  <string name="set_message_password_button_remove_password">パスワードを削除</string>
+  <string name="respondInline">インラインで返信</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="other">%d 人のメンバー</item>
+  </plurals>
+</resources>

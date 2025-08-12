@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <plurals name="attachment_count_label">
+    <item quantity="one">%d datoteka</item>
+    <item quantity="two">%d datoteki</item>
+    <item quantity="few">%d datoteke</item>
+    <item quantity="other">%d datotek</item>
+  </plurals>
+  <string name="attachment_show_more_label">in še %1$d</string>
+  <string name="attachment_permission_dialog_title">Potrebno je dovoljenje</string>
+  <string name="attachment_permission_dialog_message">Za prenos priponke Proton Mail potrebuje dovoljenje za dostop do shrambe vaše naprave.</string>
+  <string name="attachment_permission_dialog_dismiss_button">V redu</string>
+  <string name="attachment_permission_dialog_action_button">Nastavitve</string>
+  <string name="attachment_type_description">Datoteka %1$s</string>
+  <!-- Attachment Types -->
+  <string name="attachment_type_archive">Arhiv</string>
+  <string name="attachment_type_image">Slika</string>
+  <string name="attachment_type_video">Videoposnetek</string>
+  <string name="attachment_type_audio">Zvok</string>
+  <string name="attachment_type_unknown">Neznano</string>
+  <string name="attachment_type_pdf">PDF</string>
+  <string name="attachment_type_text">Besedilo</string>
+  <string name="attachment_type_document">Dokument</string>
+  <string name="attachment_type_spreadsheet">Preglednica</string>
+  <string name="attachment_type_presentation">Predstavitev</string>
+  <!-- Bottom Sheet -->
+  <string name="bottom_sheet_move_to_title">Premakni v …</string>
+  <string name="bottom_sheet_done_action">Končano</string>
+  <string name="bottom_sheet_archive_action">Tudi arhiviraj?</string>
+  <string name="bottom_sheet_label_as_title">Označi kot ...</string>
+  <string name="bottom_sheet_more_header_message_from">Sporočilo od %s</string>
+  <!-- Message body link actions -->
+  <string name="message_link_long_click_copy">Kopiraj povezavo</string>
+  <string name="message_link_long_click_copy_description">Besedilo kopirano iz Proton Mail</string>
+  <string name="message_link_long_click_share">Deli povezavo</string>
+  <string name="message_link_long_click_share_via">Delite povezavo prek</string>
+  <!-- Contact Actions Bottom Sheet -->
+  <string name="contact_actions_copy_address">Kopiraj naslov</string>
+  <string name="contact_actions_copy_address_description">Kopiraj kontaktni naslov</string>
+  <string name="contact_actions_copy_address_performed">Naslov kopiran v odložišče</string>
+  <string name="contact_actions_copy_name">Kopiraj ime</string>
+  <string name="contact_actions_copy_name_description">Kopirajte ime stika</string>
+  <string name="contact_actions_copy_name_performed">Ime kopirano v odložišče</string>
+  <string name="contact_actions_new_message">Novo sporočilo</string>
+  <string name="contact_actions_new_message_description">Začnite sestavljati novo sporočilo za ta stik</string>
+  <string name="contact_actions_add_contact">Dodaj stik</string>
+  <string name="contact_actions_add_contact_description">Shrani tega prejemnika kot stik</string>
+  <string name="contact_actions_view_contact_details">Ogled podrobnosti stika</string>
+  <string name="contact_actions_view_contact_details_description">Oglejte si podrobnosti stika</string>
+  <!-- Device Contacts permission dialog -->
+  <string name="device_contacts_permission_dialog_title">Potrebno je dovoljenje</string>
+  <string name="device_contacts_permission_dialog_message">Proton Mail potrebuje dovoljenje za dostop do stikov, da lahko predlaga prejemnike.</string>
+  <string name="device_contacts_permission_dialog_dismiss_button">V redu</string>
+  <string name="device_contacts_permission_dialog_action_button">Zahtevaj dovoljenje</string>
+  <string name="device_contacts_permission_dialog_action_button_deny">Zavrni</string>
+  <!-- View entire message button -->
+  <string name="button_view_entire_message">Prikaži celotno sporočilo</string>
+</resources>

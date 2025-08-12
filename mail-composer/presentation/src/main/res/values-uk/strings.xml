@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">Від:</string>
+  <string name="to_prefix">Кому:</string>
+  <string name="cc_prefix">Копія:</string>
+  <string name="bcc_prefix">Прихована копія:</string>
+  <string name="subject_placeholder">Тема</string>
+  <string name="compose_message_placeholder">Написати електронний лист</string>
+  <string name="close_composer_content_description">Закрити редактор</string>
+  <string name="send_message_content_description">Надіслати повідомлення</string>
+  <string name="composer_expand_recipients_button">Показати інших отримувачів</string>
+  <string name="composer_error_invalid_email">Недійсна адреса е-пошти</string>
+  <string name="composer_error_invalid_sender">Адреса відправника недійсна</string>
+  <string name="change_sender_button_content_description">Змінити відправника</string>
+  <string name="composer_change_sender_paid_feature">Щоб змінити адресу відправника, необхідно передплатити Proton Mail</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">Неможливо змінити відправника, оскільки не вдалося отримати дані про передплату користувача. Спробуйте ще раз.</string>
+  <string name="composer_error_store_draft_sender_address">Адресу відправника не збережено</string>
+  <string name="composer_error_store_draft_body">Вміст чернетки листа не збережено</string>
+  <string name="composer_error_duplicate_recipient">Вилучено дублікати отримувачів</string>
+  <string name="composer_error_store_draft_subject">Рядок теми не збережено</string>
+  <string name="composer_error_store_draft_recipients">Не вдалося зберегти отримувачів цієї чернетки</string>
+  <string name="composer_error_loading_draft">Наразі вміст цієї чернетки недоступний. Редагування перезапише будь-який попередній вміст.</string>
+  <string name="composer_add_attachments_content_description">Додати вкладення</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Імпортувати з…</string>
+  <string name="composer_error_loading_parent_message">Неможливо завантажити інформацію про повідомлення</string>
+  <string name="composer_original_message_quote">Оригінальне повідомлення</string>
+  <string name="composer_sender_quote">%s, %s &lt;%s&gt; пише:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">OK</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">Досягнуто обмеження для вкладень</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">Обмеження розміру для вкладень – %1$s</string>
+  <string name="composer_attachment_reencryption_failed_message">Збій повторного шифрування вкладення. З міркувань безпеки усі вкладення вилучено.</string>
+  <string name="composer_attachment_not_found">Вкладення не знайдено.</string>
+  <string name="composer_attachment_error_draft_loading">Не вдалося завантажити оригінальну чернетку повідомлення.</string>
+  <string name="composer_attachment_error_saving_attachment">Не вдалося зберегти вкладення. Спробуйте ще раз.</string>
+  <string name="composer_warning_local_data_shown">Не вдалося завантажити останню версію цієї чернетки. Будь-які зміни перезапишуть її.</string>
+  <string name="composer_button_add_password">Додати пароль</string>
+  <string name="composer_button_set_expiration">Вказати термін дії</string>
+  <string name="composer_expiration_time_bottom_sheet_title">Термін дії повідомлення</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Встановити</string>
+  <string name="composer_bottom_bar_expiration_time_none">Немає</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 година</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 день</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 дні</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 тиждень</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Власний</string>
+  <string name="composer_error_setting_expiration_time">Не вдалося встановити термін дії</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Термін дії не підтримується</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Натомість ми радимо встановити пароль для таких отримувачів:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">Скасувати</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Все одно надіслати</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Надсилання сповіщення</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">Надсилання повідомлень з @pm.me є платною функцією. Ваше повідомлення буде надіслано з вашої типової адреси.</string>
+  <string name="composer_sender_changed_original_address_disabled">Вибрана адреса відправника вимкнена. Ваше повідомлення буде надіслано з типової адреси.</string>
+  <string name="composer_sender_changed_original_address_generic_error">Не вдалося отримати оригінальну адресу відправника. Ваше повідомлення буде надіслано з типової адреси.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">OK</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Написати</string>
+  <string name="composer_send_without_subject_dialog_text">Надіслати повідомлення без теми?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Так</string>
+  <string name="composer_send_without_subject_dialog_reject_button">Ні</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Надсилання звіту про помилку</string>
+  <string name="message_sending_error_dialog_button_dismiss">Закрити</string>
+  <string name="message_sending_error_dialog_text_error">Вашого листа неможливо надіслати на вказану адресу з такої причини:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">Немає довірених ключів: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">Адреса %s не існує</string>
+  <string name="set_message_password_title">Зашифрувати повідомлення</string>
+  <string name="set_message_password_info_message">Встановіть пароль, щоб зашифрувати це повідомлення для користувачів поза Proton Mail.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">Докладніше</a></string>
+  <string name="set_message_password_label">Пароль повідомлення</string>
+  <string name="set_message_password_label_repeat">Повторіть пароль</string>
+  <string name="set_message_password_label_hint">Підказка до пароля (необов\'язково)</string>
+  <string name="set_message_password_supporting_text">Довжина від 4 до 21 символу</string>
+  <string name="set_message_password_supporting_error_text">Пароль повинен мати від 4 до 21 символів</string>
+  <string name="set_message_password_supporting_text_repeat">Паролі повинні збігатися</string>
+  <string name="set_message_password_supporting_error_text_repeat">Паролі відрізняються</string>
+  <string name="set_message_password_button_show">Показати пароль</string>
+  <string name="set_message_password_button_hide">Приховати пароль</string>
+  <string name="set_message_password_button_apply">Застосувати пароль</string>
+  <string name="set_message_password_button_save_changes">Зберегти зміни</string>
+  <string name="set_message_password_button_remove_password">Вилучити пароль</string>
+  <string name="respondInline">Відповісти всередині тексту</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d учасник</item>
+    <item quantity="few">%d учасники</item>
+    <item quantity="many">%d учасників</item>
+    <item quantity="other">%d учасників</item>
+  </plurals>
+</resources>

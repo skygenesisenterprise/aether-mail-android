@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="detail_error_loading_contacts">Kontak gagal dimuat</string>
+  <string name="detail_error_loading_conversation">Percakapan gagal dimuat</string>
+  <string name="detail_error_loading_messages">Pesan gagal dimuat</string>
+  <string name="error_mark_unread_failed">Tanda belum dibaca gagal disematkan. Silakan coba lagi.</string>
+  <plurals name="message_count_label_text">
+    <item quantity="other">%d pesan</item>
+  </plurals>
+  <string name="quick_reply_button_content_description">Balas</string>
+  <string name="quick_reply_all_button_content_description">Balas Semua</string>
+  <string name="more_button_content_description">Lainnya</string>
+  <string name="subject">Subjek:</string>
+  <string name="from">Dari:</string>
+  <string name="to">Kepada:</string>
+  <string name="cc">Cc:</string>
+  <string name="bcc">Bcc:</string>
+  <string name="date">Tanggal:</string>
+  <plurals name="attachment">
+    <item quantity="other">%d Lampiran</item>
+  </plurals>
+  <string name="hide_details">Sembunyikan rincian</string>
+  <string name="undisclosed_recipients">Penerima yang dirahasiakan</string>
+  <string name="error_mark_as_unread_failed">Tanda belum dibaca gagal disematkan. Silakan coba lagi.</string>
+  <string name="error_star_operation_failed">Tanda bintang gagal disematkan. Silakan coba lagi.</string>
+  <string name="error_unstar_operation_failed">Tanda bintang gagal dihapus. Silakan coba lagi.</string>
+  <string name="error_move_to_trash_failed">Pemindahan ke sampah gagal. Silakan coba lagi.</string>
+  <string name="message_moved_to_trash">Pesan dipindahkan ke Sampah</string>
+  <string name="message_moved_to_archive">Pesan dipindahkan ke Arsip</string>
+  <string name="error_move_to_archive_failed">Pemindahan ke arsip gagal. Silakan coba lagi.</string>
+  <string name="message_moved_to_spam">Pesan dipindahkan ke Spam</string>
+  <string name="error_move_to_spam_failed">Pemindahan ke spam gagal. Silakan coba lagi.</string>
+  <string name="message_moved_to_selected_destination">Pesan dipindahkan ke %1$s</string>
+  <string name="error_move_message_failed">Pesan gagal dipindahkan. Silakan coba lagi.</string>
+  <string name="conversation_moved_to_trash">Percakapan dipindahkan ke Sampah</string>
+  <string name="conversation_moved_to_selected_destination">Percakapan dipindahkan ke %1$s</string>
+  <string name="conversation_moved_to_archive">Percakapan dipindahkan ke Arsip</string>
+  <string name="conversation_moved_to_spam">Percakapan dipindahkan ke Spam</string>
+  <string name="error_move_conversation_failed">Percakapan gagal dipindahkan. Silakan coba lagi.</string>
+  <string name="error_loading_message">Terjadi suatu kesalahan. Silakan coba lagi.</string>
+  <string name="error_offline_loading_message">Anda sedang offline. Koneksi internet diperlukan untuk menampilkan konten pesan ini.</string>
+  <string name="error_get_attachment_failed">Lampiran gagal diperoleh.</string>
+  <string name="error_attachment_download_in_progress">Unduhan saat ini harus diselesaikan sebelum memulai unduhan baru.</string>
+  <string name="error_get_attachment_not_enough_memory">Lampiran gagal diperoleh karena memori yang tersedia tidak memadai</string>
+  <string name="reload">Muat ulang</string>
+  <string name="error_relabel_message_failed">Pesan gagal dilabeli ulang. Silakan coba lagi</string>
+  <string name="error_relabel_conversation_failed">Percakapan gagal dilabeli ulang. Silakan coba lagi</string>
+  <string name="please_go_back_online_to_load_messages">Anda sedang offline. Silakan sambungkan diri Anda ke internet untuk memuat pesan</string>
+  <string name="decryption_error">Pesan gagal didekripsi.</string>
+  <string name="detail_error_retrieving_message_body">Pesan tidak dapat diambil</string>
+  <string name="message_body_error_no_webview">Anda harus memiliki WebView yang terpasang untuk melihat konten pesan ini.</string>
+  <!-- Banners -->
+  <string name="message_body_embedded_images_banner_text">Pemuatan otomatis gambar yang tersemat sedang dinonaktifkan. Hal ini dapat diubah pada menu pengaturan.</string>
+  <string name="message_body_remote_content_banner_text">Konten eksternal tengah diatur untuk tidak dimuat secara otomatis. Hal ini dapat diubah pada menu pengaturan.</string>
+  <string name="message_body_embedded_and_remote_content_banner_text">Gambar tersemat dan konten eksternal tengah diatur untuk tidak dimuat secara otomatis. Hal ini dapat diubah pada menu pengaturan.</string>
+  <string name="message_phishing_banner_text">Sistem kami menandai pesan ini sebagai phishing. Mohon periksa keabsahan pesan.</string>
+  <string name="message_expiration_banner_text">Pesan ini akan kedaluwarsa dalam %1$s</string>
+  <!-- External link confirmation dialog -->
+  <string name="external_link_confirmation_dialog_text">Anda akan meninggalkan aplikasi dan mengunjungi:</string>
+  <string name="external_link_confirmation_dialog_do_not_ask_again">Jangan tanyakan lagi</string>
+  <string name="external_link_confirmation_dialog_cancel_button">Batal</string>
+  <string name="external_link_confirmation_dialog_continue_button">Lanjut</string>
+  <!-- Phishing link confirmation dialog -->
+  <string name="phishing_link_confirmation_dialog_title">Peringatan: situs web ini terindikasi palsu</string>
+  <string name="phishing_link_confirmation_dialog_content_part_1">Tautan ini tertuju pada situs web yang dapat berupaya untuk mencuri informasi Anda, seperti kata sandi dan rincian kartu kredit yang Anda miliki.</string>
+  <string name="phishing_link_confirmation_dialog_content_part_2">Demi keamanan Anda, jangan lanjutkan ke situs web ini.</string>
+  <string name="phishing_link_confirmation_dialog_button_go_back">Kembali (disarankan)</string>
+  <string name="phishing_link_confirmation_dialog_button_continue">Abaikan peringatan dan lanjut</string>
+  <string name="message_delete_dialog_title">Hapus pesan</string>
+  <string name="message_delete_dialog_message">Apakah Anda yakin ingin menghapus pesan ini secara permanen?</string>
+  <string name="message_deleted">Pesan dihapus</string>
+  <string name="message_moved">Pesan dipindahkan</string>
+  <string name="message_moved_to">Pesan dipindahkan ke %s</string>
+  <string name="error_delete_message_failed">Pesan gagal dihapus</string>
+  <string name="error_delete_message_failed_wrong_folder">Pesan tidak berada pada lokasi yang memungkinkan pesan untuk dihapus</string>
+  <string name="error_delete_conversation_failed">Percakapan gagal dihapus</string>
+  <string name="error_delete_conversation_failed_wrong_folder">Percakapan tidak terletak pada lokasi yang memungkinkan percakapan untuk dihapus</string>
+  <string name="conversation_delete_dialog_title">Hapus percakapan</string>
+  <string name="conversation_delete_dialog_message">Apakah Anda yakin ingin menghapus percakapan ini secara permanen?</string>
+  <string name="conversation_deleted">Percakapan dihapus</string>
+  <string name="message_body_load_remote_content_button_text">Muat konten eksternal</string>
+  <string name="message_body_load_embedded_images_button_text">Muat gambar yang tersemat</string>
+  <string name="message_body_load_embedded_and_remote_content_button_text">Muat konten eksternal dan yang tersemat</string>
+  <string name="message_report_phishing_dialog_title_offline">Perhatian</string>
+  <string name="message_report_phishing_dialog_message_offline">Fitur ini hanya tersedia secara online.</string>
+  <string name="message_report_phishing_dialog_confim_button_offline">OK</string>
+  <string name="message_report_phishing_dialog_title">Konfirmasi laporan phishing</string>
+  <string name="message_report_phishing_dialog_message">Dengan melaporkan pesan sebagai upaya phishing, pesan tersebut akan dikirimkan kepada kami agar kami dapat menganalisanya dan meningkatkan filter kami. Hal ini berarti bahwa kami akan dapat melihat isi pesan tersebut secara utuh.</string>
+  <string name="message_report_phishing_dialog_confim_button">Konfirmasi</string>
+  <string name="message_report_phishing_dialog_cancel_button">Batal</string>
+  <string name="open_on_protoncalendar_banner_title">Buka di Proton Calendar</string>
+  <string name="open_on_protoncalendar_banner_description">Kalender terenkripsi yang aman</string>
+  <string name="error_print_failed">Pesan gagal dicetak</string>
+  <string name="trashed_messages_banner">Percakapan ini berisi pesan yang dibuang.</string>
+  <string name="non_trashed_messages_banner">Percakapan ini berisi pesan yang tidak dibuang.</string>
+  <string name="show">Tampilkan</string>
+  <string name="hide">Sembunyikan</string>
+  <string name="tooltip_customize_toolbar_title">Sesuaikan toolbar</string>
+  <string name="tooltip_customize_toolbar_message">Anda kini dapat menentukan dan mengatur ulang daftar tindakan pada bilah alat ini.</string>
+  <string name="tooltip_customize_toolbar_cta">Sesuaikan</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">Feladó:</string>
+  <string name="to_prefix">Címzett:</string>
+  <string name="cc_prefix">Másolat:</string>
+  <string name="bcc_prefix">Titkos másolat:</string>
+  <string name="subject_placeholder">Tárgy</string>
+  <string name="compose_message_placeholder">E-mail írása</string>
+  <string name="close_composer_content_description">Szerkesztő bezárása</string>
+  <string name="send_message_content_description">Üzenet küldése</string>
+  <string name="composer_expand_recipients_button">Más címzettek megjelenítése</string>
+  <string name="composer_error_invalid_email">Az e-mail cím érvénytelen</string>
+  <string name="composer_error_invalid_sender">A küldő cím érvénytelen</string>
+  <string name="change_sender_button_content_description">Feladó módosítása</string>
+  <string name="composer_change_sender_paid_feature">A feladó email címének megváltoztatásához Proton Mail előfizetésre van szükséged.</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">A feladó nem változtatható meg, mert az előfizetés betöltése nem sikerült. Próbálja újra.</string>
+  <string name="composer_error_store_draft_sender_address">A feladó címe nem lett elmentve</string>
+  <string name="composer_error_store_draft_body">Az e-mail vázlat nem lett elmentve</string>
+  <string name="composer_error_duplicate_recipient">Duplikált címzett(ek) eltávolítva</string>
+  <string name="composer_error_store_draft_subject">A tárgysor nem lett elmentve</string>
+  <string name="composer_error_store_draft_recipients">A vázlat címzetteinek tárolása nem sikerült</string>
+  <string name="composer_error_loading_draft">Ennek a piszkozatnak a tartalma jelenleg nem elérhető. Szerkesztése felülírja az esetlegesen már korábban hozzáadott tartalmat.</string>
+  <string name="composer_add_attachments_content_description">Melléklet hozzáadása</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Importálás innen…</string>
+  <string name="composer_error_loading_parent_message">Az üzenet adatainak betöltése nem sikerült</string>
+  <string name="composer_original_message_quote">Eredeti üzenet</string>
+  <string name="composer_sender_quote">%s-kor, %s&lt;%s&gt; ezt írta:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">OK</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">Elérte a mellékletekre vonatkozó korlátot</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">A mellékletek maximális mérete %1$s</string>
+  <string name="composer_attachment_reencryption_failed_message">A melléklet ismételt titkosítása nem sikerült. Biztonsági okokból minden melléklet eltávolításra került.</string>
+  <string name="composer_attachment_not_found">A csatolmány nem található.</string>
+  <string name="composer_attachment_error_draft_loading">Nem sikerült betölteni az eredeti üzenetvázlatot.</string>
+  <string name="composer_attachment_error_saving_attachment">Nem sikerült tárolni a mellékletet. Kérjük, próbálja újra.</string>
+  <string name="composer_warning_local_data_shown">A vázlat legutóbbi változatának betöltése nem sikerült. Bármilyen változtatás felülírja a tartalmát.</string>
+  <string name="composer_button_add_password">Jelszó hozzáadása</string>
+  <string name="composer_button_set_expiration">Időkorlát megadása</string>
+  <string name="composer_expiration_time_bottom_sheet_title">Időkorlátos üzenet</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Beállítás</string>
+  <string name="composer_bottom_bar_expiration_time_none">Nincs</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 óra</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 nap</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 nap</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 hét</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Egyéni</string>
+  <string name="composer_error_setting_expiration_time">Az időkorlát beállítása nem sikerült</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Lejárat nem támogatott</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Javasoljuk, hogy a következő címzetteknek inkább állítson be egy jelszót:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">Mégsem</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Küldés mindenképpen</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Küldési tudnivaló</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">Üzenetek küldése a @pm.me címről előfizetéshez kötött. Az üzenet az alapértelmezett címről kerül elküldésre.</string>
+  <string name="composer_sender_changed_original_address_disabled">A kiválasztott feladási cím ki van kapcsolva. Az üzenet az alapértelmezett címéről kerül elküldésre.</string>
+  <string name="composer_sender_changed_original_address_generic_error">Az eredeti feladó címét nem sikerült kideríteni. Az üzenetet az Ön alapértelmezett címéről küldjük el.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">OK</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Levélírás</string>
+  <string name="composer_send_without_subject_dialog_text">Elküldi az üzenetet tárgy nélkül?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Igen</string>
+  <string name="composer_send_without_subject_dialog_reject_button">Nem</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Hiba a küldés közben</string>
+  <string name="message_sending_error_dialog_button_dismiss">Bezárás</string>
+  <string name="message_sending_error_dialog_text_error">A megadott címre a következő ok miatt nem lehet elküldeni az e-mailt:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">Nincs megbízható kulcs: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">Cím nem létezik: %s</string>
+  <string name="set_message_password_title">Üzenet titkosítása</string>
+  <string name="set_message_password_info_message">Állítson be egy jelszót a nem Proton Mailes címzetteknek küldött üzenet titkosításához.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">További információk</a></string>
+  <string name="set_message_password_label">Üzenet jelszó</string>
+  <string name="set_message_password_label_repeat">Jelszó ismét</string>
+  <string name="set_message_password_label_hint">Jelszó emlékeztető (nem kötelező)</string>
+  <string name="set_message_password_supporting_text">4-től 21 karakter hosszúságig</string>
+  <string name="set_message_password_supporting_error_text">A jelszónak legalább 4, és legfeljebb 21 karakter hosszúnak kell lennie</string>
+  <string name="set_message_password_supporting_text_repeat">A jelszavaknak egyezniük kell</string>
+  <string name="set_message_password_supporting_error_text_repeat">A jelszavak nem egyeznek</string>
+  <string name="set_message_password_button_show">Jelszó megjelenítése</string>
+  <string name="set_message_password_button_hide">Jelszó elrejtése</string>
+  <string name="set_message_password_button_apply">Jelszó alkalmazása</string>
+  <string name="set_message_password_button_save_changes">Mentés</string>
+  <string name="set_message_password_button_remove_password">Jelszó eltávolítása</string>
+  <string name="respondInline">Válaszolás az eredeti levélben</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d tag</item>
+    <item quantity="other">%d tag</item>
+  </plurals>
+</resources>

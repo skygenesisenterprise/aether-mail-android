@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">Από:</string>
+  <string name="to_prefix">Προς:</string>
+  <string name="cc_prefix">Κοιν:</string>
+  <string name="bcc_prefix">Κρυφή κοιν:</string>
+  <string name="subject_placeholder">Θέμα</string>
+  <string name="compose_message_placeholder">Σύνταξη μηνύματος</string>
+  <string name="close_composer_content_description">Κλείσιμο συντάκτη</string>
+  <string name="send_message_content_description">Αποστολή μηνύματος</string>
+  <string name="composer_expand_recipients_button">Εμφάνιση άλλων παραληπτών</string>
+  <string name="composer_error_invalid_email">Η διεύθυνση email δεν είναι έγκυρη</string>
+  <string name="composer_error_invalid_sender">Μη έγκυρη διεύθυνση αποστολέα</string>
+  <string name="change_sender_button_content_description">Αλλαγή αποστολέα</string>
+  <string name="composer_change_sender_paid_feature">Χρειάζεστε μια πληρωμένη συνδρομή Proton Mail για να αλλάξετε τη διεύθυνση αποστολέα</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">Δεν είναι δυνατή η αλλαγή αποστολέα καθώς απέτυχε η λήψη της συνδρομής του χρήστη. Δοκιμάστε ξανά.</string>
+  <string name="composer_error_store_draft_sender_address">Αποτυχία αποθήκευσης της διεύθυνσης αποστολέα</string>
+  <string name="composer_error_store_draft_body">Αποτυχία αποθήκευσης του περιεχομένου του προχείρου</string>
+  <string name="composer_error_duplicate_recipient">Οι διπλότυποι παραλήπτες καταργήθηκαν</string>
+  <string name="composer_error_store_draft_subject">Αποτυχία αποθήκευσης θέματος του προχείρου</string>
+  <string name="composer_error_store_draft_recipients">Η αποθήκευση των παραληπτών αυτού του πρόχειρου απέτυχε</string>
+  <string name="composer_error_loading_draft">Το περιεχόμενο αυτού του πρόχειρου δεν είναι διαθέσιμο προς το παρόν. Η επεξεργασία θα αντικαταστήσει τυχόν προϋπάρχον περιεχόμενο.</string>
+  <string name="composer_add_attachments_content_description">Προσθήκη συνημμένων</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Εισαγωγή από…</string>
+  <string name="composer_error_loading_parent_message">Δεν ήταν δυνατή η φόρτωση των πληροφοριών του μηνύματος</string>
+  <string name="composer_original_message_quote">Αρχικό Μήνυμα</string>
+  <string name="composer_sender_quote">Την %s, %s ο/η &lt;%s&gt; έγραψε:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">ΟΚ</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">Εξάντληση ορίου συνημμένων</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">Το όριο μεγέθους για τα συνημμένα είναι %1$s</string>
+  <string name="composer_attachment_reencryption_failed_message">Απέτυχε η εκ νέου κρυπτογράφηση του συνημμένου. Για λόγους ασφαλείας, όλα τα συνημμένα καταργήθηκαν.</string>
+  <string name="composer_attachment_not_found">Το συνημμένο δεν βρέθηκε.</string>
+  <string name="composer_attachment_error_draft_loading">Αποτυχία φόρτωσης του πρωτότυπου πρόχειρου μηνύματος.</string>
+  <string name="composer_attachment_error_saving_attachment">Αδυναμία αποθήκευσης συνημμένου. Δοκιμάστε ξανά.</string>
+  <string name="composer_warning_local_data_shown">Απέτυχε η φόρτωση της τελευταίας έκδοσης αυτού του προχείρου. Οποιαδήποτε αλλαγή θα υπερισχύει του περιεχομένου της.</string>
+  <string name="composer_button_add_password">Προσθήκη κωδικού πρόσβασης</string>
+  <string name="composer_button_set_expiration">Ορισμός χρόνου λήξης</string>
+  <string name="composer_expiration_time_bottom_sheet_title">Λήξη μηνύματος</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Ορισμός</string>
+  <string name="composer_bottom_bar_expiration_time_none">Κανένα</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 ώρα</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 ημέρα</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 ημέρες</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 εβδομάδα</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Προσαρμοσμένο</string>
+  <string name="composer_error_setting_expiration_time">Η ρύθμιση του χρόνου λήξης απέτυχε</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Μη υποστηριζόμενη ημ/νία λήξης</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Συνιστούμε να ορίσετε έναν κωδικό πρόσβασης για τους ακόλουθους παραλήπτες:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">Ακύρωση</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Αποστολή ούτως ή άλλως</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Αποστολή ειδοποίησης</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">Η αποστολή μηνυμάτων από διεύθυνση @pm.me είναι μια λειτουργία επί πληρωμή. Το μήνυμά σας θα σταλεί από την προεπιλεγμένη σας διεύθυνση.</string>
+  <string name="composer_sender_changed_original_address_disabled">Η επιλεγμένη διεύθυνση αποστολέα είναι απενεργοποιημένη. Το μήνυμά σας θα σταλεί από την προεπιλεγμένη διεύθυνσή σας.</string>
+  <string name="composer_sender_changed_original_address_generic_error">Η αρχική διεύθυνση αποστολέα δεν βρέθηκε. Το μήνυμά σας θα σταλεί από την προεπιλεγμένη διεύθυνσή σας.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">ΟΚ</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Σύνταξη</string>
+  <string name="composer_send_without_subject_dialog_text">Αποστολή μηνύματος χωρίς θέμα;</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Ναι</string>
+  <string name="composer_send_without_subject_dialog_reject_button">Όχι</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Σφάλμα αποστολής</string>
+  <string name="message_sending_error_dialog_button_dismiss">Κλείσιμο</string>
+  <string name="message_sending_error_dialog_text_error">Το μήνυμα σας δεν μπορεί να σταλεί στη διεύθυνση ηλεκτρονικού ταχυδρομείου που καταχωρήσατε για τον ακόλουθο λόγο:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">Δεν υπάρχουν Αξιόπιστα Κλειδιά: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">Η διεύθυνση δεν υπάρχει: %s</string>
+  <string name="set_message_password_title">Κρυπτογράφηση μηνύματος</string>
+  <string name="set_message_password_info_message">Ορίστε έναν κωδικό για την κρυπτογράφηση αυτού του μηνύματος για τους χρήστες που δεν χρησιμοποιούν το ProtonMail.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">Μάθετε περισσότερα</a></string>
+  <string name="set_message_password_label">Κωδικός πρόσβασης μηνύματος</string>
+  <string name="set_message_password_label_repeat">Επανάληψη κωδικού</string>
+  <string name="set_message_password_label_hint">Υπόδειξη κωδικού πρόσβασης (προαιρετικό)</string>
+  <string name="set_message_password_supporting_text">μήκος 4 έως 21 χαρακτήρες</string>
+  <string name="set_message_password_supporting_error_text">Ο κωδικός πρόσβασης πρέπει να αποτελείται από 4 έως 21 χαρακτήρες</string>
+  <string name="set_message_password_supporting_text_repeat">Οι κωδικοί πρόσβασης πρέπει να ταυτίζονται</string>
+  <string name="set_message_password_supporting_error_text_repeat">Οι κωδικοί πρόσβασης δεν ταυτίζονται</string>
+  <string name="set_message_password_button_show">Εμφάνιση κωδικού πρόσβασης</string>
+  <string name="set_message_password_button_hide">Απόκρυψη κωδικού πρόσβασης</string>
+  <string name="set_message_password_button_apply">Εφαρμογή κωδικού πρόσβασης</string>
+  <string name="set_message_password_button_save_changes">Αποθήκευση αλλαγών</string>
+  <string name="set_message_password_button_remove_password">Αφαίρεση κωδικού πρόσβασης</string>
+  <string name="respondInline">Απάντηση μέσα στην γραμμή</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d μέλος</item>
+    <item quantity="other">%d μέλη</item>
+  </plurals>
+</resources>

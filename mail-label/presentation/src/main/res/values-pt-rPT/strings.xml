@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="label_title_inbox">Caixa de entrada</string>
+  <string name="label_title_drafts">Rascunhos</string>
+  <string name="label_title_sent">Enviado</string>
+  <string name="label_title_starred">Com estrela</string>
+  <string name="label_title_archive">Arquivo</string>
+  <string name="label_title_spam">Spam</string>
+  <string name="label_title_trash">Lixo</string>
+  <string name="label_title_outbox">Caixa de saída</string>
+  <string name="label_title_all_mail">Todo o correio</string>
+  <string name="label_title_all_drafts">Todos o rascunho</string>
+  <string name="label_title_all_sent">Todos os enviados</string>
+  <string name="label_title_all_scheduled">Toda a programação</string>
+  <string name="label_title_snoozed">Adiado</string>
+  <string name="label_title_folders">Pastas</string>
+  <string name="label_title_parent_folder">Pasta principal</string>
+  <string name="label_title_labels">Etiquetas</string>
+  <string name="label_title_create_folder">Criar uma pasta</string>
+  <string name="label_title_create_label">Criar uma etiqueta</string>
+  <string name="label_title_label_list">Lista de etiquetas</string>
+  <string name="label_title_folder_list">Lista de Pastas</string>
+  <string name="label_list_no_labels_found">Nenhuma etiqueta encontrada.</string>
+  <string name="label_list_create_label_placeholder_description">Crie uma etiqueta para melhorar a sua experiência no seu email.</string>
+  <string name="create_label_content_description">Criar uma etiqueta</string>
+  <string name="label_form_create_label">Criar etiqueta</string>
+  <string name="folder_form_create_folder">Criar pasta</string>
+  <string name="label_form_edit_label">Editar etiqueta</string>
+  <string name="folder_form_edit_folder">Editar pasta</string>
+  <string name="label_form_save">Guardar</string>
+  <string name="label_form_delete">Eliminar etiqueta</string>
+  <string name="folder_form_delete">Eliminar pasta</string>
+  <string name="label_name_title">Nome</string>
+  <string name="add_a_label_name_hint">Adicionar um nome à etiqueta</string>
+  <string name="add_a_folder_name_hint">Adicionar um nome à pasta</string>
+  <plurals name="input_field_max_characters_count">
+    <item quantity="one">%1d/%2d caráter</item>
+    <item quantity="other">%1d/%2d carateres</item>
+  </plurals>
+  <string name="color_picker_title">Cor</string>
+  <string name="save_label_error">Erro ao guardar etiqueta. Tente outra vez mais tarde.</string>
+  <string name="save_folder_error">Erro ao guardar a pasta. Tente outra vez mais tarde.</string>
+  <string name="label_already_exists">Já existe uma etiqueta ou pasta com este nome</string>
+  <string name="label_limit_reached_error">É necessária uma subscrição paga do Proton Mail para criar mais etiquetas</string>
+  <string name="folder_limit_reached_error">É necessária uma subscrição paga do Proton Mail para criar mais pastas</string>
+  <string name="delete_label_error">Erro ao eliminar etiqueta</string>
+  <string name="input_field_clear_content_description">Limpar texto</string>
+  <string name="label_list_item_content_description">Lista de itens de etiquetas</string>
+  <string name="folder_list_item_content_description">Item da lista de pastas</string>
+  <string name="folder_list_no_folders_found">Nenhuma pasta encontrada.</string>
+  <string name="folder_list_create_folder_placeholder_description">Crie uma pasta para melhorar a sua experiência no seu email.</string>
+  <string name="create_folder_content_description">Adicionar uma pasta</string>
+  <string name="folder_settings_content_description">Definições de pastas</string>
+  <string name="folder_settings_title">Definições</string>
+  <string name="folder_settings_done_button">Terminado</string>
+  <string name="folder_settings_folder_colors">Utilizar cores da pasta</string>
+  <string name="folder_settings_parent_color">Aplicar a cor da pasta principal</string>
+  <string name="folder_list_loading_error">Erro ao carregar pastas. Tente outra vez mais tarde.</string>
+  <string name="folder_loading_error">Erro ao carregar pasta. Tente outra vez mais tarde.</string>
+  <string name="switch_on">Ligado</string>
+  <string name="switch_off">Desligado</string>
+  <string name="folder_form_parent">Pasta principal</string>
+  <string name="folder_form_no_parent">Nenhuma</string>
+  <string name="folder_form_notifications">Notificações</string>
+  <string name="folder_saved">Pasta guardada</string>
+  <string name="folder_deleted">Pasta eliminada</string>
+  <string name="parent_folder_none">Nenhuma</string>
+  <string name="delete_label">Eliminar a etiqueta?</string>
+  <string name="delete_folder">Eliminar a pasta?</string>
+  <string name="delete_label_message">Esta ação não pode ser anulada. Os e-mails marcados com esta etiqueta não serão eliminados e podem ser encontrados na pasta “Todo o correio”.</string>
+  <string name="delete_folder_message">Esta ação não pode ser anulada. Os e-mails contidos nesta pasta não serão eliminados e podem ser encontrados na pasta “Todo o correio”.</string>
+</resources>

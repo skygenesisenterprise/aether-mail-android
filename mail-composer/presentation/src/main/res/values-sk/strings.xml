@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">Od:</string>
+  <string name="to_prefix">Komu:</string>
+  <string name="cc_prefix">Kópia (Cc):</string>
+  <string name="bcc_prefix">Skrytá kópia (Bcc):</string>
+  <string name="subject_placeholder">Predmet</string>
+  <string name="compose_message_placeholder">Napísať e-mail</string>
+  <string name="close_composer_content_description">Zatvoriť editor</string>
+  <string name="send_message_content_description">Odoslať správu</string>
+  <string name="composer_expand_recipients_button">Zobraziť ostatných príjemcov</string>
+  <string name="composer_error_invalid_email">E-mailová adresa je neplatná</string>
+  <string name="composer_error_invalid_sender">Adresa odosielateľa je neplatná</string>
+  <string name="change_sender_button_content_description">Zmeniť odosielateľa</string>
+  <string name="composer_change_sender_paid_feature">Na zmenu odosielateľa potrebujete platené predplatné Proton Mail</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">Nepodarilo sa zmeniť adresu odosielateľa, pretože získanie predplatného zlyhalo. Skúste znova.</string>
+  <string name="composer_error_store_draft_sender_address">Adresa odosielateľa nebola uložená</string>
+  <string name="composer_error_store_draft_body">Koncept emailu nebol uložený</string>
+  <string name="composer_error_duplicate_recipient">Duplicitní príjemcovia odstránení</string>
+  <string name="composer_error_store_draft_subject">Riadok predmetu nebol uložený</string>
+  <string name="composer_error_store_draft_recipients">Uloženie príjemcov tohto konceptu zlyhalo</string>
+  <string name="composer_error_loading_draft">Obsah tohto konceptu nie je momentálne dostupný. Úpravou sa prepíše akýkoľvek už existujúci obsah.</string>
+  <string name="composer_add_attachments_content_description">Pripojiť prílohy</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Importovať z…</string>
+  <string name="composer_error_loading_parent_message">Nebolo možné načítať informácie o správe</string>
+  <string name="composer_original_message_quote">Pôvodná správa</string>
+  <string name="composer_sender_quote">%s, %s &lt;%s&gt; napísal/a:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">OK</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">Bol dosiahnutý limit príloh</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">Limit veľkosti príloh je %1$s</string>
+  <string name="composer_attachment_reencryption_failed_message">Opätovné zašifrovanie prílohy zlyhalo. Z bezpečnostných dôvodov boli všetky prílohy odstránené.</string>
+  <string name="composer_attachment_not_found">Príloha nenájdená.</string>
+  <string name="composer_attachment_error_draft_loading">Nie je možné načítať pôvodný koncept správy.</string>
+  <string name="composer_attachment_error_saving_attachment">Nie je možné uložiť prílohu. Skúste to znova, prosím.</string>
+  <string name="composer_warning_local_data_shown">Najnovšiu verziu tohto konceptu sa nepodarilo načítať. Akákoľvek zmena prepíše jej obsah.</string>
+  <string name="composer_button_add_password">Pridať heslo</string>
+  <string name="composer_button_set_expiration">Nastaviť čas pre vypršanie platnosti</string>
+  <string name="composer_expiration_time_bottom_sheet_title">Platnosť správy</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Nastaviť</string>
+  <string name="composer_bottom_bar_expiration_time_none">Neobmedzená</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 hodina</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 deň</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 dni</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 týždeň</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Vlastná</string>
+  <string name="composer_error_setting_expiration_time">Nastavenie doby platnosti zlyhalo</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Expirácia nie je podporovaná</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Odporúčame miesto toho nastaviť heslo pre nasledujúcich príjemcov:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">Zrušiť</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Napriek tomu odoslať</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Odoslanie oznámenia</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">Posielanie správ z domény @pm.me je platená funkcia. Vaša správa bude odoslaná z vašej predvolenej adresy.</string>
+  <string name="composer_sender_changed_original_address_disabled">Zvolená adresa odosielateľa je zakázaná. Vaša správa bude odoslaná z vašej predvolenej adresy.</string>
+  <string name="composer_sender_changed_original_address_generic_error">Adresu pôvodného odosielateľa nebolo možné získať. Vaša správa bude odoslaná z vašej predvolenej adresy.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">OK</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Napíšte</string>
+  <string name="composer_send_without_subject_dialog_text">Poslať správu bez predmetu?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Áno</string>
+  <string name="composer_send_without_subject_dialog_reject_button">Nie</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Chyba pri odosielaní</string>
+  <string name="message_sending_error_dialog_button_dismiss">Zavrieť</string>
+  <string name="message_sending_error_dialog_text_error">Váš email nemôže byť odoslaný na zadanú adresu z nasledujúceho dôvodu:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">Žiadne dôveryhodné kľúče: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">Adresa neexistuje: %s</string>
+  <string name="set_message_password_title">Šifrovať správu</string>
+  <string name="set_message_password_info_message">Nastavte heslo na zašifrovanie tejto správy pre používateľov, ktorí nemajú Proton Mail.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">Zistiť viac</a></string>
+  <string name="set_message_password_label">Heslo správy</string>
+  <string name="set_message_password_label_repeat">Zopakovať heslo</string>
+  <string name="set_message_password_label_hint">Nápoveda k heslu (voliteľné)</string>
+  <string name="set_message_password_supporting_text">4 až 21 znakov</string>
+  <string name="set_message_password_supporting_error_text">Heslo musí mať dĺžku 4 až 21 znakov</string>
+  <string name="set_message_password_supporting_text_repeat">Heslá sa musia zhodovať</string>
+  <string name="set_message_password_supporting_error_text_repeat">Heslá sa nezhodujú</string>
+  <string name="set_message_password_button_show">Zobraziť heslo</string>
+  <string name="set_message_password_button_hide">Skryť heslo</string>
+  <string name="set_message_password_button_apply">Použiť heslo</string>
+  <string name="set_message_password_button_save_changes">Uložiť zmeny</string>
+  <string name="set_message_password_button_remove_password">Odstrániť heslo</string>
+  <string name="respondInline">Odpovedať v riadku</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d člen</item>
+    <item quantity="few">%d členovia</item>
+    <item quantity="many">%d členov</item>
+    <item quantity="other">%d členov</item>
+  </plurals>
+</resources>

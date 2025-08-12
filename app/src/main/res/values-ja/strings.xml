@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="dialog_sign_out_account_title">サインアウト</string>
+  <string name="dialog_sign_out_account_description">本当にサインアウトしますか？</string>
+  <string name="dialog_sign_out_account_confirm">はい</string>
+  <string name="dialog_sign_out_account_cancel">いいえ</string>
+  <string name="dialog_remove_account_title">アカウントの削除</string>
+  <string name="dialog_remove_account_description">サインアウトして、このアカウントに関連するすべての情報を削除することになります。</string>
+  <string name="dialog_remove_account_confirm">削除</string>
+  <string name="dialog_remove_account_cancel">キャンセル</string>
+  <string name="user_select_other_account_content_description">別のアカウントを選択</string>
+  <string name="you_are_offline">オフラインです</string>
+  <string name="feature_coming_soon">近日公開予定です。</string>
+  <string name="mailbox_draft_saved">下書きを保存しました</string>
+  <string name="mailbox_draft_discard">破棄</string>
+  <string name="mailbox_message_sending">メッセージを送信中…</string>
+  <string name="mailbox_message_sending_offline">オフライン、メッセージは送信待ち</string>
+  <string name="mailbox_message_sending_success">メッセージが送信されました</string>
+  <string name="mailbox_message_sending_error">メッセージ送信エラー</string>
+  <string name="mailbox_message_sending_error_address_disabled">アドレスが無効です。送信できません。</string>
+  <string name="mailbox_message_sending_error_action">下書きを開く</string>
+  <string name="mailbox_attachment_uploading_error">添付ファイルのアップロードエラー</string>
+  <string name="notification_switched_account">アカウント %s に切り替えました</string>
+  <string name="label_saved">ラベルが保存されました</string>
+  <string name="label_deleted">ラベルが削除されました</string>
+  <string name="label_list_loading_error">ラベルの読み込み中にエラーが発生しました。後でもう一度お試しください。</string>
+  <string name="app_locked">アプリがロックされました</string>
+  <string name="use_pin_instead">代わりにPINコードを使用する</string>
+</resources>

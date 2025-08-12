@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <plurals name="attachment_count_label">
+    <item quantity="one">%d fil</item>
+    <item quantity="other">%d filer</item>
+  </plurals>
+  <string name="attachment_show_more_label">+%1$d till</string>
+  <string name="attachment_permission_dialog_title">Behörighet krävs</string>
+  <string name="attachment_permission_dialog_message">Proton Mail behöver behörighet att komma åt ditt lagringsutrymme för att ladda ner bilagan.</string>
+  <string name="attachment_permission_dialog_dismiss_button">OK</string>
+  <string name="attachment_permission_dialog_action_button">Inställningar</string>
+  <string name="attachment_type_description">%1$s-fil</string>
+  <!-- Attachment Types -->
+  <string name="attachment_type_archive">Arkiv</string>
+  <string name="attachment_type_image">Bild</string>
+  <string name="attachment_type_video">Video</string>
+  <string name="attachment_type_audio">Ljud</string>
+  <string name="attachment_type_unknown">Okänd</string>
+  <string name="attachment_type_pdf">PDF</string>
+  <string name="attachment_type_text">Text</string>
+  <string name="attachment_type_document">Dokument</string>
+  <string name="attachment_type_spreadsheet">Kalkylblad</string>
+  <string name="attachment_type_presentation">Presentation</string>
+  <!-- Bottom Sheet -->
+  <string name="bottom_sheet_move_to_title">Flytta till...</string>
+  <string name="bottom_sheet_done_action">Klar</string>
+  <string name="bottom_sheet_archive_action">Arkivera också?</string>
+  <string name="bottom_sheet_label_as_title">Märk som …</string>
+  <string name="bottom_sheet_more_header_message_from">Meddelande från %s</string>
+  <!-- Message body link actions -->
+  <string name="message_link_long_click_copy">Kopiera länk</string>
+  <string name="message_link_long_click_copy_description">Text kopierat från Proton Mail</string>
+  <string name="message_link_long_click_share">Dela länk</string>
+  <string name="message_link_long_click_share_via">Dela länk via</string>
+  <!-- Contact Actions Bottom Sheet -->
+  <string name="contact_actions_copy_address">Kopiera adress</string>
+  <string name="contact_actions_copy_address_description">Kopiera kontaktadress</string>
+  <string name="contact_actions_copy_address_performed">Adress kopierad till urklipp</string>
+  <string name="contact_actions_copy_name">Kopiera namn</string>
+  <string name="contact_actions_copy_name_description">Kopiera kontaktnamn</string>
+  <string name="contact_actions_copy_name_performed">Namn kopierat till urklipp</string>
+  <string name="contact_actions_new_message">Nytt meddelande</string>
+  <string name="contact_actions_new_message_description">Börja skriva ett nytt meddelande för denna kontakt</string>
+  <string name="contact_actions_add_contact">Lägg till kontakt</string>
+  <string name="contact_actions_add_contact_description">Spara denna mottagare som en kontakt</string>
+  <string name="contact_actions_view_contact_details">Visa kontaktdetaljer</string>
+  <string name="contact_actions_view_contact_details_description">Visa detaljer om kontakten</string>
+  <!-- Device Contacts permission dialog -->
+  <string name="device_contacts_permission_dialog_title">Behörighet krävs</string>
+  <string name="device_contacts_permission_dialog_message">Proton Mail behöver behörighet för att läsa dina kontakter för att föreslå mottagare.</string>
+  <string name="device_contacts_permission_dialog_dismiss_button">OK</string>
+  <string name="device_contacts_permission_dialog_action_button">Begär behörighet</string>
+  <string name="device_contacts_permission_dialog_action_button_deny">Neka</string>
+  <!-- View entire message button -->
+  <string name="button_view_entire_message">Visa hela meddelandet</string>
+</resources>

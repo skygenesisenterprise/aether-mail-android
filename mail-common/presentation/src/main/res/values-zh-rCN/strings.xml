@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="retry">重试</string>
+  <string name="toolbar_back_content_description">返回前一界面</string>
+  <string name="x_error_not_logged_in">未登录</string>
+  <string name="action_reply">回复</string>
+  <string name="action_reply_all">全部回复</string>
+  <string name="action_forward">转发</string>
+  <string name="action_reply_description">回复</string>
+  <string name="action_reply_all_description">回复所有人</string>
+  <string name="action_forward_description">转发</string>
+  <string name="action_mark_read_description">标为已读</string>
+  <string name="action_mark_unread_description">标为未读</string>
+  <string name="action_star_description">星标</string>
+  <string name="action_unstar_description">取消星标</string>
+  <string name="action_label_description">标记为…</string>
+  <string name="action_move_description">移至…</string>
+  <string name="action_trash_description">移至回收站</string>
+  <string name="action_delete_description">刪除</string>
+  <string name="action_archive_description">归档</string>
+  <string name="action_spam_description">标为垃圾邮件</string>
+  <string name="action_view_in_light_mode_description">在浅色模式下阅读邮件</string>
+  <string name="action_view_in_dark_mode_description">在深色模式下阅读邮件</string>
+  <string name="action_print_description">打印</string>
+  <string name="action_view_headers_description">查看邮件头信息</string>
+  <string name="action_view_html_description">以 HTML 方式查看</string>
+  <string name="action_report_phishing_description">举报欺诈邮件</string>
+  <string name="action_remind_description">提醒我</string>
+  <string name="action_save_pdf_description">另存为PDF</string>
+  <string name="action_sender_emails_description">对此发件人今后的邮件设置收信规则</string>
+  <string name="action_save_attachments_description">保存附件</string>
+  <string name="action_more_description">更多</string>
+  <string name="action_reply_content_description">回复</string>
+  <string name="action_reply_all_content_description">回复所有人</string>
+  <string name="action_forward_content_description">转发</string>
+  <string name="action_mark_read_content_description">标为已读</string>
+  <string name="action_mark_unread_content_description">标为未读</string>
+  <string name="action_star_content_description">星标</string>
+  <string name="action_unstar_content_description">取消星标</string>
+  <string name="action_label_content_description">标记为…</string>
+  <string name="action_move_content_description">移至…</string>
+  <string name="action_trash_content_description">移至回收站</string>
+  <string name="action_delete_content_description">删除</string>
+  <string name="action_archive_content_description">归档</string>
+  <string name="action_spam_content_description">标为垃圾邮件</string>
+  <string name="action_view_in_light_mode_content_description">在浅色模式下阅读邮件</string>
+  <string name="action_view_in_dark_mode_content_description">在深色模式下阅读邮件</string>
+  <string name="action_print_content_description">打印</string>
+  <string name="action_view_headers_content_description">查看邮件头信息</string>
+  <string name="action_view_html_content_description">查看 HTML 代码</string>
+  <string name="action_report_phishing_content_description">举报欺诈邮件</string>
+  <string name="action_remind_content_description">稍后提醒我</string>
+  <string name="action_save_pdf_content_description">保存为 PDF 文件</string>
+  <string name="action_sender_emails_content_description">对此发件人今后的邮件设置收信规则</string>
+  <string name="action_save_attachments_content_description">保存附件</string>
+  <string name="action_more_content_description">更多</string>
+  <string name="common_error_loading_actions">加载操作失败</string>
+  <string name="yesterday">昨天</string>
+  <string name="action_open_customize_toolbar">自定义工具栏</string>
+  <string name="action_open_customize_toolbar_description">自定义工具栏</string>
+  <string name="auto_delete_banner_text_activate_trash">自动删除在回收站中超过 30 天的邮件。</string>
+  <string name="auto_delete_banner_text_activate_spam">自动删除垃圾邮件中超过 30 天的邮件。</string>
+  <string name="auto_delete_banner_text_upgrade">升级账户即可自动删除归入垃圾邮件或回收站超过 30 天的邮件。</string>
+  <string name="auto_delete_banner_text_enabled_info">已归入垃圾邮件或回收站超过 30 天的邮件将被自动删除。</string>
+  <string name="auto_delete_banner_button_activate_confirm">启用</string>
+  <string name="auto_delete_banner_button_activate_dismiss">不，谢谢</string>
+  <string name="auto_delete_banner_action_upgrade_learn_more">了解详情</string>
+  <!-- message expiration -->
+  <string name="expiration_expired">已过期</string>
+  <string name="expiration_days_arg">%d 天</string>
+  <string name="expiration_hours_arg">%d 小时</string>
+  <string name="expiration_minutes_arg">%d 分钟</string>
+  <string name="expiration_auto_delete_hour">此消息将在一小时内自动删除</string>
+  <string name="expiration_auto_delete_day">此消息将在一天内自动删除</string>
+  <string name="expiration_auto_delete_days" description="example: This message will be automatically deleted in 5 days">此消息将于 %s 内自动删除</string>
+  <plurals name="expiration_minutes_full_word">
+    <item quantity="other">%d 分钟</item>
+  </plurals>
+  <plurals name="expiration_hours_full_word">
+    <item quantity="other">%d 小时</item>
+  </plurals>
+  <plurals name="expiration_days_full_word">
+    <item quantity="other">%d 天</item>
+  </plurals>
+  <!-- notification channels -->
+  <string name="attachment_download_notification_channel_name">附件</string>
+  <string name="attachment_download_notification_channel_description">附件下载通知</string>
+  <string name="email_notification_channel_name">电子邮件</string>
+  <string name="login_notification_channel_name">登录提醒</string>
+  <string name="email_notification_channel_description">新邮件提醒</string>
+  <string name="login_notification_channel_description">新设备登录通知</string>
+  <string name="auth_badge_official">官方</string>
+  <string name="intent_failure_no_app_found_to_handle_this_action">未找到能完成此操作的应用</string>
+  <string name="action_copied_to_clipboard">已复制到剪贴板</string>
+  <string name="mailbox_action_delete_dialog_button_cancel">取消</string>
+  <string name="mailbox_action_delete_dialog_button_delete">刪除</string>
+  <string name="picker_dialog_cancel">取消</string>
+  <string name="color_purple">紫色</string>
+  <string name="color_enzian">靛蓝色</string>
+  <string name="color_pink">粉红色</string>
+  <string name="color_plum">绛紫色</string>
+  <string name="color_strawberry">草莓红</string>
+  <string name="color_cerise">樱桃红</string>
+  <string name="color_carrot">胡萝卜橙</string>
+  <string name="color_copper">紫铜色</string>
+  <string name="color_sahara">黄土色</string>
+  <string name="color_soil">泥土色</string>
+  <string name="color_slate_blue">石板蓝色</string>
+  <string name="color_cobalt">钴蓝色</string>
+  <string name="color_pacific">太平洋蓝</string>
+  <string name="color_ocean">海蓝色</string>
+  <string name="color_reef">礁石色</string>
+  <string name="color_pine">松林绿</string>
+  <string name="color_fern">厥草绿</string>
+  <string name="color_forest">森林绿</string>
+  <string name="color_olive">橄榄绿</string>
+  <string name="color_pickle">腌黄瓜色</string>
+  <string name="undo_button_label">撤销</string>
+  <string name="undo_success_message">操作已撤销</string>
+  <string name="undo_failure_message">操作撤销失败</string>
+</resources>

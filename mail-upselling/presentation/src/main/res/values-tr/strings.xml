@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Upselling -->
+  <string name="upselling_button_item_content_description">Yükseltme düğmesi</string>
+  <string name="upselling_close_button_content_description">Kapat düğmesi</string>
+  <!-- Upselling: Mailbox -->
+  <string name="upselling_mailbox_plus_description_override">Daha fazla depolama alanı ve ücretli özellikler alın</string>
+  <string name="upselling_mailbox_plus_title">Mail Plus tarifesine yükselt</string>
+  <!-- Upselling: Mailbox Promo -->
+  <string name="upselling_mailbox_plus_promo_description_override">Sınırlı süreli teklif, istediğiniz zaman iptal edebilirsiniz.</string>
+  <string name="upselling_mailbox_plus_promo_title">Mail Plus tarifesini %s ile deneyin</string>
+  <!-- Upselling: Contact Groups -->
+  <string name="upselling_contact_groups_plus_description_override">Mail Plus tarifesi ile bir gruba kolayca e-posta gönderin ve diğer ücretli özelliklerin tadını çıkarın.</string>
+  <string name="upselling_contact_groups_plus_title">Kişilerinizi gruplayın</string>
+  <!-- Upselling: Labels -->
+  <string name="upselling_labels_plus_description_override">Mail Plus tarifesine yükselttiğinizde bunları ve diğer ücretli özellikleri kullanabilirsiniz.</string>
+  <string name="upselling_labels_plus_title">Daha fazla etiket veya klasör mü gerekiyor?</string>
+  <!-- Upselling: Folders -->
+  <string name="upselling_folders_plus_description_override">Mail Plus tarifesine yükselttiğinizde bunları ve diğer ücretli özellikleri kullanabilirsiniz.</string>
+  <string name="upselling_folders_plus_title">Daha fazla etiket veya klasör mü gerekiyor?</string>
+  <!-- Upselling: Mobile Signature -->
+  <string name="upselling_mobile_signature_plus_description_override">Kendi mobil imzanızı kullanın ve Mail Plus tarifesi ile diğer ücretli özelliklerin tadını çıkarın.</string>
+  <string name="upselling_mobile_signature_plus_title">İmzanızı özelleştirin</string>
+  <!-- Upselling: Mobile Signature -->
+  <string name="upselling_auto_delete_plus_description_override">Mail Plus tarifesi ile daha düzenli bir posta kutusunun ve diğer ücretli özelliklerin tadını çıkarın.</string>
+  <string name="upselling_auto_delete_plus_title">Çöp ve istenmeyen kutularındaki eski iletiler temizleyin</string>
+  <!-- Drive Spotlight-->
+  <string name="drive_spotlight_title">Yeni! Proton Albümleri</string>
+  <string name="drive_spotlight_description">Fotoğrafları albümlerde düzenleyin ve bunları arkadaşlarınızla ve ailenizle güvenli bir şekilde paylaşın. Tarifenizde ücretsiz olarak bulunuyor.</string>
+  <string name="drive_spotlight_description_with_gb">Fotoğrafları albümlerde düzenleyin ve bunları arkadaşlarınızla ve ailenizle güvenle paylaşın. Kullanabileceğiniz %d GB güvenli bulut depolama alanınız var.</string>
+  <string name="drive_spotlight_cta">Proton Drive üzerinde albümleri açın</string>
+  <!-- Mail Plus -->
+  <string name="upselling_plus_feature_storage">15 GB depolama alanı</string>
+  <string name="upselling_plus_feature_storage_plus_mails">15 GB depolama alanı, 10 e-posta adresi</string>
+  <string name="upselling_plus_feature_email_addresses">10 e-posta adresi</string>
+  <string name="upselling_plus_feature_custom_domain">Özel e-posta etki alanı desteği</string>
+  <string name="upselling_plus_feature_desktop_app">Yeni Proton Mail bilgisayar uygulaması</string>
+  <string name="upselling_plus_feature_calendar">Ücretli takvim özellikleri</string>
+  <string name="upselling_plus_feature_folders_labels">Sınırsız klasör, etiket, süzgeç</string>
+  <string name="upselling_plus_feature_plus_7_features">+7 ücretli özellik</string>
+  <!-- Unlimited -->
+  <string name="upselling_unlimited_description_override">Tümünü bir arada sunan ücretli abonelik</string>
+  <string name="upselling_unlimited_feature_storage">Fotoğraf yedekleme ile 500 GB depolama alanı</string>
+  <string name="upselling_unlimited_feature_mail_calendar">Tüm ücretli Mail ve Calendar özellikleri</string>
+  <string name="upselling_unlimited_feature_vpn">VPN (90 üzerinde ülke)</string>
+  <string name="upselling_unlimited_feature_drive">Güvenli bulut depolama alanı</string>
+  <string name="upselling_unlimited_feature_pass">Şifrelenmiş parola yöneticisi</string>
+  <!-- Onboarding Upselling -->
+  <string name="upselling_onboarding_premium_value_included">Ücretli özelliklerle birlikte</string>
+  <string name="upselling_onboarding_feature_e2e">Uçtan uca şifreleme</string>
+  <string name="upselling_onboarding_feature_folders_labels">Sınırsız sayıda klasör ve etiket</string>
+  <string name="upselling_onboarding_free_feature_storage">1 GB depolama alanı ve 1 e-posta adresi</string>
+  <string name="upselling_onboarding_plus_feature_storage">15 GB depolama alanı</string>
+  <string name="upselling_onboarding_plus_feature_email_addresses">Sizin için 10 ek e-posta adresi</string>
+  <string name="upselling_onboarding_plus_feature_email_domains">1 özel e-posta etki alanı desteği</string>
+  <string name="upselling_onboarding_plus_feature_aliases">10 hide-my-email takma adı</string>
+  <string name="upselling_onboarding_plus_feature_customer_support">Öncelikli müşteri desteği</string>
+  <string name="upselling_onboarding_unlimited_feature_storage">500 GB depolama alanı</string>
+  <string name="upselling_onboarding_unlimited_feature_email_addresses">Sizin için 15 ek e-posta adresi</string>
+  <string name="upselling_onboarding_unlimited_feature_email_domains">3 özel e-posta etki alanı desteği</string>
+  <string name="upselling_onboarding_unlimited_feature_aliases">Sınırsız hide-my-email takma adı</string>
+  <string name="upselling_onboarding_unlimited_feature_customer_support">Özel müşteri desteği</string>
+  <string name="upselling_onboarding_unlimited_feature_vpn">Süper hızlı ve güvenli VPN</string>
+  <string name="upselling_onboarding_unlimited_feature_pass">Şifrelenmiş parola yöneticisi</string>
+  <string name="upselling_onboarding_unlimited_feature_drive">Fotoğraf ve belgeler için şifrelenmiş bulut depolama alanı</string>
+  <string name="upselling_onboarding_unlimited_feature_sentinel">Gelişmiş hesap koruması</string>
+  <!-- NPS feedback-->
+  <string name="nps_feedback_title">Feedback</string>
+  <string name="nps_feedback_headline">How likely are you to recommend Proton Mail to a friend or colleague?</string>
+  <string name="nps_cta">Share anonymously</string>
+  <string name="nps_label_left">0 is very unlikely</string>
+  <string name="nps_label_right">10 is very likely</string>
+  <string name="nps_optional">Optional</string>
+  <string name="nps_why_description">Please let us know why you gave that rating</string>
+  <string name="nps_success">Thanks for your feedback! It helps us make Proton Mail even better ❤️</string>
+  <!-- Comparison Table -->
+  <string name="upselling_comparison_table_storage">Depolama alanı</string>
+  <string name="upselling_comparison_table_email_addresses">E-posta adresleri</string>
+  <string name="upselling_comparison_table_custom_email_domain">Özel e-posta etki alanı</string>
+  <string name="upselling_comparison_table_desktop_app">Bilgisayar uygulamasına erişim</string>
+  <string name="upselling_comparison_table_unlimited_folders_labels">Sınırsız sayıda klasör ve etiket</string>
+  <string name="upselling_comparison_table_priority_support">Öncelikli müşteri desteği</string>
+  <!-- Rectangular plan buttons -->
+  <string name="upselling_select_plan">Tarifenizi seçin</string>
+  <string name="upselling_select_plan_year">1 yıl</string>
+  <string name="upselling_select_plan_month">1 ay</string>
+  <!-- Other UI Items -->
+  <string name="upselling_auto_renew_text">İptal edilmediği sürece aynı fiyat ve koşullarla otomatik olarak yenilenir.</string>
+  <string name="upselling_auto_renew_text_promo">Karşılama teklifi. İptal edilmedikçe %s%s%s zamanında otomatik olarak yenilenir.</string>
+  <string name="upselling_auto_renew_text_promo_short">Karşılama teklifi. Otomatik polarak %s %s%s zamanında yenilenir.</string>
+  <string name="upselling_auto_renew_text_standard">İptal edilmedikçe %s %s%s zamanında otomatik olarak yenilenir.</string>
+  <string name="upselling_social_proof_reviews">3.500+ YORUM</string>
+  <string name="upselling_description_social_proof"><b>1 milyondan fazla ücretli abone</b> tarafından seviliyor.</string>
+  <string name="upselling_description_social_proof_second">Üretkenliğinizi artırın.</string>
+  <string name="upselling_discount_tag">%s%% indirim</string>
+  <string name="upselling_month">/ay</string>
+  <string name="upselling_year">/yıl</string>
+  <string name="upselling_get_button">%s alın</string>
+  <string name="upselling_get_button_promotional">%s %s ile 1 aylık alın</string>
+  <plurals name="upselling_month">
+    <item quantity="one">%d ay</item>
+    <item quantity="other">%d ay</item>
+  </plurals>
+  <!-- Errors -->
+  <string name="upselling_unable_retrieve_options">Yükseltme seçenekleri alınamadı.</string>
+  <string name="upselling_snackbar_error_no_user_id">Bir sorun çıktı.</string>
+  <string name="upselling_snackbar_error_no_subscriptions">Abonelikler alınamadı.</string>
+  <!-- Snackbar texts -->
+  <string name="upselling_snackbar_upgrade_in_progress">Abonelik yükseltme işlemi sürüyor...</string>
+  <string name="upselling_snackbar_upgrade_error_generic">Aboneliğiniz yükseltilirken bir sorun çıktı.</string>
+  <string name="upselling_snackbar_upgrade_error_recoverable">Bir sorun çıktı. Lütfen yeniden deneyin.</string>
+  <!-- Upselling: Onboarding -->
+  <string name="upselling_onboarding_title">Bir tarife seçin</string>
+  <string name="upselling_onboarding_switcher_monthly">Aylık</string>
+  <string name="upselling_onboarding_switcher_annual">Yıllık</string>
+  <string name="upselling_onboarding_best_value">En iyi değer</string>
+  <string name="upselling_onboarding_month">/ay</string>
+  <string name="upselling_onboarding_year">/yıl</string>
+  <plurals name="upselling_onboarding_more_features">
+    <item quantity="one">%d ek özellik</item>
+    <item quantity="other">%d ek özellik</item>
+  </plurals>
+  <string name="upselling_onboarding_get_plan">%s alın</string>
+  <string name="upselling_onboarding_continue_with_proton_free">Proton Free tarifesini kullanmayı sürdür</string>
+  <string name="upselling_onboarding_save_label">%s%% indirim</string>
+  <!-- Post subscription -->
+  <string name="post_subscription_close_button_content_description">Kapat</string>
+  <string name="post_subscription_continue_button">İlerle</string>
+  <string name="post_subscription_got_it_button">Anladım</string>
+  <string name="post_subscription_welcome_page_title">Mail Plus tarifesine hoş geldiniz</string>
+  <string name="post_subscription_welcome_page_message">Herkes için internetin güvenli ve gizli kalmasını sağlamamıza destek olduğunuz için teşekkür ederiz.</string>
+  <string name="post_subscription_welcome_page_unlocked">Yeni özelliklere erişiminiz var</string>
+  <string name="post_subscription_plus_feature_storage">15 GB depolama alanı</string>
+  <string name="post_subscription_plus_feature_email_addresses">10 ek e-posta adresi</string>
+  <string name="post_subscription_plus_feature_email_domains">1 özel e-posta etki alanı desteği</string>
+  <string name="post_subscription_plus_feature_folders_labels">Sınırsız sayıda klasör ve etiket</string>
+  <string name="post_subscription_plus_feature_aliases">10 hide-my-email takma adı</string>
+  <string name="post_subscription_plus_feature_desktop_app">Yeni Proton Mail bilgisayar uygulaması</string>
+  <string name="post_subscription_plus_feature_customer_support">Öncelikli müşteri desteği</string>
+  <string name="post_subscription_discover_apps_page_title">Tüm uygulamaları keşfedin</string>
+  <string name="post_subscription_proton_calendar">Proton Calendar</string>
+  <string name="post_subscription_proton_calendar_message">Artık takvim paylaşımına ve 8 kat daha fazla takvim sayısına erişebilirsiniz.</string>
+  <string name="post_subscription_proton_drive">Proton Drive</string>
+  <string name="post_subscription_proton_drive_message">Yeni aboneliğiniz ile depolama alanınız 15 GB oldu.</string>
+  <string name="post_subscription_proton_vpn">Proton VPN</string>
+  <string name="post_subscription_proton_vpn_message">Hız ve güvenlik için en iyi VPN.</string>
+  <string name="post_subscription_proton_pass">Proton Pass</string>
+  <string name="post_subscription_proton_pass_message">Güvenli parola kaydetme ve hesaplarınızda kolay oturum açma.</string>
+  <string name="post_subscription_button_installed">Kurulu</string>
+  <string name="post_subscription_button_get_the_app">Uygulamayı al</string>
+</resources>

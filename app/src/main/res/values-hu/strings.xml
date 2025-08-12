@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="dialog_sign_out_account_title">Kijelentkezés</string>
+  <string name="dialog_sign_out_account_description">Biztos, hogy ki szeretne jelentkezni?</string>
+  <string name="dialog_sign_out_account_confirm">Igen</string>
+  <string name="dialog_sign_out_account_cancel">Nem</string>
+  <string name="dialog_remove_account_title">Fiók eltávolítása</string>
+  <string name="dialog_remove_account_description">Kijelentkezik és eltávolítja a fiókkal kapcsolatos összes adatot.</string>
+  <string name="dialog_remove_account_confirm">Eltávolítás</string>
+  <string name="dialog_remove_account_cancel">Mégsem</string>
+  <string name="user_select_other_account_content_description">Másik fiók választása</string>
+  <string name="you_are_offline">Nincs internetkapcsolat</string>
+  <string name="feature_coming_soon">A funkció hamarosan érkezik...</string>
+  <string name="mailbox_draft_saved">Piszkozat mentve</string>
+  <string name="mailbox_draft_discard">Elvetés</string>
+  <string name="mailbox_message_sending">Üzenet küldése…</string>
+  <string name="mailbox_message_sending_offline">Offline, az üzenet sorba van állítva küldésre</string>
+  <string name="mailbox_message_sending_success">Üzenet elküldve</string>
+  <string name="mailbox_message_sending_error">Hiba az üzenet küldése közben</string>
+  <string name="mailbox_message_sending_error_address_disabled">Ez a cím le van tiltva, a küldés sikertelen</string>
+  <string name="mailbox_message_sending_error_action">Ugrás a piszkozatokhoz</string>
+  <string name="mailbox_attachment_uploading_error">Hiba mellékletek feltöltésénél</string>
+  <string name="notification_switched_account">Átváltás %s fiókra</string>
+  <string name="label_saved">Címke mentve</string>
+  <string name="label_deleted">Címke törölve</string>
+  <string name="label_list_loading_error">Hiba a címke betöltése során, próbálja újra később</string>
+  <string name="app_locked">Az alkalmazás zárolt</string>
+  <string name="use_pin_instead">Inkább PIN-kód használata</string>
+</resources>

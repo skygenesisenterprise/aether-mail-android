@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="retry">Coba lagi</string>
+  <string name="toolbar_back_content_description">Kembali ke layar sebelumnya</string>
+  <string name="x_error_not_logged_in">Tidak masuk</string>
+  <string name="action_reply">Balas</string>
+  <string name="action_reply_all">Balas semua</string>
+  <string name="action_forward">Teruskan</string>
+  <string name="action_reply_description">Balas</string>
+  <string name="action_reply_all_description">Balas semua</string>
+  <string name="action_forward_description">Teruskan</string>
+  <string name="action_mark_read_description">Tandai dibaca</string>
+  <string name="action_mark_unread_description">Tandai belum dibaca</string>
+  <string name="action_star_description">Bintangi</string>
+  <string name="action_unstar_description">Hapus bintang</string>
+  <string name="action_label_description">Labeli sebagai…</string>
+  <string name="action_move_description">Pindahkan ke…</string>
+  <string name="action_trash_description">Pindahkan ke sampah</string>
+  <string name="action_delete_description">Hapus</string>
+  <string name="action_archive_description">Arsipkan</string>
+  <string name="action_spam_description">Pindahkan ke spam</string>
+  <string name="action_view_in_light_mode_description">Tampilkan pesan dalam mode terang</string>
+  <string name="action_view_in_dark_mode_description">Tampilkan pesan dalam mode gelap</string>
+  <string name="action_print_description">Cetak</string>
+  <string name="action_view_headers_description">Lihat header</string>
+  <string name="action_view_html_description">Lihat HTML</string>
+  <string name="action_report_phishing_description">Laporkan upaya phishing</string>
+  <string name="action_remind_description">Ingatkan saya</string>
+  <string name="action_save_pdf_description">Simpan sebagai PDF</string>
+  <string name="action_sender_emails_description">Tentukan tindakan untuk email dari pengirim ini ke depannya</string>
+  <string name="action_save_attachments_description">Simpan lampiran</string>
+  <string name="action_more_description">Lainnya</string>
+  <string name="action_reply_content_description">Balas</string>
+  <string name="action_reply_all_content_description">Balas semua</string>
+  <string name="action_forward_content_description">Teruskan</string>
+  <string name="action_mark_read_content_description">Tandai dibaca</string>
+  <string name="action_mark_unread_content_description">Tandai belum dibaca</string>
+  <string name="action_star_content_description">Bintangi</string>
+  <string name="action_unstar_content_description">Hapus bintang</string>
+  <string name="action_label_content_description">Labeli sebagai…</string>
+  <string name="action_move_content_description">Pindahkan ke…</string>
+  <string name="action_trash_content_description">Sampah</string>
+  <string name="action_delete_content_description">Hapus</string>
+  <string name="action_archive_content_description">Arsipkan</string>
+  <string name="action_spam_content_description">Spam</string>
+  <string name="action_view_in_light_mode_content_description">Tampilkan pesan dalam mode terang</string>
+  <string name="action_view_in_dark_mode_content_description">Tampilkan pesan dalam mode gelap</string>
+  <string name="action_print_content_description">Cetak</string>
+  <string name="action_view_headers_content_description">Lihat header</string>
+  <string name="action_view_html_content_description">Lihat HTML</string>
+  <string name="action_report_phishing_content_description">Laporkan phishing</string>
+  <string name="action_remind_content_description">Ingatkan saya</string>
+  <string name="action_save_pdf_content_description">Simpan sebagai PDF</string>
+  <string name="action_sender_emails_content_description">Tentukan tindakan untuk email dari pengirim ini ke depannya</string>
+  <string name="action_save_attachments_content_description">Simpan lampiran</string>
+  <string name="action_more_content_description">Lainnya</string>
+  <string name="common_error_loading_actions">Tindakan gagal dimuat</string>
+  <string name="yesterday">Kemarin</string>
+  <string name="action_open_customize_toolbar">Sesuaikan toolbar</string>
+  <string name="action_open_customize_toolbar_description">Sesuaikan toolbar</string>
+  <string name="auto_delete_banner_text_activate_trash">Hapus pesan yang telah berada ke sampah selama lebih dari 30 hari secara otomatis.</string>
+  <string name="auto_delete_banner_text_activate_spam">Hapus pesan yang telah ditandai sebagai spam selama lebih dari 30 hari secara otomatis.</string>
+  <string name="auto_delete_banner_text_upgrade">Tingkatkan untuk menghapus pesan yang telah berada di sampah dan spam selama lebih dari 30 hari secara otomatis.</string>
+  <string name="auto_delete_banner_text_enabled_info">Pesan yang telah berada di sampah dan spam selama lebih dari 30 hari akan dihapus secara otomatis.</string>
+  <string name="auto_delete_banner_button_activate_confirm">Aktifkan</string>
+  <string name="auto_delete_banner_button_activate_dismiss">Tidak, terima kasih</string>
+  <string name="auto_delete_banner_action_upgrade_learn_more">Pelajari lebih lanjut</string>
+  <!-- message expiration -->
+  <string name="expiration_expired">Kedaluwarsa</string>
+  <string name="expiration_days_arg">%d hari</string>
+  <string name="expiration_hours_arg">%d j</string>
+  <string name="expiration_minutes_arg">%d jt</string>
+  <string name="expiration_auto_delete_hour">Pesan ini akan dihapus secara otomatis dalam waktu kurang dari satu jam</string>
+  <string name="expiration_auto_delete_day">Pesan ini akan dihapus secara otomatis dalam waktu kurang dari satu hari</string>
+  <string name="expiration_auto_delete_days" description="example: This message will be automatically deleted in 5 days">Pesan ini akan dihapus secara otomatis dalam %s</string>
+  <plurals name="expiration_minutes_full_word">
+    <item quantity="other">%d menit</item>
+  </plurals>
+  <plurals name="expiration_hours_full_word">
+    <item quantity="other">%d jam</item>
+  </plurals>
+  <plurals name="expiration_days_full_word">
+    <item quantity="other">%d hari</item>
+  </plurals>
+  <!-- notification channels -->
+  <string name="attachment_download_notification_channel_name">Lampiran</string>
+  <string name="attachment_download_notification_channel_description">Notifikasi untuk unduhan lampiran</string>
+  <string name="email_notification_channel_name">Email</string>
+  <string name="login_notification_channel_name">Peringatan Entri Masuk</string>
+  <string name="email_notification_channel_description">Notifikasi email masuk</string>
+  <string name="login_notification_channel_description">Notifikasi entri masuk baru</string>
+  <string name="auth_badge_official">Resmi</string>
+  <string name="intent_failure_no_app_found_to_handle_this_action">Tidak ada aplikasi yang ditemukan untuk menangani tindakan ini</string>
+  <string name="action_copied_to_clipboard">Disalin ke papan klip</string>
+  <string name="mailbox_action_delete_dialog_button_cancel">Batalkan</string>
+  <string name="mailbox_action_delete_dialog_button_delete">Hapus</string>
+  <string name="picker_dialog_cancel">Batal</string>
+  <string name="color_purple">Ungu</string>
+  <string name="color_enzian">Enzian</string>
+  <string name="color_pink">Merah jambu</string>
+  <string name="color_plum">Plum</string>
+  <string name="color_strawberry">Arbei</string>
+  <string name="color_cerise">Ceri</string>
+  <string name="color_carrot">Wortel</string>
+  <string name="color_copper">Tembaga</string>
+  <string name="color_sahara">Sahara</string>
+  <string name="color_soil">Tanah</string>
+  <string name="color_slate_blue">Biru keabuan</string>
+  <string name="color_cobalt">Kobalt</string>
+  <string name="color_pacific">Pasifik</string>
+  <string name="color_ocean">Samudera</string>
+  <string name="color_reef">Karang</string>
+  <string name="color_pine">Pinus</string>
+  <string name="color_fern">Perdu</string>
+  <string name="color_forest">Hutan</string>
+  <string name="color_olive">Zaitun</string>
+  <string name="color_pickle">Acar</string>
+  <string name="undo_button_label">Urungkan</string>
+  <string name="undo_success_message">Tindakan diurungkan</string>
+  <string name="undo_failure_message">Tindakan gagal diurungkan</string>
+</resources>

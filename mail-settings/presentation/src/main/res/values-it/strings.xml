@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="mail_settings_settings">Impostazioni</string>
+  <string name="mail_settings_toolbar_button_content_description">Indietro</string>
+  <!-- Settings items -->
+  <string name="mail_settings_account_settings">Impostazioni dell\'account</string>
+  <string name="mail_settings_app_settings">Impostazioni dell\'applicazione</string>
+  <string name="mail_settings_theme">Tema</string>
+  <string name="mail_settings_push_notifications">Notifiche push</string>
+  <string name="mail_settings_auto_lock">Blocco automatico</string>
+  <string name="mail_settings_alternative_routing">Percorso alternativo</string>
+  <string name="mail_settings_app_language">Lingua dell\'interfaccia</string>
+  <string name="mail_settings_combined_contacts">Inclusione dei contatti</string>
+  <string name="mail_settings_local_cache">Cache locale</string>
+  <string name="mail_settings_local_cache_clear_button">Cancella la cache</string>
+  <string name="mail_settings_swipe_actions">Azioni di scorrimento</string>
+  <string name="mail_settings_combined_contacts_hint">Abilita questa opzione per completare automaticamente gli indirizzi email con i contatti di tutti gli account a cui hai effettuato l\'accesso.</string>
+  <string name="mail_settings_alternative_routing_hint">Abilita questa opzione per consentire a Proton Mail di provare l\'indirizzamento di rete alternativo, utile per evitare firewall o problemi di rete che non permettono la connessione ai server. Mantieni abilitata questa opzione per una maggiore affidabilità.</string>
+  <!-- Theme settings -->
+  <string name="mail_settings_system_default">Predefinito di sistema</string>
+  <string name="mail_settings_theme_light">Chiaro</string>
+  <string name="mail_settings_theme_dark">Scuro</string>
+  <!-- Settings item states -->
+  <string name="mail_settings_no_information_available">Nessuna informazione disponibile</string>
+  <string name="mail_settings_enabled">Abilitato</string>
+  <string name="mail_settings_disabled">Disabilitato</string>
+  <string name="mail_settings_allowed">Consentito</string>
+  <string name="mail_settings_denied">Negato</string>
+  <string name="mail_settings_auto_detect">Riconoscimento automatico</string>
+  <string name="mail_settings_customize_toolbar">Barra degli strumenti</string>
+  <string name="mail_settings_app_information">Informazioni sull\'applicazione</string>
+  <string name="mail_settings_app_version">Versione</string>
+  <string name="mail_settings_app_logs">Registro degli eventi</string>
+  <string name="mail_settings_account">Account</string>
+  <!-- Account Settings items -->
+  <string name="mail_settings_subscription">Abbonamento</string>
+  <string name="mail_settings_password_management">Gestione delle password</string>
+  <string name="mail_settings_recovery_email">Indirizzo email di recupero</string>
+  <string name="mail_settings_mailbox_size">Spazio della casella di posta</string>
+  <string name="mail_settings_addresses">Indirizzi</string>
+  <string name="mail_settings_default_email_address">Indirizzo email predefinito</string>
+  <string name="mail_settings_display_name_and_signature">Nome visualizzato e firma</string>
+  <string name="mail_settings_mailbox">Casella di posta</string>
+  <string name="mail_settings_privacy">Privacy</string>
+  <string name="mail_settings_labels">Etichette</string>
+  <string name="mail_settings_folders">Cartelle</string>
+  <string name="mail_settings_conversation_mode">Modalità conversazione</string>
+  <string name="mail_settings_auto_delete">Eliminazione automatica</string>
+  <string name="mail_settings_auto_delete_full_text">Eliminazione automatica dei messaggi indesiderati</string>
+  <string name="mail_settings_auto_delete_hint">Abilita questa opzione per eliminare automaticamente i messaggi presenti nel cestino e nella cartella spam per oltre 30 giorni.</string>
+  <string name="mail_settings_auto_delete_subscription_needed">Passa a un abbonamento Proton Mail a pagamento per abilitare questa opzione</string>
+  <string name="mail_settings_auto_delete_dialog_button_cancel">Annulla</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_title">Abilita l\'eliminazione automatica</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_text">Sei sicuro di voler eliminare tutti gli attuali e futuri messaggi presenti nel cestino e nella cartella spam per oltre 30 giorni?</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_button_confirm">Abilita</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_title">Disabilita l\'eliminazione automatica</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_text">Sei sicuro di non voler eliminare automaticamente tutti gli attuali e futuri messaggi presenti nel cestino e nella cartella spam per oltre 30 giorni?</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_button_confirm">Disabilita</string>
+  <string name="mail_settings_not_set">Non impostato</string>
+  <string name="mail_settings_conversation_mode_hint">Abilita questa opzione per visualizzare raggruppati i messaggi appartenenti alla stessa conversazione.</string>
+  <!-- Default email address settings -->
+  <string name="mail_settings_default_email_address_title">Indirizzo email predefinito</string>
+  <string name="mail_settings_default_email_address_inactive_addresses">Indirizzi non attivi</string>
+  <string name="mail_settings_default_email_address_no_inactive_addresses">Nessun indirizzo inattivo</string>
+  <string name="mail_settings_default_email_address_error_loading">Caricamento delle impostazioni non riuscito</string>
+  <string name="mail_settings_default_email_address_error_update">Aggiornamento delle impostazioni non riuscito</string>
+  <string name="mail_settings_default_email_address_error_update_subscription">Passa a un abbonamento Proton Mail a pagamento per impostare questo indirizzo come predefinito</string>
+  <!-- Display name, signature, mobile footer -->
+  <string name="mail_settings_identity_title">Nome visualizzato e firma</string>
+  <string name="mail_settings_identity_save_button">Salva</string>
+  <string name="mail_settings_identity_display_name">Nome visualizzato</string>
+  <string name="mail_settings_identity_display_name_hint">Nome visualizzato</string>
+  <string name="mail_settings_identity_signature">Firma</string>
+  <string name="mail_settings_identity_signature_hint">Firma</string>
+  <string name="mail_settings_identity_mobile_footer">Firma mobile</string>
+  <string name="mail_settings_identity_mobile_footer_subtext">Questa viene aggiunta dopo la tua firma.</string>
+  <string name="mail_settings_identity_mobile_footer_hint">Firma mobile</string>
+  <string name="mail_settings_identity_mobile_footer_default_free">Inviato da Proton Mail Android</string>
+  <string name="mail_settings_identity_error_updating">Aggiornamento delle impostazioni non riuscito</string>
+  <string name="mail_settings_identity_error_loading">Caricamento delle impostazioni non riuscito</string>
+  <!-- Privacy settings -->
+  <string name="mail_settings_privacy_auto_show_remote_content">Caricamento automatico dei contenuti remoti</string>
+  <string name="mail_settings_privacy_auto_show_embedded_images">Caricamento automatico delle immagini incorporate</string>
+  <string name="mail_settings_privacy_prevent_taking_screenshots">Blocco degli screenshot</string>
+  <string name="mail_settings_privacy_request_link_confirmation">Richiesta di conferma dei link</string>
+  <string name="mail_settings_privacy_background_sync">Sincronizzazione in background</string>
+  <string name="mail_settings_privacy_background_sync_description">Abilita questa opzione per sincronizzare l\'app con il server in background. Se questa opzione è disabilitata, sono disabilitate anche le notifiche push.</string>
+  <string name="mail_settings_privacy_error_updating">Aggiornamento delle impostazioni non riuscito</string>
+  <string name="mail_settings_privacy_error_loading">Caricamento delle impostazioni non riuscito</string>
+  <!-- Swipe Actions -->
+  <string name="mail_settings_swipe_actions_title">Azioni di scorrimento</string>
+  <string name="mail_settings_swipe_actions_subtitle">Configura i gesti di scorrimento per compiere facilmente le azioni più frequenti.</string>
+  <string name="mail_settings_swipe_right_name">Sinistra-destra</string>
+  <string name="mail_settings_swipe_left_name">Destra-sinistra</string>
+  <string name="mail_settings_swipe_action_none_title">Niente</string>
+  <string name="mail_settings_swipe_action_archive_title">Archivio</string>
+  <string name="mail_settings_swipe_action_read_title">Letto</string>
+  <string name="mail_settings_swipe_action_spam_title">Spam</string>
+  <string name="mail_settings_swipe_action_star_title">Importante</string>
+  <string name="mail_settings_swipe_action_trash_title">Cestino</string>
+  <string name="mail_settings_swipe_action_label_as_title">Etichetta</string>
+  <string name="mail_settings_swipe_action_move_to_title">Sposta</string>
+  <string name="mail_settings_swipe_action_none_description">Nessuna azione</string>
+  <string name="mail_settings_swipe_action_archive_description">Sposta nell\'archivio</string>
+  <string name="mail_settings_swipe_action_read_description">Letto/non letto</string>
+  <string name="mail_settings_swipe_action_spam_description">Sposta in spam</string>
+  <string name="mail_settings_swipe_action_star_description">Importante/non importante</string>
+  <string name="mail_settings_swipe_action_trash_description">Sposta nel cestino</string>
+  <string name="mail_settings_swipe_action_label_as_description">Etichetta come…</string>
+  <string name="mail_settings_swipe_action_move_to_description">Sposta in…</string>
+  <!-- Notification settings -->
+  <string name="mail_settings_notifications_title">Notifiche push</string>
+  <string name="mail_settings_notifications_extended_notifications_title">Notifiche estese</string>
+  <string name="mail_settings_notifications_extended_notifications_summary">Abilita questa opzione per visualizzare i mittenti delle email nelle notifiche push.</string>
+  <string name="mail_settings_notifications_notifications_settings">Impostazioni delle notifiche</string>
+  <string name="mail_settings_notifications_notifications_settings_hint">Vai alle impostazioni di notifica di sistema</string>
+  <string name="mail_settings_notifications_update_error">Aggiornamento delle impostazioni non riuscito</string>
+  <string name="mail_settings_notifications_loading_error">Caricamento delle impostazioni non riuscito</string>
+  <!-- Auto lock -->
+  <string name="mail_settings_auto_lock_title">Blocco automatico</string>
+  <string name="mail_settings_auto_lock_item_title">Blocco automatico</string>
+  <string name="mail_settings_auto_lock_item_description">Abilita questa opzione per bloccare automaticamente l\'app dopo un determinato periodo di tempo. Se questa opzione è abilitata, l\'app viene sbloccata con un codice PIN o con la biometria.</string>
+  <string name="mail_settings_auto_lock_change_pin_description">Cambio del codice PIN</string>
+  <string name="mail_settings_auto_lock_item_timer_title">Blocco per inattività</string>
+  <string name="mail_settings_auto_lock_immediately">Immediato</string>
+  <string name="mail_settings_auto_lock_item_timer_description_five_minutes">5 minuti</string>
+  <string name="mail_settings_auto_lock_item_timer_description_fifteen_minutes">15 minuti</string>
+  <string name="mail_settings_auto_lock_item_timer_description_one_hour">1 ora</string>
+  <string name="mail_settings_auto_lock_item_timer_description_one_day">1 giorno</string>
+  <string name="mail_settings_auto_lock_update_error">Aggiornamento delle impostazioni non riuscito</string>
+  <string name="mail_settings_pin_insertion_input_title">Inserisci il codice PIN</string>
+  <string name="mail_settings_pin_insertion_set_title">Imposta il codice PIN</string>
+  <string name="mail_settings_pin_insertion_confirm_title">Conferma il codice PIN</string>
+  <string name="mail_settings_pin_insertion_lock_icon_description">Icona del lucchetto</string>
+  <string name="mail_settings_pin_insertion_pin_dot_description">Cifra del PIN</string>
+  <string name="mail_settings_pin_insertion_backspace_description">Cancella</string>
+  <string name="mail_settings_pin_insertion_biometric_description">Autenticazione biometrica</string>
+  <string name="mail_settings_pin_insertion_button_create">Salva</string>
+  <string name="mail_settings_pin_insertion_button_confirm">Continua</string>
+  <string name="mail_settings_pin_insertion_error_no_match">Conferma correttamente il nuovo codice PIN</string>
+  <plurals name="mail_settings_pin_insertion_error_wrong_code">
+    <item quantity="one">%s tentativo rimanente</item>
+    <item quantity="other">%s tentativi rimanenti</item>
+  </plurals>
+  <plurals name="mail_settings_pin_insertion_error_wrong_code_ultimatum">
+    <item quantity="one">Dopo %s altro tentativo i dati verranno rimossi</item>
+    <item quantity="other">%s tentativi rimanenti. I dati verranno rimossi.</item>
+  </plurals>
+  <string name="mail_settings_pin_insertion_error_unknown">Verifica del codice PIN non riuscita</string>
+  <string name="mail_settings_pin_insertion_signout_text">Esci</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_title">Esci dagli account</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_description">Sei sicuro di voler uscire da tutti gli account?</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_confirm">Esci</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_cancel">Annulla</string>
+  <string name="mail_settings_pin_insertion_created_success">Codice PIN applicato</string>
+  <string name="mail_settings_pin_insertion_changed_success">Codice PIN cambiato</string>
+  <!-- Local storage -->
+  <string name="mail_settings_clearing_cached_data">Cancellazione della cache in corso</string>
+  <!-- Error messages -->
+  <string name="mail_settings_generic_error_message">Si è verificato un errore. Riprova.</string>
+  <!-- strings used for biometric enrollment -->
+  <string name="no_biometric_data_enrolled">Nessuna biometria registrata</string>
+  <string name="log_in_using_biometric_credential">Sblocca con la biometria</string>
+  <string name="unlock_using_biometrics">Sblocco con la biometria</string>
+  <string name="biometric_error_hw_not_available">Hardware biometrico non disponibile</string>
+  <!-- customize toolbar-->
+  <string name="customize_toolbar_disclaimer_message">Questa barra degli strumenti appare quando apri un messaggio.</string>
+  <string name="customize_toolbar_disclaimer_conversation">Questa barra degli strumenti appare quando apri una conversazione.</string>
+  <string name="customize_toolbar_disclaimer_inbox">Questa barra degli strumenti appare quando selezioni messaggi nella casella di posta.</string>
+  <string name="customize_toolbar_disclaimer_mailbox">Questa barra degli strumenti appare quando selezioni messaggi nella casella di posta.</string>
+  <string name="customize_toolbar_disclaimer_mailbox_conversations">Questa barra degli strumenti appare quando selezioni conversazioni nella casella di posta.</string>
+  <string name="customize_toolbar_message">Messaggio</string>
+  <string name="customize_toolbar_conversation">Conversazione</string>
+  <string name="customize_toolbar_inbox">Posta in arrivo</string>
+  <string name="customize_toolbar_mailbox">Casella di posta</string>
+  <string name="customize_toolbar_done_action">Salva</string>
+  <string name="customize_toolbar_reset_to_default">Reimposta</string>
+  <string name="customize_toolbar_reset_to_default_btn">Reimposta</string>
+  <string name="customize_toolbar_actions_section">Azioni (seleziona fino a 5)</string>
+  <string name="customize_toolbar_available_actions_section">Azioni disponibili</string>
+  <string name="customize_toolbar_reset_default_confirmation_title">Sei sicuro di voler reimpostare la barra degli strumenti?</string>
+  <string name="customize_toolbar_reset_default_confirmation_desc">Le azioni nella barra degli strumenti verranno ripristinate ai valori predefiniti.</string>
+  <string name="customize_toolbar_reset_default_confirm">Reimposta</string>
+</resources>

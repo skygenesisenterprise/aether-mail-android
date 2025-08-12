@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="mailbox_toolbar_compose_button_content_description">Napisz nową wiadomość</string>
+  <string name="mailbox_toolbar_exit_selection_mode_button_content_description">Wyjdź z trybu zaznaczania</string>
+  <string name="mailbox_toolbar_menu_button_content_description">Menu</string>
+  <string name="mailbox_toolbar_search_button_content_description">Szukaj</string>
+  <string name="mailbox_toolbar_exit_search_mode_content_description">Wyjdź z trybu wyszukiwania</string>
+  <string name="mailbox_toolbar_searchview_clear_search_query_content_description">Wyczyść zapytanie</string>
+  <string name="mailbox_toolbar_searchview_query_text_field_content_description">Wpisz zapytanie</string>
+  <plurals name="mailbox_toolbar_selected_count">
+    <item quantity="one">%d</item>
+    <item quantity="few">%d</item>
+    <item quantity="many">%d</item>
+    <item quantity="other">%d</item>
+  </plurals>
+  <plurals name="filter_unread_button_text">
+    <item quantity="one">%s nieprzeczytana</item>
+    <item quantity="few">%s nieprzeczytane</item>
+    <item quantity="many">%s nieprzeczytanych</item>
+    <item quantity="other">%s nieprzeczytanych</item>
+  </plurals>
+  <string name="mailbox_default_recipient">(brak odbiorcy)</string>
+  <string name="mailbox_default_sender">(brak nadawcy)</string>
+  <string name="mailbox_error_message_offline">Jesteś w trybie offline. Nie można odzyskać elementów</string>
+  <string name="mailbox_error_message_generic">Ładowanie skrzynki pocztowej nie powiodło się</string>
+  <string name="mailbox_error_search_input_invalid">Wpisz w zapytaniu tylko znaki alfanumeryczne.</string>
+  <string name="mailbox_error_message_unexpected">Coś poszło nie tak</string>
+  <string name="mailbox_is_empty_title">Brak wiadomości</string>
+  <string name="mailbox_is_empty_description">Jesteś na bieżąco</string>
+  <string name="mailbox_is_empty_no_unread_messages_title">Brak nieprzeczytanych wiadomości</string>
+  <string name="mailbox_is_empty_folder_description">Folder jest pusty</string>
+  <string name="mailbox_is_empty_spam_description">Folder spam jest pusty</string>
+  <string name="mailbox_is_empty_trash_description">Kosz jest pusty</string>
+  <plurals name="mailbox_action_trash_conversation">
+    <item quantity="one">Wątek został przeniesiony do kosza</item>
+    <item quantity="few">Przeniesiono %d wątki do kosza</item>
+    <item quantity="many">Przeniesiono %d wątków do kosza</item>
+    <item quantity="other">Przeniesiono %d wątków do kosza</item>
+  </plurals>
+  <plurals name="mailbox_action_trash_message">
+    <item quantity="one">Wiadomość została przeniesiona do kosza</item>
+    <item quantity="few">Przeniesiono %d wiadomości do kosza</item>
+    <item quantity="many">Przeniesiono %d wiadomości do kosza</item>
+    <item quantity="other">Przeniesiono %d wiadomości do kosza</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation_dialog_title">
+    <item quantity="one">Usuń wątek</item>
+    <item quantity="few">Usuń %d wątki</item>
+    <item quantity="many">Usuń %d wątki</item>
+    <item quantity="other">Usuń %d wątki</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message_dialog_title">
+    <item quantity="one">Usuń wiadomość</item>
+    <item quantity="few">Usuń %d wiadomości</item>
+    <item quantity="many">Usuń %d wiadomości</item>
+    <item quantity="other">Usuń %d wiadomości</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation_dialog_message">
+    <item quantity="one">Czy na pewno chcesz trwale usunąć ten wątek?</item>
+    <item quantity="few">Czy na pewno chcesz trwale usunąć te wątki?</item>
+    <item quantity="many">Czy na pewno chcesz trwale usunąć te wątki?</item>
+    <item quantity="other">Czy na pewno chcesz trwale usunąć te wątki?</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message_dialog_message">
+    <item quantity="one">Czy na pewno chcesz trwale usunąć tę wiadomość?</item>
+    <item quantity="few">Czy na pewno chcesz trwale usunąć te wiadomości?</item>
+    <item quantity="many">Czy na pewno chcesz trwale usunąć te wiadomości?</item>
+    <item quantity="other">Czy na pewno chcesz trwale usunąć te wiadomości?</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_message">
+    <item quantity="one">Wiadomość została trwale usunięta</item>
+    <item quantity="few">%d wiadomości zostały trwale usunięte</item>
+    <item quantity="many">%d wiadomości zostało trwale usuniętych</item>
+    <item quantity="other">%d wiadomości zostało trwale usuniętych</item>
+  </plurals>
+  <plurals name="mailbox_action_delete_conversation">
+    <item quantity="one">Wątek został trwale usunięty</item>
+    <item quantity="few">%d wątki zostały trwale usuniętych</item>
+    <item quantity="many">%d wątków zostało trwale usuniętych</item>
+    <item quantity="other">%d wątków zostało trwale usuniętych</item>
+  </plurals>
+  <string name="mailbox_include_all_desc">Nie widzisz tego, czego szukasz?</string>
+  <string name="mailbox_include_all_button">Uwzględnij foldery spam i kosz</string>
+  <string name="mailbox_action_label_messages_failed">Etykietowanie nie powiodło się</string>
+  <string name="mailbox_action_label_messages_failed_retrieving_labels">Nie udało się pobrać etykiet</string>
+  <string name="mailbox_action_failed_retrieving_colors">Nie udało się pobrać ustawień kolorów</string>
+  <string name="mailbox_action_move_messages_failed">Przeniesienie nie powiodło się</string>
+  <string name="mailbox_action_move_messages_failed_retrieving_folders">Nie udało się pobrać folderów</string>
+  <string name="mailbox_action_move_conversation">Wątek został przeniesiony do folderu %s</string>
+  <string name="mailbox_action_move_message">Wiadomość została przeniesiona do folderu %s</string>
+  <string name="mailbox_search_placeholder_text">Szukaj wiadomości</string>
+  <string name="mailbox_search_no_results_title">Nie znaleziono żadnych wyników</string>
+  <string name="mailbox_search_no_results_explanation">Szukaj daty, nazwy, adresu e-mail lub tematu</string>
+  <string name="mailbox_action_button_clear_trash">Opróżnij kosz</string>
+  <string name="mailbox_action_button_clear_spam">Opróżnij spam</string>
+  <string name="mailbox_action_clear_trash_dialog_title">Opróżnij kosz</string>
+  <string name="mailbox_action_clear_spam_dialog_title">Opróżnij spam</string>
+  <string name="mailbox_action_clear_trash_dialog_body_message">Czy na pewno chcesz trwale usunąć wszystkie wiadomości z kosza?</string>
+  <string name="mailbox_action_clear_spam_dialog_body_message">Czy na pewno chcesz trwale usunąć wszystkie wiadomości ze spamu?</string>
+  <string name="mailbox_action_clear_spam_dialog_body_conversation">Czy na pewno chcesz trwale usunąć wszystkie wątki ze spamu?</string>
+  <string name="mailbox_action_clear_operation_scheduled">"Operacja wyczyszczenia jest zaplanowana"</string>
+  <!--    Storage Limit Warning-->
+  <string name="storage_limit_warning_dialog_title">Ostrzeżenie</string>
+  <string name="storage_first_limit_exceeded_warning_dialog_text">Wykorzystano 80% dostępnej przestrzeni dyskowej konta Proton. Zwolnij część miejsca lub ulepsz konto, aby uzyskać więcej miejsca.</string>
+  <string name="storage_second_limit_exceeded_warning_dialog_text">Wykorzystano 90% dostępnej przestrzeni dyskowej konta Proton. Zwolnij część miejsca lub ulepsz konto, aby uzyskać więcej miejsca.</string>
+  <string name="storage_limit_warning_dialog_do_not_remind_button">Nie przypominaj</string>
+  <string name="storage_limit_warning_dialog_confirm_button">OK</string>
+  <!--    Storage Quota Over Warning-->
+  <string name="storage_quota_over_dialog_title">Ostrzeżenie</string>
+  <string name="storage_quota_over_dialog_text">Wykorzystano 100% dostępnej przestrzeni dyskowej konta Proton. Nie możesz wysyłać ani odbierać wiadomości, chyba że trwale usuniesz część z nich lub ulepszysz konto, aby uzyskać więcej miejsca.</string>
+  <string name="storage_quota_over_dialog_confirm_button">OK</string>
+</resources>

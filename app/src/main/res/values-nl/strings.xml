@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="dialog_sign_out_account_title">Afmelden</string>
+  <string name="dialog_sign_out_account_description">Weet u zeker dat u zich wilt uitloggen?</string>
+  <string name="dialog_sign_out_account_confirm">Ja</string>
+  <string name="dialog_sign_out_account_cancel">Nee</string>
+  <string name="dialog_remove_account_title">Account Verwijderen</string>
+  <string name="dialog_remove_account_description">U zult worden afgemeld en verwijdert alle informatie verbonden met dit account.</string>
+  <string name="dialog_remove_account_confirm">Verwijderen</string>
+  <string name="dialog_remove_account_cancel">Annuleren</string>
+  <string name="user_select_other_account_content_description">Kies een ander account</string>
+  <string name="you_are_offline">U bent offline</string>
+  <string name="feature_coming_soon">Functie binnenkort mogelijk</string>
+  <string name="mailbox_draft_saved">Concept opgeslagen</string>
+  <string name="mailbox_draft_discard">Negeren</string>
+  <string name="mailbox_message_sending">Bericht wordt verzonden…</string>
+  <string name="mailbox_message_sending_offline">Offline, bericht geplaatst in wachtrij voor verzenden</string>
+  <string name="mailbox_message_sending_success">Bericht verzonden</string>
+  <string name="mailbox_message_sending_error">Fout bij verzenden bericht</string>
+  <string name="mailbox_message_sending_error_address_disabled">Dit adres is uitgeschakeld, verzenden mislukt</string>
+  <string name="mailbox_message_sending_error_action">Ga naar Concepten</string>
+  <string name="mailbox_attachment_uploading_error">Fout bij het uploaden van bijlage</string>
+  <string name="notification_switched_account">Overgeschakeld naar account %s</string>
+  <string name="label_saved">Label opgeslagen</string>
+  <string name="label_deleted">Label verwijderd</string>
+  <string name="label_list_loading_error">Fout tijdens laden label, probeer het later opnieuw</string>
+  <string name="app_locked">App vergrendeld</string>
+  <string name="use_pin_instead">Gebruik PIN in de plaats</string>
+</resources>

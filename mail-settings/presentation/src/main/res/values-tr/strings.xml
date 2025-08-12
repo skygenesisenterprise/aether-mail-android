@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="mail_settings_settings">Ayarlar</string>
+  <string name="mail_settings_toolbar_button_content_description">Geri</string>
+  <!-- Settings items -->
+  <string name="mail_settings_account_settings">Hesap ayarları</string>
+  <string name="mail_settings_app_settings">Uygulama ayarları</string>
+  <string name="mail_settings_theme">Tema</string>
+  <string name="mail_settings_push_notifications">Anlık bildirimler</string>
+  <string name="mail_settings_auto_lock">Otomatik kilitleme</string>
+  <string name="mail_settings_alternative_routing">Alternatif yönlendirme</string>
+  <string name="mail_settings_app_language">Uygulama dili</string>
+  <string name="mail_settings_combined_contacts">Kişileri birleştirme</string>
+  <string name="mail_settings_local_cache">Yerel ön bellek</string>
+  <string name="mail_settings_local_cache_clear_button">Verileri temizle</string>
+  <string name="mail_settings_swipe_actions">Kaydırma işlemleri</string>
+  <string name="mail_settings_combined_contacts_hint">E-posta adreslerinin, oturum açtığınız tüm hesaplardaki kişilerle otomatik olarak tamamlanması için bu özelliği açın.</string>
+  <string name="mail_settings_alternative_routing_hint">Proton sitelerine erişimin engellenmiş olması durumunda, uygulama Proton ağına ulaşmak için alternatif ağ yöneltmesi kullanmayı dener. Güvenlik duvarlarını veya ağ sorunlarını aşmakta yararlı olabilir. Bağlantı güvenilirliğini artırmak için bu seçeneği açık tutmanız önerilir.</string>
+  <!-- Theme settings -->
+  <string name="mail_settings_system_default">Sistem varsayılanı</string>
+  <string name="mail_settings_theme_light">Açık</string>
+  <string name="mail_settings_theme_dark">Koyu</string>
+  <!-- Settings item states -->
+  <string name="mail_settings_no_information_available">Kullanılabilecek bir bilgi yok</string>
+  <string name="mail_settings_enabled">Açık</string>
+  <string name="mail_settings_disabled">Kullanım dışı</string>
+  <string name="mail_settings_allowed">İzin verildi</string>
+  <string name="mail_settings_denied">Reddedildi</string>
+  <string name="mail_settings_auto_detect">Otomatik algılansın</string>
+  <string name="mail_settings_customize_toolbar">Araç çubuğunu özelleştir</string>
+  <string name="mail_settings_app_information">Uygulama bilgileri</string>
+  <string name="mail_settings_app_version">Uygulama sürümü</string>
+  <string name="mail_settings_app_logs">Uygulama günlükleri</string>
+  <string name="mail_settings_account">Hesap</string>
+  <!-- Account Settings items -->
+  <string name="mail_settings_subscription">Abonelik</string>
+  <string name="mail_settings_password_management">Parolayı değiştir</string>
+  <string name="mail_settings_recovery_email">Kurtarma e-posta adresi</string>
+  <string name="mail_settings_mailbox_size">Posta kutusu boyutu</string>
+  <string name="mail_settings_addresses">Adresler</string>
+  <string name="mail_settings_default_email_address">Varsayılan e-posta adresi</string>
+  <string name="mail_settings_display_name_and_signature">Görüntülenecek ad ve imza</string>
+  <string name="mail_settings_mailbox">Posta kutusu</string>
+  <string name="mail_settings_privacy">Gizlilik</string>
+  <string name="mail_settings_labels">Etiketler</string>
+  <string name="mail_settings_folders">Klasörler</string>
+  <string name="mail_settings_conversation_mode">Yazışma görünümü</string>
+  <string name="mail_settings_auto_delete">Otomatik silme</string>
+  <string name="mail_settings_auto_delete_full_text">İstenmeyen iletileri otomatik olarak silin</string>
+  <string name="mail_settings_auto_delete_hint">Çöp ve istenmeyen kutularında 30 günden uzun süre kalan iletiler otomatik olarak silinir.</string>
+  <string name="mail_settings_auto_delete_subscription_needed">Bu özelliği kullanabilmek için ücretli bir Proton Mail aboneliğiniz olmalıdır</string>
+  <string name="mail_settings_auto_delete_dialog_button_cancel">İptal</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_title">İletiler silinsin mi?</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_text">Bu işlem, şu anda bu klasörlerde bulunanlarla birlikte çöp veya istenmeyen kutularında 30 günden uzun süre kalan tüm iletileri siler.</string>
+  <string name="mail_settings_auto_delete_dialog_enabling_button_confirm">Aç</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_title">Otomatik silme kapatılsın mı?</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_text">Silinmek üzere zamanlanmış e-postalar çöp kutusu ve istenmeyen klasöründe kalacak.</string>
+  <string name="mail_settings_auto_delete_dialog_disabling_button_confirm">Kapat</string>
+  <string name="mail_settings_not_set">Ayarlanmamış</string>
+  <string name="mail_settings_conversation_mode_hint">Aynı yazışmadaki e-postaları Gelen kutunuzda gruplayın ya da ayrı ayrı görüntüleyin</string>
+  <!-- Default email address settings -->
+  <string name="mail_settings_default_email_address_title">Varsayılan e-posta adresi</string>
+  <string name="mail_settings_default_email_address_inactive_addresses">Etkin olmayan adresler</string>
+  <string name="mail_settings_default_email_address_no_inactive_addresses">Etkin olmayan bir adres yok</string>
+  <string name="mail_settings_default_email_address_error_loading">Ayarlar yüklenirken sorun çıktı</string>
+  <string name="mail_settings_default_email_address_error_update">Ayarlar güncellenirken sorun çıktı</string>
+  <string name="mail_settings_default_email_address_error_update_subscription">Bu adresi varsayılan olarak ayarlayabilmek için ücretli bir Proton Mail aboneliğiniz olmalıdır</string>
+  <!-- Display name, signature, mobile footer -->
+  <string name="mail_settings_identity_title">Görüntülenecek ad ve imza</string>
+  <string name="mail_settings_identity_save_button">Kaydet</string>
+  <string name="mail_settings_identity_display_name">Görüntülenecek ad</string>
+  <string name="mail_settings_identity_display_name_hint">Görüntülenecek ad</string>
+  <string name="mail_settings_identity_signature">İmza</string>
+  <string name="mail_settings_identity_signature_hint">İmza</string>
+  <string name="mail_settings_identity_mobile_footer">Mobil imza</string>
+  <string name="mail_settings_identity_mobile_footer_subtext">Bu içerik imzanızın altına eklenir.</string>
+  <string name="mail_settings_identity_mobile_footer_hint">Mobil imza</string>
+  <string name="mail_settings_identity_mobile_footer_default_free">Proton Mail Android ile gönderildi</string>
+  <string name="mail_settings_identity_error_updating">Ayarlar güncellenirken sorun çıktı</string>
+  <string name="mail_settings_identity_error_loading">Ayarlar yüklenirken sorun çıktı</string>
+  <!-- Privacy settings -->
+  <string name="mail_settings_privacy_auto_show_remote_content">Uzak içerik otomatik olarak görüntülensin</string>
+  <string name="mail_settings_privacy_auto_show_embedded_images">Gömülü görseller otomatik olarak görüntülensin</string>
+  <string name="mail_settings_privacy_prevent_taking_screenshots">Ekran görüntüsü alınamasın</string>
+  <string name="mail_settings_privacy_request_link_confirmation">Bağlantı onayı istensin</string>
+  <string name="mail_settings_privacy_background_sync">Arka planda eşitleme</string>
+  <string name="mail_settings_privacy_background_sync_description">Açıldığında, uygulama sunucu ile arka planda eşitlenir. Kapatıldığında anlık bildirimler de kapatılır.</string>
+  <string name="mail_settings_privacy_error_updating">Ayarlar güncellenirken sorun çıktı</string>
+  <string name="mail_settings_privacy_error_loading">Ayarlar yüklenirken sorun çıktı</string>
+  <!-- Swipe Actions -->
+  <string name="mail_settings_swipe_actions_title">Kaydırma işlemleri</string>
+  <string name="mail_settings_swipe_actions_subtitle">Sık kullanılan işlemler için kaydırma hareketlerini ayarlayın.</string>
+  <string name="mail_settings_swipe_right_name">Soldan sağa</string>
+  <string name="mail_settings_swipe_left_name">Sağdan sola</string>
+  <string name="mail_settings_swipe_action_none_title">Ayarlanmamış</string>
+  <string name="mail_settings_swipe_action_archive_title">Arşivle</string>
+  <string name="mail_settings_swipe_action_read_title">Okunmamış</string>
+  <string name="mail_settings_swipe_action_spam_title">İstenmeyen</string>
+  <string name="mail_settings_swipe_action_star_title">Yıldız koy</string>
+  <string name="mail_settings_swipe_action_trash_title">Çöpe at</string>
+  <string name="mail_settings_swipe_action_label_as_title">Şöyle etiketle…</string>
+  <string name="mail_settings_swipe_action_move_to_title">Şuraya taşı...</string>
+  <string name="mail_settings_swipe_action_none_description">Yok</string>
+  <string name="mail_settings_swipe_action_archive_description">Arşivle</string>
+  <string name="mail_settings_swipe_action_read_description">Okunmamış/okunmuş olarak işaretle</string>
+  <string name="mail_settings_swipe_action_spam_description">İstenmeyen kutusuna taşı</string>
+  <string name="mail_settings_swipe_action_star_description">Yıldız koy/kaldır</string>
+  <string name="mail_settings_swipe_action_trash_description">Çöpe at</string>
+  <string name="mail_settings_swipe_action_label_as_description">Şöyle etiketle…</string>
+  <string name="mail_settings_swipe_action_move_to_description">Şuraya taşı...</string>
+  <!-- Notification settings -->
+  <string name="mail_settings_notifications_title">Anlık bildirimler</string>
+  <string name="mail_settings_notifications_extended_notifications_title">Ayrıntılı bildirimler</string>
+  <string name="mail_settings_notifications_extended_notifications_summary">Anlık bildirimlerde e-posta göndericisini görüntüler.</string>
+  <string name="mail_settings_notifications_notifications_settings">Bildirim ayarları</string>
+  <string name="mail_settings_notifications_notifications_settings_hint">Sistem bildirimi ayarlarına git</string>
+  <string name="mail_settings_notifications_update_error">Ayarlar güncellenirken sorun çıktı</string>
+  <string name="mail_settings_notifications_loading_error">Ayarlar yüklenirken sorun çıktı</string>
+  <!-- Auto lock -->
+  <string name="mail_settings_auto_lock_title">Otomatik kilitleme</string>
+  <string name="mail_settings_auto_lock_item_title">Uygulama otomatik kilitlensin</string>
+  <string name="mail_settings_auto_lock_item_description">Uygulamanızı otomatik olarak kilitlemek için bu özelliği açın ve kilidini açmak için bir PIN kodu kullanın.</string>
+  <string name="mail_settings_auto_lock_change_pin_description">PIN kodunu değiştir</string>
+  <string name="mail_settings_auto_lock_item_timer_title">Otomatik kilit süresi</string>
+  <string name="mail_settings_auto_lock_immediately">Hemen</string>
+  <string name="mail_settings_auto_lock_item_timer_description_five_minutes">5 dakika hareketsizlik</string>
+  <string name="mail_settings_auto_lock_item_timer_description_fifteen_minutes">15 dakika hareketsizlik</string>
+  <string name="mail_settings_auto_lock_item_timer_description_one_hour">1 saat hareketsizlik</string>
+  <string name="mail_settings_auto_lock_item_timer_description_one_day">1 gün hareketsizlik</string>
+  <string name="mail_settings_auto_lock_update_error">Ayarlar güncellenirken sorun çıktı</string>
+  <string name="mail_settings_pin_insertion_input_title">PIN kodunu yazın</string>
+  <string name="mail_settings_pin_insertion_set_title">PIN kodu ayarla</string>
+  <string name="mail_settings_pin_insertion_confirm_title">PIN kodu onayı</string>
+  <string name="mail_settings_pin_insertion_lock_icon_description">Kilit simgesi</string>
+  <string name="mail_settings_pin_insertion_pin_dot_description">PIN noktası</string>
+  <string name="mail_settings_pin_insertion_backspace_description">Geriye silme tuşu</string>
+  <string name="mail_settings_pin_insertion_biometric_description">Biyometrik kimlik doğrulama</string>
+  <string name="mail_settings_pin_insertion_button_create">Ekle</string>
+  <string name="mail_settings_pin_insertion_button_confirm">Onayla</string>
+  <string name="mail_settings_pin_insertion_error_no_match">PIN kodu ile onayı aynı değil.</string>
+  <plurals name="mail_settings_pin_insertion_error_wrong_code">
+    <item quantity="one">%s deneme hakkı kaldı.</item>
+    <item quantity="other">%s deneme hakkı kaldı.</item>
+  </plurals>
+  <plurals name="mail_settings_pin_insertion_error_wrong_code_ultimatum">
+    <item quantity="one">Güvenli verilerin silinmesinden önce %s deneme hakkınız kaldı.</item>
+    <item quantity="other">Güvenli verilerin silinmesinden önce %s deneme hakkınız kaldı.</item>
+  </plurals>
+  <string name="mail_settings_pin_insertion_error_unknown">PIN kodunuz doğrulanırken bir sorun çıktı.</string>
+  <string name="mail_settings_pin_insertion_signout_text">Oturumu kapat</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_title">Oturumu kapat</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_description">Oturumu kapatmak istediğinize emin misiniz?</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_confirm">Evet</string>
+  <string name="mail_settings_pin_insertion_signout_dialog_cancel">Hayır</string>
+  <string name="mail_settings_pin_insertion_created_success">PIN kodu oluşturuldu.</string>
+  <string name="mail_settings_pin_insertion_changed_success">PIN kodu değiştirildi.</string>
+  <!-- Local storage -->
+  <string name="mail_settings_clearing_cached_data">Yerel ön bellek verileri temizleniyor…</string>
+  <!-- Error messages -->
+  <string name="mail_settings_generic_error_message">Bir sorun çıktı. Yeniden deneyin.</string>
+  <!-- strings used for biometric enrollment -->
+  <string name="no_biometric_data_enrolled">Kaydedilmiş bir biyometrik veri yok</string>
+  <string name="log_in_using_biometric_credential">Kilidi açmak için biyometrik kimlik doğrulama bilgilerinizi kullanın</string>
+  <string name="unlock_using_biometrics">Kilidi biyometrik veriyle aç</string>
+  <string name="biometric_error_hw_not_available">Biyometrik donanımı kullanılamıyor.</string>
+  <!-- customize toolbar-->
+  <string name="customize_toolbar_disclaimer_message">Bu araç çubuğu bir ileti okurken görüntülenir.</string>
+  <string name="customize_toolbar_disclaimer_conversation">Bu araç çubuğu bir yazışmayı okurken görüntülenir.</string>
+  <string name="customize_toolbar_disclaimer_inbox">Bu araç çubuğu e-posta kutunuzda birden fazla ileti seçtiğinizde görüntülenir.</string>
+  <string name="customize_toolbar_disclaimer_mailbox">Bu araç çubuğu, e-posta kutunuzda birden fazla ileti seçildiğinde görüntülenir.</string>
+  <string name="customize_toolbar_disclaimer_mailbox_conversations">Bu araç çubuğu, e-posta kutunuzda birden fazla yazışma seçildiğinde görüntülenir.</string>
+  <string name="customize_toolbar_message">İleti</string>
+  <string name="customize_toolbar_conversation">Yazışma</string>
+  <string name="customize_toolbar_inbox">Gelen kutusu</string>
+  <string name="customize_toolbar_mailbox">E-posta kutusu</string>
+  <string name="customize_toolbar_done_action">Tamam</string>
+  <string name="customize_toolbar_reset_to_default">Varsayılana sıfırla</string>
+  <string name="customize_toolbar_reset_to_default_btn">Varsayılana sıfırla</string>
+  <string name="customize_toolbar_actions_section">Araç çubuğu işlemleri (en fazla 5 işlem seçin)</string>
+  <string name="customize_toolbar_available_actions_section">Yapılabilecek işlemler</string>
+  <string name="customize_toolbar_reset_default_confirmation_title">Varsayılana sıfırlansın mı?</string>
+  <string name="customize_toolbar_reset_default_confirmation_desc">Araç çubuğu varsayılan işlemlere sıfırlanacak.</string>
+  <string name="customize_toolbar_reset_default_confirm">Onayla</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="label_title_inbox">Inbox</string>
+  <string name="label_title_drafts">Concepten</string>
+  <string name="label_title_sent">Verzonden</string>
+  <string name="label_title_starred">Met ster</string>
+  <string name="label_title_archive">Archief</string>
+  <string name="label_title_spam">Spam</string>
+  <string name="label_title_trash">Prullenbak</string>
+  <string name="label_title_outbox">Postvak uit</string>
+  <string name="label_title_all_mail">Alle e-mails</string>
+  <string name="label_title_all_drafts">Alle concepten</string>
+  <string name="label_title_all_sent">Alle verzonden</string>
+  <string name="label_title_all_scheduled">Alles gepland</string>
+  <string name="label_title_snoozed">Gesnoozed</string>
+  <string name="label_title_folders">Mappen</string>
+  <string name="label_title_parent_folder">Bovenliggende map</string>
+  <string name="label_title_labels">Labels</string>
+  <string name="label_title_create_folder">Maak map</string>
+  <string name="label_title_create_label">Maak label</string>
+  <string name="label_title_label_list">Labellijst</string>
+  <string name="label_title_folder_list">Mappenlijst</string>
+  <string name="label_list_no_labels_found">Geen labels gevonden.</string>
+  <string name="label_list_create_label_placeholder_description">Creëer een label om uw e-mailervaring te verbeteren.</string>
+  <string name="create_label_content_description">Maak label</string>
+  <string name="label_form_create_label">Label maken</string>
+  <string name="folder_form_create_folder">Map aanmaken</string>
+  <string name="label_form_edit_label">Label bewerken</string>
+  <string name="folder_form_edit_folder">Map bewerken</string>
+  <string name="label_form_save">Opslaan</string>
+  <string name="label_form_delete">Label verwijderen</string>
+  <string name="folder_form_delete">Map verwijderen</string>
+  <string name="label_name_title">Naam</string>
+  <string name="add_a_label_name_hint">Een labelnaam toevoegen</string>
+  <string name="add_a_folder_name_hint">Een foldernaam toevoegen</string>
+  <plurals name="input_field_max_characters_count">
+    <item quantity="one">%1d/%2d teken</item>
+    <item quantity="other">%1d/%2d tekens</item>
+  </plurals>
+  <string name="color_picker_title">Kleur</string>
+  <string name="save_label_error">Fout tijdens opslaan label, probeer het later opnieuw</string>
+  <string name="save_folder_error">Fout tijdens opslaan folder, probeer het later opnieuw</string>
+  <string name="label_already_exists">Label of map met deze naam bestaat al</string>
+  <string name="label_limit_reached_error">U heeft een betaald Proton Mail abonnement nodig om meer labels te maken</string>
+  <string name="folder_limit_reached_error">U heeft een betaald Proton Mail abonnement nodig om meer mappen te maken</string>
+  <string name="delete_label_error">Fout bij het verwijderen van label</string>
+  <string name="input_field_clear_content_description">Tekst wissen</string>
+  <string name="label_list_item_content_description">Label lijst item</string>
+  <string name="folder_list_item_content_description">Map lijst artikel</string>
+  <string name="folder_list_no_folders_found">Geen mappen gevonden</string>
+  <string name="folder_list_create_folder_placeholder_description">Creëer een map om uw e-mailervaring te verbeteren.</string>
+  <string name="create_folder_content_description">Folder toevoegen</string>
+  <string name="folder_settings_content_description">Mappen instellingen</string>
+  <string name="folder_settings_title">Instellingen</string>
+  <string name="folder_settings_done_button">Klaar</string>
+  <string name="folder_settings_folder_colors">Gebruik mapkleuren</string>
+  <string name="folder_settings_parent_color">Bovenliggende map kleur</string>
+  <string name="folder_list_loading_error">Fout bij het laden van de mappen, probeer het later nog een keer</string>
+  <string name="folder_loading_error">Fout bij het laden van de map, probeer het later nog een keer</string>
+  <string name="switch_on">Aan</string>
+  <string name="switch_off">Uit</string>
+  <string name="folder_form_parent">Bovenliggende map</string>
+  <string name="folder_form_no_parent">Geen</string>
+  <string name="folder_form_notifications">Meldingen</string>
+  <string name="folder_saved">Map opgeslagen</string>
+  <string name="folder_deleted">Map verwijderd</string>
+  <string name="parent_folder_none">Geen</string>
+  <string name="delete_label">Label verwijderen?</string>
+  <string name="delete_folder">Map verwijderen?</string>
+  <string name="delete_label_message">Deze actie kan niet ongedaan worden gemaakt. E-mails met dit label worden niet verwijderd en kunnen worden gevonden in de map \'Alle berichten\'.</string>
+  <string name="delete_folder_message">Deze actie kan niet ongedaan gemaakt worden. E-mails in deze map worden niet verwijderd en kunnen gevonden worden in de map \'Alle berichten\'.</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">Från:</string>
+  <string name="to_prefix">Till:</string>
+  <string name="cc_prefix">Kopia:</string>
+  <string name="bcc_prefix">Hemlig kopia:</string>
+  <string name="subject_placeholder">Ämne</string>
+  <string name="compose_message_placeholder">Skriv e-post</string>
+  <string name="close_composer_content_description">Stäng redigeringsfönstret</string>
+  <string name="send_message_content_description">Skicka meddelande</string>
+  <string name="composer_expand_recipients_button">Visa andra mottagare</string>
+  <string name="composer_error_invalid_email">E-postadressen är ogiltig</string>
+  <string name="composer_error_invalid_sender">Avsändaradress är ogiltig</string>
+  <string name="change_sender_button_content_description">Ändra avsändare</string>
+  <string name="composer_change_sender_paid_feature">Du behöver en betald Proton Mail-prenumeration för att ändra avsändaradressen</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">Kan inte ändra avsändare eftersom hämtning av användarens prenumeration misslyckades. Försök igen.</string>
+  <string name="composer_error_store_draft_sender_address">Avsändaradress sparades inte</string>
+  <string name="composer_error_store_draft_body">Utkast till e-posttext sparades inte</string>
+  <string name="composer_error_duplicate_recipient">Duplicerad mottagare borttagen</string>
+  <string name="composer_error_store_draft_subject">Ämnesrad sparades inte</string>
+  <string name="composer_error_store_draft_recipients">Det gick inte att lagra utkastets mottagare</string>
+  <string name="composer_error_loading_draft">Innehållet i detta utkast är inte tillgängligt just nu. Redigering kommer att åsidosätta allt befintligt innehåll.</string>
+  <string name="composer_add_attachments_content_description">Lägg till bilagor</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Importera från…</string>
+  <string name="composer_error_loading_parent_message">Kunde inte ladda meddelandets information</string>
+  <string name="composer_original_message_quote">Ursprungligt meddelande</string>
+  <string name="composer_sender_quote">Den %s, %s &lt;%s&gt; skrev:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">OK</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">Övre gräns för bilagor har uppnåtts</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">Storleksgränsen för bilagor är %1$s</string>
+  <string name="composer_attachment_reencryption_failed_message">Omkryptering av bilaga misslyckades. Av säkerhetsskäl har alla bilagor tagits bort.</string>
+  <string name="composer_attachment_not_found">Bilaga hittades inte.</string>
+  <string name="composer_attachment_error_draft_loading">Det går inte att läsa in det ursprungliga meddelandeutkastet.</string>
+  <string name="composer_attachment_error_saving_attachment">Kan inte lagra bilagan. Försök igen.</string>
+  <string name="composer_warning_local_data_shown">Den senaste versionen av detta utkast misslyckades att laddas. Alla ändringar kommer att åsidosätta dess innehåll.</string>
+  <string name="composer_button_add_password">Lägg till lösenord</string>
+  <string name="composer_button_set_expiration">Ställ in utgångstid</string>
+  <string name="composer_expiration_time_bottom_sheet_title">När meddelandet löper ut</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Ställ in</string>
+  <string name="composer_bottom_bar_expiration_time_none">Ingen</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 timme</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 dag</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 dagar</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 vecka</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Anpassad</string>
+  <string name="composer_error_setting_expiration_time">Misslyckades ställa in utgångstid</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Förfallotid stöds inte</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Vi rekommenderar att du ställer in ett lösenord istället för följande mottagare:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">Avbryt</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Skicka ändå</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Skickar avisering</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">Att skicka meddelanden från @pm.me är en betald funktion. Ditt meddelande kommer att skickas från din standardadress.</string>
+  <string name="composer_sender_changed_original_address_disabled">Den valda avsändaradressen är inaktiverad. Ditt meddelande kommer att skickas från din standardadress.</string>
+  <string name="composer_sender_changed_original_address_generic_error">Den ursprungliga avsändaradressen kunde inte erhållas. Ditt meddelande kommer att skickas från din standardadress.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">OK</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Skriv</string>
+  <string name="composer_send_without_subject_dialog_text">Skicka meddelande utan ämne?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Ja</string>
+  <string name="composer_send_without_subject_dialog_reject_button">Nej</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Sändningsfel</string>
+  <string name="message_sending_error_dialog_button_dismiss">Stäng</string>
+  <string name="message_sending_error_dialog_text_error">Din e-post kan inte skickas till den angivna adressen av följande anledning:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">Det finns inga betrodda nycklar: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">Adress finns inte: %s</string>
+  <string name="set_message_password_title">Kryptera meddelande</string>
+  <string name="set_message_password_info_message">Ställ in ett lösenord för att kryptera detta meddelande för icke-Proton Mail-användare.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">Lär dig mer</a></string>
+  <string name="set_message_password_label">Meddelandelösenord</string>
+  <string name="set_message_password_label_repeat">Upprepa lösenord</string>
+  <string name="set_message_password_label_hint">Lösenordsledtråd (valfritt)</string>
+  <string name="set_message_password_supporting_text">4 till 21 tecken långt</string>
+  <string name="set_message_password_supporting_error_text">Lösenordet måste vara mellan 4 och 21 tecken</string>
+  <string name="set_message_password_supporting_text_repeat">Lösenorden måste matcha</string>
+  <string name="set_message_password_supporting_error_text_repeat">Lösenorden matchar inte</string>
+  <string name="set_message_password_button_show">Visa lösenord</string>
+  <string name="set_message_password_button_hide">Dölj lösenord</string>
+  <string name="set_message_password_button_apply">Tillämpa lösenord</string>
+  <string name="set_message_password_button_save_changes">Spara ändringar</string>
+  <string name="set_message_password_button_remove_password">Ta bort lösenord</string>
+  <string name="respondInline">Svara i tråd</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d medlem</item>
+    <item quantity="other">%d medlemmar</item>
+  </plurals>
+</resources>

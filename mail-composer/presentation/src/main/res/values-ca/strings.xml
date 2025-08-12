@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="from_prefix">De:</string>
+  <string name="to_prefix">Per a:</string>
+  <string name="cc_prefix">Cc:</string>
+  <string name="bcc_prefix">CCO:</string>
+  <string name="subject_placeholder">Assumpte</string>
+  <string name="compose_message_placeholder">Escriure un correu electrònic</string>
+  <string name="close_composer_content_description">Tancar l\'editor</string>
+  <string name="send_message_content_description">Envia missatge</string>
+  <string name="composer_expand_recipients_button">Mostra els altres destinataris</string>
+  <string name="composer_error_invalid_email">L\'adreça de correu electrònic no és vàlida</string>
+  <string name="composer_error_invalid_sender">L\'adreça del remitent no és vàlida</string>
+  <string name="change_sender_button_content_description">Canvia el remitent</string>
+  <string name="composer_change_sender_paid_feature">Necessiteu una subscripció de Proton Mail de pagament per canviar l\'adreça del remitent.</string>
+  <string name="composer_error_change_sender_failed_getting_subscription">No es pot canviar el remitent perquè no s\'ha pogut obtenir la subscripció de l\'usuari. Torna-ho a provar.</string>
+  <string name="composer_error_store_draft_sender_address">No s\'ha pogut desar l\'adreça del remitent.</string>
+  <string name="composer_error_store_draft_body">No s\'ha pogut desar el cos de l\'esborrany.</string>
+  <string name="composer_error_duplicate_recipient">S\'han eliminat un o més destinataris duplicats.</string>
+  <string name="composer_error_store_draft_subject">L\'assumpte no s\'ha desat</string>
+  <string name="composer_error_store_draft_recipients">S\'ha produït un error en desar els destinataris de l\'esborrany.</string>
+  <string name="composer_error_loading_draft">El contingut d\'aquest esborrany no està disponible en aquest moment. L\'edició substituirà qualsevol contingut preexistent.</string>
+  <string name="composer_add_attachments_content_description">Afegiu fitxers adjunts</string>
+  <string name="composer_add_attachments_bottom_sheet_import_from">Importar des de…</string>
+  <string name="composer_error_loading_parent_message">No s\'ha pogut carregar la informació del missatge.</string>
+  <string name="composer_original_message_quote">Missatge original</string>
+  <string name="composer_sender_quote">El %s, %s &lt;%s&gt; va escriure:</string>
+  <string name="composer_attachment_size_exceeded_dialog_confirm_button">D\'acord</string>
+  <string name="composer_attachment_size_exceeded_dialog_title">S\'ha assolit el límit de fitxers adjunts.</string>
+  <string name="composer_attachment_size_exceeded_dialog_message">El límit de mida dels adjunts és %1$s.</string>
+  <string name="composer_attachment_reencryption_failed_message">No s\'ha pogut tornar a xifrar el fitxer adjunt. Per motius de seguretat, s\'han eliminat tots els fitxers adjunts.</string>
+  <string name="composer_attachment_not_found">No s\'ha trobat l\'adjunt.</string>
+  <string name="composer_attachment_error_draft_loading">No s\'ha pogut carregar l\'esborrany original del missatge.</string>
+  <string name="composer_attachment_error_saving_attachment">No s\'ha pogut emmagatzemar l\'adjunt. Torneu-ho a provar.</string>
+  <string name="composer_warning_local_data_shown">La darrera versió d\'aquest esborrany no s\'ha pogut carregar. Qualsevol canvi anul·larà el seu contingut.</string>
+  <string name="composer_button_add_password">Afegeix una contrasenya</string>
+  <string name="composer_button_set_expiration">Establiu el temps de caducitat</string>
+  <string name="composer_expiration_time_bottom_sheet_title">Caducitat del missatge</string>
+  <string name="composer_expiration_time_bottom_sheet_done">Estableix</string>
+  <string name="composer_bottom_bar_expiration_time_none">Cap</string>
+  <string name="composer_bottom_bar_expiration_time_one_hour">1 hora</string>
+  <string name="composer_bottom_bar_expiration_time_one_day">1 dia</string>
+  <string name="composer_bottom_bar_expiration_time_three_days">3 dies</string>
+  <string name="composer_bottom_bar_expiration_time_one_week">1 setmana</string>
+  <string name="composer_bottom_bar_expiration_time_custom">Personalitza</string>
+  <string name="composer_error_setting_expiration_time">No s\'ha pogut establir el temps de caducitat.</string>
+  <!-- Send expiring message to external recipients dialog -->
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_title">Caducitat no admesa</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_text">Recomanem configurar una contrasenya pels destinataris següents:</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_cancel">Cancel·la</string>
+  <string name="composer_send_expiring_message_to_external_recipients_dialog_confirm">Envia de totes maneres</string>
+  <!-- Sender changed dialog -->
+  <string name="composer_sender_changed_dialog_title">Avís d\'enviament</string>
+  <string name="composer_sender_changed_pm_address_is_a_paid_feature">L\'enviament de missatges des de @pm.me és una característica de pagament. El missatge s\'enviarà des de la vostra adreça per defecte.</string>
+  <string name="composer_sender_changed_original_address_disabled">L\'adreça del remitent seleccionada està desactivada. El missatge s\'enviarà des de la vostra adreça per defecte.</string>
+  <string name="composer_sender_changed_original_address_generic_error">No s\'ha pogut obtenir l\'adreça original del remitent. El missatge s\'enviarà des de l\'adreça per defecte.</string>
+  <string name="composer_sender_changed_dialog_confirm_button">D\'acord</string>
+  <!-- Message sending without subject dialog -->
+  <string name="composer_send_without_subject_dialog_title">Redacta</string>
+  <string name="composer_send_without_subject_dialog_text">Enviar missatge sense assumpte?</string>
+  <string name="composer_send_without_subject_dialog_confirm_button">Sí</string>
+  <string name="composer_send_without_subject_dialog_reject_button">No</string>
+  <!-- Message sending error dialog -->
+  <string name="message_sending_error_dialog_header">Error d\'enviament</string>
+  <string name="message_sending_error_dialog_button_dismiss">Tanca</string>
+  <string name="message_sending_error_dialog_text_error">El correu electrònic no es pot enviar a l\'adreça introduïda pel motiu següent:</string>
+  <string name="message_sending_error_dialog_text_reason_no_trusted_keys">No hi ha claus de confiança: %s</string>
+  <string name="message_sending_error_dialog_text_reason_address_disabled">L\'adreça no existeix: %s</string>
+  <string name="set_message_password_title">Xifra el missatge</string>
+  <string name="set_message_password_info_message">Definiu una contrasenya per xifrar aquest missatge per a usuaris que no siguin de Proton Mail.</string>
+  <string name="set_message_password_info_link"><a href="https://proton.me/support/password-protected-emails">Més informació</a></string>
+  <string name="set_message_password_label">Contrasenya del missatge</string>
+  <string name="set_message_password_label_repeat">Repeteix la contrasenya</string>
+  <string name="set_message_password_label_hint">Pista de contrasenya (opcional)</string>
+  <string name="set_message_password_supporting_text">Longitud de 4 a 21 caràcters</string>
+  <string name="set_message_password_supporting_error_text">La contrasenya ha de tenir entre 4 i 21 caràcters</string>
+  <string name="set_message_password_supporting_text_repeat">Les contrasenyes han de coincidir</string>
+  <string name="set_message_password_supporting_error_text_repeat">Les contrasenyes no coincideixen.</string>
+  <string name="set_message_password_button_show">Mostra la contrasenya</string>
+  <string name="set_message_password_button_hide">Amaga la contrasenya</string>
+  <string name="set_message_password_button_apply">Aplica la contrasenya</string>
+  <string name="set_message_password_button_save_changes">Desa els canvis</string>
+  <string name="set_message_password_button_remove_password">Esborra la contrasenya</string>
+  <string name="respondInline">Respon en línia</string>
+  <plurals name="composer_recipient_suggestion_contacts">
+    <item quantity="one">%d membre</item>
+    <item quantity="other">%d membres</item>
+  </plurals>
+</resources>

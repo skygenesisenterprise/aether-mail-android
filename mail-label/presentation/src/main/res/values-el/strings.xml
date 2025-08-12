@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and Proton Mail.
+  ~
+  ~ Proton Mail is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Proton Mail is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Proton Mail. If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="label_title_inbox">Εισερχόμενα</string>
+  <string name="label_title_drafts">Πρόχειρα</string>
+  <string name="label_title_sent">Απεσταλμένα</string>
+  <string name="label_title_starred">Με αστέρι</string>
+  <string name="label_title_archive">Αρχειοθετημένα</string>
+  <string name="label_title_spam">Ενοχλητικά</string>
+  <string name="label_title_trash">Διαγραμμένα</string>
+  <string name="label_title_outbox">Εξερχόμενα</string>
+  <string name="label_title_all_mail">Όλα τα μηνύματα</string>
+  <string name="label_title_all_drafts">Όλα τα πρόχειρα</string>
+  <string name="label_title_all_sent">Όλα τα απεσταλμένα</string>
+  <string name="label_title_all_scheduled">Όλα τα προγραμματισμένα</string>
+  <string name="label_title_snoozed">Σε αναβολή</string>
+  <string name="label_title_folders">Φάκελοι</string>
+  <string name="label_title_parent_folder">Γονικός φάκελος</string>
+  <string name="label_title_labels">Ετικέτες</string>
+  <string name="label_title_create_folder">Δημιουργία φακέλου</string>
+  <string name="label_title_create_label">Δημιουργία ετικέτας</string>
+  <string name="label_title_label_list">Λίστα ετικετών</string>
+  <string name="label_title_folder_list">Λίστα φακέλων</string>
+  <string name="label_list_no_labels_found">Δε βρέθηκαν ετικέτες.</string>
+  <string name="label_list_create_label_placeholder_description">Δημιουργήστε μια ετικέτα για να βελτιώσετε την εμπειρία ηλεκτρονικού ταχυδρομείου σας.</string>
+  <string name="create_label_content_description">Δημιουργία ετικέτας</string>
+  <string name="label_form_create_label">Δημιουργία ετικέτας</string>
+  <string name="folder_form_create_folder">Δημιουργία φακέλου</string>
+  <string name="label_form_edit_label">Επεξεργασία ετικέτας</string>
+  <string name="folder_form_edit_folder">Επεξεργασία φακέλου</string>
+  <string name="label_form_save">Αποθήκευση</string>
+  <string name="label_form_delete">Διαγραφή ετικέτας</string>
+  <string name="folder_form_delete">Διαγραφή φακέλου</string>
+  <string name="label_name_title">Όνομα</string>
+  <string name="add_a_label_name_hint">Προσθήκη ονόματος ετικέτας</string>
+  <string name="add_a_folder_name_hint">Προσθήκη ονόματος φακέλου</string>
+  <plurals name="input_field_max_characters_count">
+    <item quantity="one">%1d / %2d χαρακτήρας</item>
+    <item quantity="other">%1d / %2d χαρακτήρες</item>
+  </plurals>
+  <string name="color_picker_title">Χρώμα</string>
+  <string name="save_label_error">Σφάλμα αποθήκευσης ετικέτας, παρακαλούμε δοκιμάστε ξανά αργότερα</string>
+  <string name="save_folder_error">Σφάλμα αποθήκευσης φακέλου, παρακαλούμε δοκιμάστε ξανά αργότερα</string>
+  <string name="label_already_exists">Μια ετικέτα ή ένας φάκελος υπάρχει ήδη με αυτό το όνομα</string>
+  <string name="label_limit_reached_error">Χρειάζεστε μια συνδρομή Proton Mail επί πληρωμή για να δημιουργήσετε περισσότερες ετικέτες</string>
+  <string name="folder_limit_reached_error">Χρειάζεστε μια συνδρομή Proton Mail επί πληρωμή για να δημιουργήσετε περισσότερους φακέλους</string>
+  <string name="delete_label_error">Σφάλμα κατά τη διαγραφή ετικέτας</string>
+  <string name="input_field_clear_content_description">Διαγραφή κειμένου</string>
+  <string name="label_list_item_content_description">Εφαρμογή ετικέτας στο στοιχείο λίστας</string>
+  <string name="folder_list_item_content_description">Προσθέστε στον φάκελο το στοιχείο λίστας</string>
+  <string name="folder_list_no_folders_found">Δεν βρέθηκαν φάκελοι.</string>
+  <string name="folder_list_create_folder_placeholder_description">Δημιουργήστε ένα φάκελο για να βελτιώσετε την εμπειρία ηλεκτρονικού ταχυδρομείου σας.</string>
+  <string name="create_folder_content_description">Προσθήκη φακέλου</string>
+  <string name="folder_settings_content_description">Ρυθμίσεις φακέλου</string>
+  <string name="folder_settings_title">Ρυθμίσεις</string>
+  <string name="folder_settings_done_button">Έτοιμο</string>
+  <string name="folder_settings_folder_colors">Χρήση χρωμάτων φακέλου</string>
+  <string name="folder_settings_parent_color">Μεταβίβαση χρώματος γονικού φακέλου</string>
+  <string name="folder_list_loading_error">Σφάλμα φόρτωσης φακέλων, παρακαλούμε δοκιμάστε ξανά αργότερα</string>
+  <string name="folder_loading_error">Σφάλμα φόρτωσης φακέλου, παρακαλούμε δοκιμάστε ξανά αργότερα</string>
+  <string name="switch_on">Ενεργό</string>
+  <string name="switch_off">Ανενεργό</string>
+  <string name="folder_form_parent">Γονικός φάκελος</string>
+  <string name="folder_form_no_parent">Κανένας</string>
+  <string name="folder_form_notifications">Ειδοποιήσεις</string>
+  <string name="folder_saved">Ο φάκελος αποθηκεύτηκε</string>
+  <string name="folder_deleted">Ο φάκελος διεγράφη</string>
+  <string name="parent_folder_none">Κανένας</string>
+  <string name="delete_label">Διαγραφή ετικέτας;</string>
+  <string name="delete_folder">Διαγραφή φακέλου;</string>
+  <string name="delete_label_message">Αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Τα μηνύματα ηλεκτρονικού ταχυδρομείου με αυτήν την ετικέτα δε θα διαγραφούν και μπορείτε να τα βρείτε στον φάκελο \"Όλα τα μηνύματα\".</string>
+  <string name="delete_folder_message">Αυτή η ενέργεια δεν μπορεί να αναιρεθεί. Τα μηνύματα ηλεκτρονικού ταχυδρομείου που περιέχονται σε αυτόν τον φάκελο δε θα διαγραφούν και μπορείτε να τα βρείτε στον φάκελο \"Όλα τα μηνύματα\".</string>
+</resources>
